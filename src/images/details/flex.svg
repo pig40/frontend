@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>权限</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-13.1579%" y1="49.8382%" x2="115.518784%" y2="49.8382%" id="linearGradient-1">
+            <stop stop-color="#4285F4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-0.6402%" y1="49.9826%" x2="394.7621%" y2="49.9826%" id="linearGradient-2">
+            <stop stop-color="#0069FF" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0.2" offset="99.5%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="产品" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="纸贵BaaS_zig" transform="translate(-1182.000000, -959.000000)">
+            <g id="Group-13" transform="translate(359.000000, 825.000000)">
+                <g id="Group-28" transform="translate(817.000000, 134.000000)">
+                    <g id="权限" transform="translate(6.000000, 0.000000)">
+                        <g id="Group">
+                            <g transform="translate(6.000000, 0.000000)">
+                                <ellipse id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="41.1788852" cy="28.7859574" rx="10.4732262" ry="11.0137872"></ellipse>
+                                <ellipse id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="10.5922295" cy="28.9111489" rx="10.4732262" ry="11.0137872"></ellipse>
+                                <g transform="translate(13.639344, 0.000000)" id="Shape" stroke="#1A1A54" stroke-width="3">
+                                    <path d="M11.5917377,8.76093617 L11.5917377,0 M0.404321311,7.00876596 L5.75998033,12.640766 M24.0881902,6.88357447 L18.7325311,12.3904681"></path>
+                                </g>
+                            </g>
+                            <g transform="translate(0.000000, 36.000000)" fill-rule="nonzero">
+                                <path d="M47.177984,0.67369697 C41.1019947,0.67369697 35.6217173,3.41888485 31.9284907,7.91084848 C35.145216,11.6541091 37.051392,16.6451515 37.051392,22.1354424 C37.051392,23.882303 36.8131413,25.5044364 36.4557653,27.0017576 C50.990336,25.7539758 62.427392,18.5169091 63.7379413,9.4081697 C60.0447147,4.16750303 53.9687253,0.67369697 47.177984,0.67369697 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+                                <path d="M31.9284907,7.91084848 C28.1161387,3.54369697 22.7549867,0.67369697 16.6790827,0.67369697 C9.888256,0.67369697 3.93147733,4.04269091 0.238250667,9.408 C1.42967467,18.5169939 12.7476053,25.7540606 27.4013867,27.1265697 C27.0440107,25.5045212 26.80576,23.8823879 26.80576,22.2602545 C26.6866347,16.6453212 28.711936,11.6541939 31.928576,7.91093333 L31.9284907,7.91084848 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+                                <path d="M31.9284907,7.91084848 C28.7118507,11.6541091 26.8056747,16.6451515 26.8056747,22.1354424 C26.8056747,23.882303 27.0439253,25.5044364 27.4013013,27.0017576 C28.9501013,27.1264848 30.4989013,27.2512121 32.0477013,27.2512121 C33.5965013,27.2512121 35.145216,27.1264848 36.5748053,27.0017576 C36.9322667,25.3796242 37.1705173,23.7574909 37.1705173,22.1354424 C37.051392,16.6452364 35.0260907,11.6541091 31.9284907,7.91084848 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

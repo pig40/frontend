@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="168px" viewBox="0 0 118 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Zig-BaaS - Ziggurat Blockchain as a Service</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="95.821%" x2="50%" y2="10.378%" id="linearGradient-1">
+            <stop stop-color="#F6F9FC" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="171.445%" y1="100%" x2="-45.933%" y2="-10.122%" id="linearGradient-2">
+            <stop stop-color="#F6F9FC" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="46419.419%" y1="68803%" x2="51901.43%" y2="75970%" id="linearGradient-3">
+            <stop stop-color="#2A39DD" offset="0%"></stop>
+            <stop stop-color="#2449E7" offset="28%"></stop>
+            <stop stop-color="#1670FF" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="54.0483057%" cy="54.4386265%" fx="54.0483057%" fy="54.4386265%" r="137.537653%" gradientTransform="translate(0.540483,0.544386),scale(0.591304,1.000000),rotate(157.833444),translate(-0.540483,-0.544386)" id="radialGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="54.0483057%" cy="54.4386265%" fx="54.0483057%" fy="54.4386265%" r="140.163357%" gradientTransform="translate(0.540483,0.544386),scale(0.578448,1.000000),rotate(158.270058),translate(-0.540483,-0.544386)" id="radialGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="1.217%" y1="98.783%" x2="100%" y2="0%" id="linearGradient-6">
+            <stop stop-color="#3018DB" offset="0%"></stop>
+            <stop stop-color="#5441DB" offset="45.005%"></stop>
+            <stop stop-color="#725EFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="2160%" y1="5692%" x2="3994%" y2="5692%" id="linearGradient-7">
+            <stop stop-color="#8271FF" offset="0%"></stop>
+            <stop stop-color="#DCACFD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="17.82%" x2="50%" y2="87.955%" id="linearGradient-8">
+            <stop stop-color="#FFFFFF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Zig-BaaS---Ziggurat-Blockchain-as-a-Service">
+            <path d="M115.872,133.646 L58.722,101 L1.53,133.646 C1.20277751,133.824879 0.999259645,134.168076 0.999259645,134.541 C0.999259645,134.913924 1.20277751,135.257121 1.53,135.436 L57.344,167.304 C58.2023005,167.770812 59.2386995,167.770812 60.097,167.304 L115.911,135.436 C116.54,135.046 116.54,134.074 115.871,133.646 L115.872,133.646 Z" id="Shape" fill-opacity="0.5" fill="#DFE8F0" fill-rule="nonzero"></path>
+            <g id="Group" opacity="0.5" transform="translate(0.000000, 87.000000)" stroke="#4E87FF" stroke-width="0.72">
+                <path d="M68.099,5.673 L9.547,39.276 L68.099,5.673 Z M77.864,11.286 L19.312,44.89 L77.864,11.286 Z M87.629,16.862 L29.077,50.464 L87.629,16.862 Z M97.394,22.475 L38.842,56.078 L97.394,22.475 Z M107.12,28.088 L48.568,61.69 L107.12,28.088 Z M48.537,5.75 L106.807,39.283 L48.537,5.75 Z M38.857,11.353 L97.129,44.885 L38.857,11.353 Z M29.139,16.915 L87.41,50.448 L29.139,16.915 Z M19.421,22.517 L77.691,56.05 L19.421,22.517 Z M9.704,28.119 L67.974,61.652 L9.704,28.119 Z M115.872,32.646 L58.722,0 L1.53,32.646 C1.20277751,32.8248791 0.999259645,33.168076 0.999259645,33.541 C0.999259645,33.913924 1.20277751,34.2571209 1.53,34.436 L57.344,66.304 C58.2023005,66.7708121 59.2386995,66.7708121 60.097,66.304 L115.911,34.436 C116.54,34.046 116.54,33.074 115.871,32.646 L115.872,32.646 Z" id="Shape"></path>
+            </g>
+            <g id="Group" transform="translate(2.000000, 0.000000)" fill-rule="nonzero">
+                <polygon id="Shape" fill="#FFFFFF" points="114.738 99.556 57.362 132.74 0 99.556 57.362 66.37"></polygon>
+                <polygon id="Shape" fill="url(#linearGradient-1)" points="115.379 99.556 57.689 66.375 57.689 0 115.379 33.18"></polygon>
+                <polygon id="Shape" fill="url(#linearGradient-2)" points="57.69 66.375 0 99.555 0 33.182 57.69 0"></polygon>
+                <polygon id="Shape" fill="url(#linearGradient-3)" points="114.738 95.38 114.738 99.556 57.362 132.74 0 99.556 0 95.38 57.362 66.37"></polygon>
+                <g transform="translate(0.000000, 61.000000)" id="d-link">
+                    <g fill="#0169FE">
+                        <polygon id="d" points="114.738 34.095 57.362 67.274 0 34.094 57.362 0.904"></polygon>
+                    </g>
+                    <g fill="url(#radialGradient-5)">
+                        <polygon id="d" points="114.738 34.095 57.362 67.274 0 34.094 57.362 0.904"></polygon>
+                    </g>
+                </g>
+            </g>
+            <g id="Group" transform="translate(32.000000, 25.000000)" fill-rule="nonzero">
+                <g opacity="0.6">
+                    <polygon id="Shape" fill="url(#linearGradient-6)" points="0.457 17.457 30.229 0.141 32.534 1.481 9.152 17.72 11.802 17.8 2.75 67.5 0.43 66.151 0.43 17.456 0.458 17.457"></polygon>
+                    <g transform="translate(2.000000, 1.000000)" id="h-link">
+                        <g fill="url(#linearGradient-7)">
+                            <polygon id="h" points="0.748 66.501 0.748 17.805 30.535 0.481 30.535 49.177"></polygon>
+                        </g>
+                        <g fill="url(#linearGradient-8)">
+                            <polygon id="h" points="0.748 66.501 0.748 17.805 30.535 0.481 30.535 49.177"></polygon>
+                        </g>
+                    </g>
+                    <path d="M28.79,15.788 L6.556,28.72 L6.556,27.242 L28.79,14.31 L28.79,15.788 Z M26.243,11.933 L9.102,21.902 L9.102,19.225 L26.243,9.255 L26.243,11.933 Z M28.79,18.609 L6.556,31.542 L6.556,30.065 L28.79,17.13 L28.79,18.609 Z M28.79,21.644 L6.556,34.577 L6.556,33.1 L28.79,20.167 L28.79,21.644 Z M28.79,24.465 L6.556,37.398 L6.556,35.921 L28.79,22.988 L28.79,24.465 Z M28.79,27.803 L6.556,40.736 L6.556,39.258 L28.79,26.326 L28.79,27.803 Z M28.79,30.624 L6.556,43.557 L6.556,42.079 L28.79,29.147 L28.79,30.624 Z M28.79,33.659 L6.556,46.592 L6.556,45.115 L28.79,32.182 L28.79,33.659 Z M28.79,36.48 L6.556,49.413 L6.556,47.936 L28.79,35.003 L28.79,36.48 Z M28.79,38.879 L6.556,51.81 L6.556,50.334 L28.79,37.402 L28.79,38.879 Z M21.7,45.824 L6.555,54.633 L6.555,53.156 L21.7,44.346 L21.7,45.824 Z" id="Shape" fill-opacity="0.1" fill="#FFFFFF"></path>
+                </g>
+                <g opacity="0.8" transform="translate(11.000000, 6.000000)">
+                    <polygon id="Shape" fill="url(#linearGradient-6)" points="0.137 17.565 30.367 0.25 32.708 1.59 8.966 17.828 11.658 17.908 2.464 67.61 0.11 66.26 0.11 17.566 0.138 17.566"></polygon>
+                    <g transform="translate(2.000000, 1.000000)" id="j-link">
+                        <g fill="url(#linearGradient-7)">
+                            <polygon id="j" points="0.464 66.61 0.464 17.914 30.708 0.59 30.708 49.286"></polygon>
+                        </g>
+                        <g fill="url(#linearGradient-8)">
+                            <polygon id="j" points="0.464 66.61 0.464 17.914 30.708 0.59 30.708 49.286"></polygon>
+                        </g>
+                    </g>
+                    <path d="M28.907,21.752 L6.329,34.686 L6.329,33.208 L28.907,20.276 L28.907,21.752 Z M28.907,18.717 L6.329,31.65 L6.329,20.815 L28.907,7.882 L28.907,18.717 Z M28.907,24.574 L6.329,37.507 L6.329,36.029 L28.907,23.096 L28.907,24.574 Z M28.907,27.609 L6.329,40.542 L6.329,39.065 L28.907,26.132 L28.907,27.609 Z M28.907,30.43 L6.329,43.363 L6.329,41.886 L28.907,28.953 L28.907,30.43 Z M28.907,33.768 L6.329,46.7 L6.329,45.223 L28.907,32.29 L28.907,33.768 Z M28.907,36.589 L6.329,49.522 L6.329,48.044 L28.907,35.112 L28.907,36.589 Z M28.907,39.624 L6.329,52.557 L6.329,51.08 L28.907,38.147 L28.907,39.624 Z M28.907,42.445 L6.329,55.378 L6.329,53.901 L28.907,40.968 L28.907,42.445 Z M28.907,44.844 L6.329,57.777 L6.329,56.299 L28.907,43.366 L28.907,44.844 Z M21.707,51.789 L6.33,60.598 L6.33,59.12 L21.708,50.31 L21.707,51.789 Z" id="Shape" fill-opacity="0.2" fill="#FFFFFF"></path>
+                </g>
+                <path d="M24.243,80 L22,78.652 L22,30 L24,31 L24.243,80 Z M22,30 L51.702,12.672 L54,14 L24.243,31 L22,30 Z" id="Shape" fill="url(#linearGradient-6)"></path>
+                <g transform="translate(24.000000, 14.000000)" id="k-link">
+                    <g fill="url(#linearGradient-7)">
+                        <polygon id="k" points="0 17.319 30 0 30 48.681 0 66"></polygon>
+                    </g>
+                    <g fill="url(#linearGradient-8)">
+                        <polygon id="k" points="0 17.319 30 0 30 48.681 0 66"></polygon>
+                    </g>
+                </g>
+                <g opacity="0.2" transform="translate(28.000000, 24.000000)" fill="#FFFFFF" id="Shape">
+                    <path d="M22,3.538 L0,17 L0,15.462 L22,2 L22,3.538 Z M16,2.52 L6,8 L6,5.48 L16,0 L16,2.52 Z M22,6.537 L0,20 L0,18.462 L22,5 L22,6.537 Z M22,9.537 L0,23 L0,21.462 L22,8 L22,9.537 Z M22,12.537 L0,26 L0,24.462 L22,11 L22,12.537 Z M22,15.538 L0,29 L0,27.463 L22,14 L22,15.538 Z M22,19.538 L0,33 L0,31.462 L22,18 L22,19.538 Z M22,22.538 L0,36 L0,34.463 L22,21 L22,22.538 Z M22,24.538 L0,38 L0,36.462 L22,23 L22,24.538 Z M22,27.538 L0,41 L0,39.462 L22,26 L22,27.538 Z M15,34.436 L0,43 L0,41.564 L15,33 L15,34.436 Z"></path>
+                </g>
+                <g transform="translate(30.000000, 25.000000)" fill="#FFFFFF" id="Shape">
+                    <path d="M22,3.538 L0,17 L0,15.462 L22,2 L22,3.538 Z M16,2.52 L6,8 L6,5.48 L16,0 L16,2.52 Z M22,6.537 L0,20 L0,18.462 L22,5 L22,6.537 Z M22,9.537 L0,23 L0,21.462 L22,8 L22,9.537 Z M22,12.537 L0,26 L0,24.462 L22,11 L22,12.537 Z M22,15.538 L0,29 L0,27.463 L22,14 L22,15.538 Z M22,19.538 L0,33 L0,31.462 L22,18 L22,19.538 Z M22,22.538 L0,36 L0,34.463 L22,21 L22,22.538 Z M22,24.538 L0,38 L0,36.462 L22,23 L22,24.538 Z M22,27.538 L0,41 L0,39.462 L22,26 L22,27.538 Z M15,34.436 L0,43 L0,41.564 L15,33 L15,34.436 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>合约</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-13.1579%" y1="49.8382%" x2="115.518784%" y2="49.8382%" id="linearGradient-1">
+            <stop stop-color="#4285F4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="产品" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="纸贵BaaS_eth" transform="translate(-359.000000, -960.000000)">
+            <g id="Group-13" transform="translate(359.000000, 825.000000)">
+                <g id="Group-16" transform="translate(0.000000, 135.000000)">
+                    <g id="合约">
+                        <path d="M4,20 L40,20 C42.209139,20 44,21.790861 44,24 L44,60 C44,62.209139 42.209139,64 40,64 L4,64 C1.790861,64 2.705415e-16,62.209139 0,60 L0,24 C-2.705415e-16,21.790861 1.790861,20 4,20 Z" id="Rectangle-8" fill="url(#linearGradient-1)"></path>
+                        <g id="Group" transform="translate(20.000000, 0.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                            <path d="M43.12,0 C35.9602857,0 29.1331339,0.478925213 23.0725,2.12858108 L22.605,2.26680063 L22.4675,2.70910319 L20.8725,7.65736309 L18.8375,4.31244997 L18.4525,3.67664004 L17.7375,3.98072305 C16.8342284,4.37773383 15.977133,4.83241909 15.125,5.30763073 L12.32,7.07684098 C9.3481564,9.22789722 6.79293032,11.9833219 4.8125,15.5082336 C1.76360976,20.9348684 0.05620472,28.1247319 0,37.5680738 C-9.00399755e-13,39.4868442 1.21,38.9226254 1.21,38.9226254 C12.9247158,38.8776096 25.5649786,36.4072525 34.1,28.0862126 L34.8425,27.367471 L34.0175,26.731661 L28.6275,22.6956502 L38.995,21.1199473 L39.435,21.0370156 L39.6275,20.6500008 C42.3753264,15.4713278 44,8.98242195 44,0.884605122 L44,0 L43.12,0 Z" id="Shape"></path>
+                        </g>
+                        <path d="M15.1653442,48.1209717 C19.1584676,41.0968018 24.1033529,34.3898112 30,28 C38.8449707,18.4152832 45.2399778,13.8666261 50.0288086,10.6740723" id="Path-9" stroke="#1A1A54" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

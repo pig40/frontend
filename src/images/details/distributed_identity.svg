@@ -1,0 +1,494 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="930" viewBox="0 0 1200 930">
+    <defs>
+        <path id="a" d="M1011 1h185a4 4 0 0 1 4 4v920.422a4 4 0 0 1-4 4h-185a4 4 0 0 1-4-4V5a4 4 0 0 1 4-4z"/>
+        <rect id="c" width="114" height="56" rx="2"/>
+        <filter id="b" width="107%" height="114.3%" x="-3.5%" y="-3.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+        </filter>
+        <rect id="e" width="114" height="56" rx="2"/>
+        <filter id="d" width="107%" height="114.3%" x="-3.5%" y="-3.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+        </filter>
+        <rect id="g" width="114" height="56" rx="2"/>
+        <filter id="f" width="107%" height="114.3%" x="-3.5%" y="-3.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+        </filter>
+        <rect id="i" width="114" height="56" rx="2"/>
+        <filter id="h" width="107%" height="114.3%" x="-3.5%" y="-3.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+        </filter>
+        <rect id="j" width="983" height="146" rx="4"/>
+        <rect id="k" width="983" height="146" rx="4"/>
+        <path id="m" d="M2 0h444a2 2 0 0 1 2 2v44a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+        <filter id="l" width="103.8%" height="135.4%" x="-1.9%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.00784313725 0 0 0 0 0.0941176471 0 0 0 0 0.243137255 0 0 0 0.07 0"/>
+        </filter>
+        <path id="o" d="M2 0h443.1a2 2 0 0 1 2 2v44a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+        <filter id="n" width="103.8%" height="135.4%" x="-1.9%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.00784313725 0 0 0 0 0.0941176471 0 0 0 0 0.243137255 0 0 0 0.07 0"/>
+        </filter>
+        <path id="p" d="M4 0h975a4 4 0 0 1 4 4v343a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4a4 4 0 0 1 4-4z"/>
+        <path id="r" d="M2.796 0H916a2 2 0 0 1 2 2v44a2 2 0 0 1-2 2H2.796a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+        <filter id="q" width="101.9%" height="135.4%" x="-.9%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.00784313725 0 0 0 0 0.0941176471 0 0 0 0 0.243137255 0 0 0 0.07 0"/>
+        </filter>
+        <path id="t" d="M2 0h912.171a2 2 0 0 1 2 2v44a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2z"/>
+        <filter id="s" width="101.9%" height="135.4%" x="-.9%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.00784313725 0 0 0 0 0.0941176471 0 0 0 0 0.243137255 0 0 0 0.07 0"/>
+        </filter>
+        <rect id="v" width="165" height="48" rx="2"/>
+        <filter id="u" width="110.3%" height="135.4%" x="-5.2%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.00784313725 0 0 0 0 0.0941176471 0 0 0 0 0.243137255 0 0 0 0.07 0"/>
+        </filter>
+        <rect id="x" width="165" height="48" rx="2"/>
+        <filter id="w" width="110.3%" height="135.4%" x="-5.2%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.00784313725 0 0 0 0 0.0941176471 0 0 0 0 0.243137255 0 0 0 0.07 0"/>
+        </filter>
+        <rect id="z" width="165" height="48" rx="2"/>
+        <filter id="y" width="110.3%" height="135.4%" x="-5.2%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.00784313725 0 0 0 0 0.0941176471 0 0 0 0 0.243137255 0 0 0 0.07 0"/>
+        </filter>
+        <rect id="B" width="166" height="48" rx="2"/>
+        <filter id="A" width="110.2%" height="135.4%" x="-5.1%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.00784313725 0 0 0 0 0.0941176471 0 0 0 0 0.243137255 0 0 0 0.07 0"/>
+        </filter>
+        <rect id="D" width="161" height="48" rx="2"/>
+        <filter id="C" width="110.6%" height="135.4%" x="-5.3%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.00784313725 0 0 0 0 0.0941176471 0 0 0 0 0.243137255 0 0 0 0.07 0"/>
+        </filter>
+        <rect id="F" width="165" height="48" rx="2"/>
+        <filter id="E" width="110.3%" height="135.4%" x="-5.2%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.00784313725 0 0 0 0 0.0941176471 0 0 0 0 0.243137255 0 0 0 0.07 0"/>
+        </filter>
+        <rect id="H" width="165" height="48" rx="2"/>
+        <filter id="G" width="110.3%" height="135.4%" x="-5.2%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.00784313725 0 0 0 0 0.0941176471 0 0 0 0 0.243137255 0 0 0 0.07 0"/>
+        </filter>
+        <rect id="J" width="165" height="48" rx="2"/>
+        <filter id="I" width="110.3%" height="135.4%" x="-5.2%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.00784313725 0 0 0 0 0.0941176471 0 0 0 0 0.243137255 0 0 0 0.07 0"/>
+        </filter>
+        <rect id="L" width="166" height="48" rx="2"/>
+        <filter id="K" width="110.2%" height="135.4%" x="-5.1%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.00784313725 0 0 0 0 0.0941176471 0 0 0 0 0.243137255 0 0 0 0.07 0"/>
+        </filter>
+        <rect id="N" width="161" height="48" rx="2"/>
+        <filter id="M" width="110.6%" height="135.4%" x="-5.3%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.00784313725 0 0 0 0 0.0941176471 0 0 0 0 0.243137255 0 0 0 0.07 0"/>
+        </filter>
+        <rect id="O" width="983" height="214" y="715" rx="4"/>
+        <rect id="Q" width="919" height="48" x="32" y="781" rx="2"/>
+        <filter id="P" width="101.8%" height="135.4%" x="-.9%" y="-13.5%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.00784313725 0 0 0 0 0.0941176471 0 0 0 0 0.243137255 0 0 0 0.07 0"/>
+        </filter>
+        <rect id="S" width="156" height="48" rx="2"/>
+        <filter id="R" width="105.1%" height="116.7%" x="-2.6%" y="-4.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+        </filter>
+        <rect id="U" width="156" height="48" rx="2"/>
+        <filter id="T" width="105.1%" height="116.7%" x="-2.6%" y="-4.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+        </filter>
+        <rect id="W" width="156" height="48" rx="2"/>
+        <filter id="V" width="105.1%" height="116.7%" x="-2.6%" y="-4.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+        </filter>
+        <rect id="Y" width="156" height="48" rx="2"/>
+        <filter id="X" width="105.1%" height="116.7%" x="-2.6%" y="-4.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+        </filter>
+        <rect id="aa" width="156" height="48" rx="2"/>
+        <filter id="Z" width="105.1%" height="116.7%" x="-2.6%" y="-4.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+        </filter>
+        <rect id="ac" width="212" height="50" rx="2"/>
+        <filter id="ab" width="103.8%" height="116%" x="-1.9%" y="-4%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+        </filter>
+        <rect id="ae" width="212" height="50" rx="2"/>
+        <filter id="ad" width="103.8%" height="116%" x="-1.9%" y="-4%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+        </filter>
+        <rect id="ag" width="212" height="50" rx="2"/>
+        <filter id="af" width="103.8%" height="116%" x="-1.9%" y="-4%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+        </filter>
+        <rect id="ai" width="212" height="50" rx="2"/>
+        <filter id="ah" width="103.8%" height="116%" x="-1.9%" y="-4%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <use fill="#F3FAFF" xlink:href="#a"/>
+            <path stroke="#E6EBEE" d="M1011 1.5a3.5 3.5 0 0 0-3.5 3.5v920.422a3.5 3.5 0 0 0 3.5 3.5h185a3.5 3.5 0 0 0 3.5-3.5V5a3.5 3.5 0 0 0-3.5-3.5h-185z"/>
+        </g>
+        <text fill="#031B4C" font-family="PingFangSC-Regular, PingFang SC" font-size="16">
+            <tspan x="1039" y="42">运维管理</tspan>
+        </text>
+        <g transform="translate(1047 136)">
+            <use fill="#000" filter="url(#b)" xlink:href="#c"/>
+            <use fill="#FFF" xlink:href="#c"/>
+        </g>
+        <text fill="#031B4C" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(1047 136)">
+            <tspan x="36" y="87">云安全</tspan>
+        </text>
+        <g fill="#4285F4" fill-rule="nonzero" stroke="#FFF" stroke-width=".5">
+            <path d="M1103.86 180a.98.98 0 0 1-.47-.123c-6.336-3.517-9.297-5.347-11.224-7.597a3.294 3.294 0 0 1-.711-1.398c-.455-1.937-.455-4.67-.455-6.479V151.93c0-.385.215-.741.554-.91 3.056-1.552 6.228-2.513 9.433-2.865a25.609 25.609 0 0 1 7.691.318c4.334.843 7.018 2.52 7.13 2.593.293.186.47.513.47.864v4.462c0 .563-.442 1.017-.992 1.017s-.992-.454-.992-1.017v-3.869c-1.12-.601-3.33-1.546-6.07-2.072a23.623 23.623 0 0 0-7.08-.27c-2.758.309-5.5 1.114-8.155 2.389v11.838c0 1.606 0 4.297.401 6 .046.19.14.377.273.534 1.356 1.585 3.18 2.975 10.222 6.898 1.282-.678 5.161-2.813 9.119-6.05.765-.628 1.244-1.53 1.281-2.411.042-1 .025-2.23.013-3.42a119.75 119.75 0 0 1-.013-1.678c0-.792-.14-1.915-.81-2.737-.641-.784-1.683-1.182-3.101-1.182a.986.986 0 0 1-.976-.835 4.67 4.67 0 0 0-.807-1.724c-.814-1.076-2.018-1.623-3.585-1.623-1.381 0-2.415.525-3.077 1.56-.52.813-.636 1.66-.645 1.715a.98.98 0 0 1-.918.899c-.05.004-.773.076-1.46.483-.847.5-1.257 1.275-1.257 2.368 0 1.106.451 1.826 1.41 2.263.82.373 1.733.41 2.089.41h5.67c.55 0 .992.454.992 1.018 0 .563-.443 1.017-.993 1.017h-5.665c-.6 0-1.774-.077-2.895-.59-.748-.343-1.352-.821-1.786-1.427-.534-.742-.802-1.649-.802-2.695 0-1.025.248-1.928.732-2.686.392-.61.93-1.11 1.6-1.492a5.708 5.708 0 0 1 1.468-.572 6.716 6.716 0 0 1 .748-1.746c.72-1.169 2.138-2.563 4.789-2.563 2.808 0 4.387 1.36 5.219 2.5.455.623.732 1.246.901 1.716 1.667.144 2.965.775 3.87 1.881.836 1.021 1.274 2.42 1.274 4.042 0 .517.009 1.068.013 1.653.012 1.216.029 2.47-.013 3.53-.062 1.461-.818 2.923-2.026 3.914-5.008 4.098-9.755 6.428-9.953 6.521a.959.959 0 0 1-.43.102z"/>
+            <path d="M1109.27 170.925c-1.809 0-3.28-1.606-3.28-3.582 0-1.975 1.471-3.582 3.28-3.582 1.808 0 3.28 1.607 3.28 3.582 0 1.976-1.472 3.582-3.28 3.582zm0-5.052c-.744 0-1.35.663-1.35 1.475s.606 1.475 1.35 1.475c.743 0 1.35-.663 1.35-1.475s-.607-1.475-1.35-1.475z"/>
+        </g>
+        <g transform="translate(1047 300)">
+            <use fill="#000" filter="url(#d)" xlink:href="#e"/>
+            <use fill="#FFF" xlink:href="#e"/>
+        </g>
+        <g fill="#4285F4" fill-rule="nonzero" stroke="#FFF" stroke-width="1.2">
+            <path d="M1102.594 328.644c0 .772.63 1.398 1.406 1.398.777 0 1.406-.626 1.406-1.398 0-.772-.63-1.398-1.406-1.398-.777 0-1.406.626-1.406 1.398z"/>
+            <path d="M1124 331.276c0-2.531-.937-4.964-2.637-6.85a10.299 10.299 0 0 0-6.538-3.343 11.956 11.956 0 0 0-4.41-5.122 12.031 12.031 0 0 0-6.552-1.931 12.09 12.09 0 0 0-7.604 2.697 11.948 11.948 0 0 0-4.162 6.83 9.05 9.05 0 0 0-5.768 2.93 8.972 8.972 0 0 0-2.329 6.032 8.94 8.94 0 0 0 2.561 6.278 9.032 9.032 0 0 0 6.228 2.73l.116.003h.424c.053.006.108.01.163.01h2.696c.776 0 1.406-.626 1.406-1.399 0-.772-.63-1.398-1.407-1.398h-1.367v-.009h-1.853l-.095-.003a6.227 6.227 0 0 1-4.293-1.882 6.188 6.188 0 0 1-.16-8.49 6.236 6.236 0 0 1 3.974-2.02l2.046-.215.413-2.003a9.146 9.146 0 0 1 3.187-5.228 9.26 9.26 0 0 1 5.824-2.067 9.222 9.222 0 0 1 8.397 5.404l.66 1.459 1.598.174a7.485 7.485 0 0 1 4.75 2.431 7.427 7.427 0 0 1 1.92 4.982c0 4.112-3.365 7.458-7.5 7.458h-1.109v.01h-.806c-.776 0-1.406.625-1.406 1.397 0 .773.63 1.399 1.406 1.399h2.696c.17 0 .333-.03.484-.085a10.257 10.257 0 0 0 6.027-2.928 10.159 10.159 0 0 0 3.02-7.25z"/>
+            <path d="M1108.145 338.744l-.01-.042-.959-3.558c2.528-1.172 4.285-3.723 4.285-6.675 0-4.059-3.32-7.36-7.402-7.36-4.082 0-7.403 3.301-7.403 7.36 0 2.928 1.728 5.461 4.223 6.646l-.968 3.593-.009.035h-.004c-.776 0-1.406.626-1.406 1.398 0 .773.63 1.399 1.406 1.399h8.204c.776 0 1.406-.626 1.406-1.399 0-.757-.607-1.374-1.363-1.397zm-8.676-10.275c0-2.517 2.059-4.564 4.59-4.564 2.53 0 4.59 2.047 4.59 4.564s-2.06 4.564-4.59 4.564c-2.531 0-4.59-2.047-4.59-4.564zm3.344 10.274l.789-2.928a7.504 7.504 0 0 0 .844.005l.788 2.923h-2.42z"/>
+        </g>
+        <text fill="#031B4C" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(1047 300)">
+            <tspan x="36" y="87">云监控</tspan>
+        </text>
+        <g transform="translate(1047 464)">
+            <use fill="#000" filter="url(#f)" xlink:href="#g"/>
+            <use fill="#FFF" xlink:href="#g"/>
+        </g>
+        <g fill="#4285F4" fill-rule="nonzero">
+            <path d="M1095.657 476h1.64v6.186h-1.64V476zm20.018 17.316a7.567 7.567 0 0 1 2.3 5.12 7.57 7.57 0 0 1-1.934 5.436 7.346 7.346 0 0 1-5.504 2.464 7.342 7.342 0 0 1-5.124-2.084 7.567 7.567 0 0 1-2.3-5.12 7.57 7.57 0 0 1 1.934-5.436 7.345 7.345 0 0 1 5.504-2.464c1.915 0 3.734.74 5.124 2.084zm-5.124-3.748c-.14 0-.283.003-.425.01-5.009.235-8.881 4.547-8.65 9.631.225 4.94 4.24 8.791 9.061 8.791.141 0 .283-.003.426-.01 5.008-.235 8.88-4.547 8.65-9.631-.225-4.94-4.24-8.791-9.062-8.791z"/>
+            <path d="M1103.562 505.724a10.094 10.094 0 0 1-1.212-1.385h-10.28c-.776 0-1.407-.63-1.407-1.405v-21.868c0-.775.63-1.405 1.406-1.405h20.49c.775 0 1.407.63 1.407 1.405v7.988a9.97 9.97 0 0 1 1.662.795v-8.783a3.068 3.068 0 0 0-3.07-3.066h-20.489a3.068 3.068 0 0 0-3.069 3.066v21.868a3.068 3.068 0 0 0 3.07 3.066h11.795c-.103-.09-.204-.182-.303-.276z"/>
+            <path d="M1113.954 491.224a8.415 8.415 0 0 1 1.674 1.016v-.008a8.413 8.413 0 0 0-1.674-1.011v.003zm1.564 10.776h-6.192v-7.55H1111v5.878h4.518V502zm-22.524-14.86h18.61v1.672h-18.61v-1.672zm14.609-11.14h1.674v6.215h-1.674V476zm-7.24 23.525h-7.369v1.672h7.615c-.129-.55-.21-1.109-.246-1.672zm1.647-6.192h-9.016v1.671h8.121c.245-.584.545-1.143.895-1.671z"/>
+        </g>
+        <text fill="#031B4C" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(1047 464)">
+            <tspan x="43" y="87">日志</tspan>
+        </text>
+        <g transform="translate(1047 628)">
+            <use fill="#000" filter="url(#h)" xlink:href="#i"/>
+            <use fill="#FFF" xlink:href="#i"/>
+        </g>
+        <path fill="#4285F4" fill-rule="nonzero" stroke="#FFF" stroke-width=".8" d="M1116.726 667.43h-8.185v1.338a3.235 3.235 0 0 1-3.227 3.232h-14.087a3.233 3.233 0 0 1-3.227-3.232v-20.965a3.233 3.233 0 0 1 3.227-3.232h8.186v-1.339a3.231 3.231 0 0 1 3.227-3.232h14.086a3.233 3.233 0 0 1 3.228 3.232v20.965a3.237 3.237 0 0 1-3.228 3.232zm-25.499-20.573a.947.947 0 0 0-.944.946v20.965a.947.947 0 0 0 .944.946h14.087a.947.947 0 0 0 .944-.946v-7.91a12.531 12.531 0 0 1-4.564.85v3.58l-6.923-4.646 6.923-4.642v3.424a10.084 10.084 0 0 0 4.564-1.067v-10.554a.947.947 0 0 0-.944-.946h-14.087zm26.45-3.625a.947.947 0 0 0-.943-.946h-14.094a.947.947 0 0 0-.944.946v1.339h3.62a3.235 3.235 0 0 1 3.227 3.232v8.97a13.144 13.144 0 0 0 3.461-5.639 1.141 1.141 0 0 1 2.205.589 15.601 15.601 0 0 1-5.666 7.92v5.5h8.185a.949.949 0 0 0 .945-.946v-20.965h.005z"/>
+        <text fill="#031B4C" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(1047 628)">
+            <tspan x="15" y="87">数据备份恢复</tspan>
+        </text>
+        <text fill="#4285F4" font-family="PingFangSC-Medium, PingFang SC" font-size="20" font-weight="400" letter-spacing="-.5">
+            <tspan x="1098" y="802">…</tspan>
+        </text>
+        <g>
+            <use fill="#F3FAFF" xlink:href="#j"/>
+            <rect width="982" height="145" x=".5" y=".5" stroke="#E6EBEE" rx="4"/>
+        </g>
+        <g transform="translate(0 170)">
+            <use fill="#F3FAFF" xlink:href="#k"/>
+            <rect width="982" height="145" x=".5" y=".5" stroke="#E6EBEE" rx="4"/>
+        </g>
+        <g transform="translate(32 236)">
+            <use fill="#000" filter="url(#l)" xlink:href="#m"/>
+            <use fill="#4285F4" xlink:href="#m"/>
+        </g>
+        <text fill="#FFF" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(32 236)">
+            <tspan x="147" y="29">分布式身份标识管理服务</tspan>
+        </text>
+        <g transform="translate(504 236)">
+            <use fill="#000" filter="url(#n)" xlink:href="#o"/>
+            <use fill="#4285F4" xlink:href="#o"/>
+        </g>
+        <text fill="#FFF" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(504 236)">
+            <tspan x="126" y="29">可验证声明全生命周期管理服务</tspan>
+        </text>
+        <text fill="#031B4C" font-family="PingFangSC-Regular, PingFang SC" font-size="16" transform="translate(0 170)">
+            <tspan x="32" y="41">服务层</tspan>
+        </text>
+        <g transform="translate(0 340)">
+            <use fill="#F3FAFF" xlink:href="#p"/>
+            <path stroke="#E6EBEE" stroke-width=".9" d="M4 .45A3.55 3.55 0 0 0 .45 4v343A3.55 3.55 0 0 0 4 350.55h975a3.55 3.55 0 0 0 3.55-3.55V4A3.55 3.55 0 0 0 979 .45H4z"/>
+        </g>
+        <g transform="translate(32 407)">
+            <use fill="#000" filter="url(#q)" xlink:href="#r"/>
+            <use fill="#4285F4" xlink:href="#r"/>
+        </g>
+        <text fill="#FFF" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(32 407)">
+            <tspan x="447.96" y="29">SDK</tspan>
+        </text>
+        <g transform="translate(32 475)">
+            <use fill="#000" filter="url(#s)" xlink:href="#t"/>
+            <use fill="#4285F4" xlink:href="#t"/>
+        </g>
+        <text fill="#FFF" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(32 475)">
+            <tspan x="353.561" y="29">Zig-Ledger、Hyperledger Fabric …</tspan>
+        </text>
+        <text fill="#031B4C" font-family="PingFangSC-Regular, PingFang SC" font-size="16" transform="translate(0 340)">
+            <tspan x="32" y="41">区块链层</tspan>
+        </text>
+        <g transform="translate(32 543)">
+            <use fill="#000" filter="url(#u)" xlink:href="#v"/>
+            <use fill="#4285F4" xlink:href="#v"/>
+        </g>
+        <text fill="#FFF" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(32 543)">
+            <tspan x="55" y="31">加密算法</tspan>
+        </text>
+        <g transform="translate(411 543)">
+            <use fill="#000" filter="url(#w)" xlink:href="#x"/>
+            <use fill="#4285F4" xlink:href="#x"/>
+        </g>
+        <text fill="#FFF" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(411 543)">
+            <tspan x="45.5" y="30.95">零知识证明</tspan>
+        </text>
+        <g transform="translate(222 543)">
+            <use fill="#000" filter="url(#y)" xlink:href="#z"/>
+            <use fill="#4285F4" xlink:href="#z"/>
+        </g>
+        <text fill="#FFF" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(222 543)">
+            <tspan x="48" y="31">跨链互操作</tspan>
+        </text>
+        <g transform="translate(600 543)">
+            <use fill="#000" filter="url(#A)" xlink:href="#B"/>
+            <use fill="#4285F4" xlink:href="#B"/>
+        </g>
+        <text fill="#FFF" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(600 543)">
+            <tspan x="40.355" y="29.972">安全多方计算</tspan>
+        </text>
+        <g>
+            <g transform="translate(790 543)">
+                <use fill="#000" filter="url(#C)" xlink:href="#D"/>
+                <use fill="#4285F4" xlink:href="#D"/>
+            </g>
+            <text fill="#FFF" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(790 543)">
+                <tspan x="58.492" y="29.922">预言机</tspan>
+            </text>
+        </g>
+        <g>
+            <g transform="translate(32 611)">
+                <use fill="#000" filter="url(#E)" xlink:href="#F"/>
+                <use fill="#4285F4" xlink:href="#F"/>
+            </g>
+            <text fill="#FFF" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(32 611)">
+                <tspan x="59" y="31">CA服务</tspan>
+            </text>
+        </g>
+        <g>
+            <g transform="translate(411 611)">
+                <use fill="#000" filter="url(#G)" xlink:href="#H"/>
+                <use fill="#4285F4" xlink:href="#H"/>
+            </g>
+            <text fill="#FFF" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(411 611)">
+                <tspan x="45.5" y="30.95">合约状态机</tspan>
+            </text>
+        </g>
+        <g>
+            <g transform="translate(222 611)">
+                <use fill="#000" filter="url(#I)" xlink:href="#J"/>
+                <use fill="#4285F4" xlink:href="#J"/>
+            </g>
+            <text fill="#FFF" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(222 611)">
+                <tspan x="55" y="31">共识引擎</tspan>
+            </text>
+        </g>
+        <g>
+            <g transform="translate(600 611)">
+                <use fill="#000" filter="url(#K)" xlink:href="#L"/>
+                <use fill="#4285F4" xlink:href="#L"/>
+            </g>
+            <text fill="#FFF" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(600 611)">
+                <tspan x="55" y="31">账本结构</tspan>
+            </text>
+        </g>
+        <g>
+            <g transform="translate(790 611)">
+                <use fill="#000" filter="url(#M)" xlink:href="#N"/>
+                <use fill="#4285F4" xlink:href="#N"/>
+            </g>
+            <text fill="#FFF" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(790 611)">
+                <tspan x="52.5" y="30.95">通证服务</tspan>
+            </text>
+        </g>
+        <g>
+            <use fill="#F3FAFF" xlink:href="#O"/>
+            <rect width="982.1" height="213.1" x=".45" y="715.45" stroke="#E6EBEE" stroke-width=".9" rx="4"/>
+        </g>
+        <g>
+            <use fill="#000" filter="url(#P)" xlink:href="#Q"/>
+            <use fill="#4285F4" xlink:href="#Q"/>
+        </g>
+        <text fill="#FFF" font-family="PingFangSC-Regular, PingFang SC" font-size="14">
+            <tspan x="461" y="810">容器服务 </tspan>
+        </text>
+        <text fill="#000" fill-opacity=".8" font-family="PingFangSC-Regular, PingFang SC" font-size="16">
+            <tspan x="32" y="756">基础设施层</tspan>
+        </text>
+        <g>
+            <g transform="translate(32 849)">
+                <use fill="#000" filter="url(#R)" xlink:href="#S"/>
+                <use fill="#FFF" xlink:href="#S"/>
+            </g>
+            <path fill="#4285F4" fill-rule="nonzero" d="M92.195 873.563c-.71 0-1.366.229-1.915.618l-3.535-4.096c1.271-1.198 2-2.913 2.005-4.714-.003-3.517-2.698-6.367-6.023-6.371-3.325.004-6.02 2.854-6.024 6.371 0 1.81.723 3.434 1.872 4.596l-3.626 4.084a3.253 3.253 0 0 0-1.69-.488c-1.9.002-3.44 1.632-3.44 3.642 0 2.007 1.543 3.64 3.44 3.64 1.902 0 3.443-1.63 3.444-3.64 0-.696-.193-1.338-.516-1.893l3.81-4.294a5.69 5.69 0 0 0 1.87.632v7.504c-1.516.413-2.577 1.857-2.582 3.512 0 2.007 1.543 3.64 3.442 3.64 1.9-.001 3.44-1.63 3.442-3.64 0-1.691-1.1-3.104-2.582-3.512v-7.504a5.634 5.634 0 0 0 1.71-.541l3.842 4.45a3.77 3.77 0 0 0-.387 1.646c0 2.007 1.542 3.64 3.443 3.64 1.851-.073 3.316-1.682 3.316-3.64 0-1.96-1.465-3.569-3.316-3.642zm-18.935 5.461c-.627.02-1.215-.322-1.535-.894a1.912 1.912 0 0 1 .001-1.853c.32-.572.908-.914 1.536-.893.95 0 1.721.815 1.721 1.821s-.77 1.821-1.721 1.821l-.002-.002zm5.163-13.653c.003-2.512 1.928-4.548 4.304-4.55 2.375.002 4.3 2.038 4.303 4.55-.002 2.513-1.927 4.55-4.303 4.552-2.376-.002-4.302-2.039-4.304-4.552zm6.025 17.295c0 1.006-.771 1.821-1.722 1.82-.95 0-1.721-.816-1.72-1.821 0-1.006.77-1.821 1.72-1.821.952 0 1.722.815 1.722 1.82v.002zm7.746-3.642c-.95 0-1.72-.814-1.722-1.819 0-1.005.77-1.82 1.721-1.821.95 0 1.722.814 1.722 1.82 0 1.005-.77 1.821-1.72 1.822l-.001-.002z"/>
+            <text fill="#031B4C" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(32 849)">
+                <tspan x="78.742" y="28"> 节点1</tspan>
+            </text>
+        </g>
+        <g>
+            <g transform="translate(212 849)">
+                <use fill="#000" filter="url(#T)" xlink:href="#U"/>
+                <use fill="#FFF" xlink:href="#U"/>
+            </g>
+            <path fill="#4285F4" fill-rule="nonzero" d="M272.195 873.563c-.71 0-1.366.229-1.915.618l-3.535-4.096c1.271-1.198 2-2.913 2.005-4.714-.003-3.517-2.698-6.367-6.023-6.371-3.325.004-6.02 2.854-6.024 6.371 0 1.81.723 3.434 1.872 4.596l-3.626 4.084a3.253 3.253 0 0 0-1.69-.488c-1.9.002-3.44 1.632-3.44 3.642 0 2.007 1.543 3.64 3.44 3.64 1.902 0 3.443-1.63 3.444-3.64 0-.696-.193-1.338-.516-1.893l3.81-4.294a5.69 5.69 0 0 0 1.87.632v7.504c-1.516.413-2.577 1.857-2.582 3.512 0 2.007 1.543 3.64 3.442 3.64 1.9-.001 3.44-1.63 3.442-3.64 0-1.691-1.1-3.104-2.582-3.512v-7.504a5.634 5.634 0 0 0 1.71-.541l3.842 4.45a3.77 3.77 0 0 0-.387 1.646c0 2.007 1.542 3.64 3.443 3.64 1.851-.073 3.316-1.682 3.316-3.64 0-1.96-1.465-3.569-3.316-3.642zm-18.935 5.461c-.627.02-1.215-.322-1.535-.894a1.912 1.912 0 0 1 .001-1.853c.32-.572.908-.914 1.536-.893.95 0 1.721.815 1.721 1.821s-.77 1.821-1.721 1.821l-.002-.002zm5.163-13.653c.003-2.512 1.928-4.548 4.304-4.55 2.375.002 4.3 2.038 4.303 4.55-.002 2.513-1.927 4.55-4.303 4.552-2.376-.002-4.302-2.039-4.304-4.552zm6.025 17.295c0 1.006-.771 1.821-1.722 1.82-.95 0-1.721-.816-1.72-1.821 0-1.006.77-1.821 1.72-1.821.952 0 1.722.815 1.722 1.82v.002zm7.746-3.642c-.95 0-1.72-.814-1.722-1.819 0-1.005.77-1.82 1.721-1.821.95 0 1.722.814 1.722 1.82 0 1.005-.77 1.821-1.72 1.822l-.001-.002z"/>
+            <text fill="#031B4C" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(212 849)">
+                <tspan x="78.742" y="28"> 节点2</tspan>
+            </text>
+        </g>
+        <g>
+            <g transform="translate(392 849)">
+                <use fill="#000" filter="url(#V)" xlink:href="#W"/>
+                <use fill="#FFF" xlink:href="#W"/>
+            </g>
+            <path fill="#4285F4" fill-rule="nonzero" d="M452.195 873.563c-.71 0-1.366.229-1.915.618l-3.535-4.096c1.271-1.198 2-2.913 2.005-4.714-.003-3.517-2.698-6.367-6.023-6.371-3.325.004-6.02 2.854-6.024 6.371 0 1.81.723 3.434 1.872 4.596l-3.626 4.084a3.253 3.253 0 0 0-1.69-.488c-1.9.002-3.44 1.632-3.44 3.642 0 2.007 1.543 3.64 3.44 3.64 1.902 0 3.443-1.63 3.444-3.64 0-.696-.193-1.338-.516-1.893l3.81-4.294a5.69 5.69 0 0 0 1.87.632v7.504c-1.516.413-2.577 1.857-2.582 3.512 0 2.007 1.543 3.64 3.442 3.64 1.9-.001 3.44-1.63 3.442-3.64 0-1.691-1.1-3.104-2.582-3.512v-7.504a5.634 5.634 0 0 0 1.71-.541l3.842 4.45a3.77 3.77 0 0 0-.387 1.646c0 2.007 1.542 3.64 3.443 3.64 1.851-.073 3.316-1.682 3.316-3.64 0-1.96-1.465-3.569-3.316-3.642zm-18.935 5.461c-.627.02-1.215-.322-1.535-.894a1.912 1.912 0 0 1 .001-1.853c.32-.572.908-.914 1.536-.893.95 0 1.721.815 1.721 1.821s-.77 1.821-1.721 1.821l-.002-.002zm5.163-13.653c.003-2.512 1.928-4.548 4.304-4.55 2.375.002 4.3 2.038 4.303 4.55-.002 2.513-1.927 4.55-4.303 4.552-2.376-.002-4.302-2.039-4.304-4.552zm6.025 17.295c0 1.006-.771 1.821-1.722 1.82-.95 0-1.721-.816-1.72-1.821 0-1.006.77-1.821 1.72-1.821.952 0 1.722.815 1.722 1.82v.002zm7.746-3.642c-.95 0-1.72-.814-1.722-1.819 0-1.005.77-1.82 1.721-1.821.95 0 1.722.814 1.722 1.82 0 1.005-.77 1.821-1.72 1.822l-.001-.002z"/>
+            <text fill="#031B4C" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(392 849)">
+                <tspan x="78.742" y="28"> 节点3</tspan>
+            </text>
+        </g>
+        <g>
+            <g transform="translate(572 849)">
+                <use fill="#000" filter="url(#X)" xlink:href="#Y"/>
+                <use fill="#FFF" xlink:href="#Y"/>
+            </g>
+            <path fill="#4285F4" fill-rule="nonzero" d="M632.195 873.563c-.71 0-1.366.229-1.915.618l-3.535-4.096c1.271-1.198 2-2.913 2.005-4.714-.003-3.517-2.698-6.367-6.023-6.371-3.325.004-6.02 2.854-6.024 6.371 0 1.81.723 3.434 1.872 4.596l-3.626 4.084a3.253 3.253 0 0 0-1.69-.488c-1.9.002-3.44 1.632-3.44 3.642 0 2.007 1.543 3.64 3.44 3.64 1.902 0 3.443-1.63 3.444-3.64 0-.696-.193-1.338-.516-1.893l3.81-4.294a5.69 5.69 0 0 0 1.87.632v7.504c-1.516.413-2.577 1.857-2.582 3.512 0 2.007 1.543 3.64 3.442 3.64 1.9-.001 3.44-1.63 3.442-3.64 0-1.691-1.1-3.104-2.582-3.512v-7.504a5.634 5.634 0 0 0 1.71-.541l3.842 4.45a3.77 3.77 0 0 0-.387 1.646c0 2.007 1.542 3.64 3.443 3.64 1.851-.073 3.316-1.682 3.316-3.64 0-1.96-1.465-3.569-3.316-3.642zm-18.935 5.461c-.627.02-1.215-.322-1.535-.894a1.912 1.912 0 0 1 .001-1.853c.32-.572.908-.914 1.536-.893.95 0 1.721.815 1.721 1.821s-.77 1.821-1.721 1.821l-.002-.002zm5.163-13.653c.003-2.512 1.928-4.548 4.304-4.55 2.375.002 4.3 2.038 4.303 4.55-.002 2.513-1.927 4.55-4.303 4.552-2.376-.002-4.302-2.039-4.304-4.552zm6.025 17.295c0 1.006-.771 1.821-1.722 1.82-.95 0-1.721-.816-1.72-1.821 0-1.006.77-1.821 1.72-1.821.952 0 1.722.815 1.722 1.82v.002zm7.746-3.642c-.95 0-1.72-.814-1.722-1.819 0-1.005.77-1.82 1.721-1.821.95 0 1.722.814 1.722 1.82 0 1.005-.77 1.821-1.72 1.822l-.001-.002z"/>
+            <text fill="#031B4C" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(572 849)">
+                <tspan x="78.742" y="28"> 节点4</tspan>
+            </text>
+        </g>
+        <g>
+            <g transform="translate(794 849)">
+                <use fill="#000" filter="url(#Z)" xlink:href="#aa"/>
+                <use fill="#FFF" xlink:href="#aa"/>
+            </g>
+            <path fill="#4285F4" fill-rule="nonzero" d="M854.195 873.563c-.71 0-1.366.229-1.915.618l-3.535-4.096c1.271-1.198 2-2.913 2.005-4.714-.003-3.517-2.698-6.367-6.023-6.371-3.325.004-6.02 2.854-6.024 6.371 0 1.81.723 3.434 1.872 4.596l-3.626 4.084a3.253 3.253 0 0 0-1.69-.488c-1.9.002-3.44 1.632-3.44 3.642 0 2.007 1.543 3.64 3.44 3.64 1.902 0 3.443-1.63 3.444-3.64 0-.696-.193-1.338-.516-1.893l3.81-4.294a5.69 5.69 0 0 0 1.87.632v7.504c-1.516.413-2.577 1.857-2.582 3.512 0 2.007 1.543 3.64 3.442 3.64 1.9-.001 3.44-1.63 3.442-3.64 0-1.691-1.1-3.104-2.582-3.512v-7.504a5.634 5.634 0 0 0 1.71-.541l3.842 4.45a3.77 3.77 0 0 0-.387 1.646c0 2.007 1.542 3.64 3.443 3.64 1.851-.073 3.316-1.682 3.316-3.64 0-1.96-1.465-3.569-3.316-3.642zm-18.935 5.461c-.627.02-1.215-.322-1.535-.894a1.912 1.912 0 0 1 .001-1.853c.32-.572.908-.914 1.536-.893.95 0 1.721.815 1.721 1.821s-.77 1.821-1.721 1.821l-.002-.002zm5.163-13.653c.003-2.512 1.928-4.548 4.304-4.55 2.375.002 4.3 2.038 4.303 4.55-.002 2.513-1.927 4.55-4.303 4.552-2.376-.002-4.302-2.039-4.304-4.552zm6.025 17.295c0 1.006-.771 1.821-1.722 1.82-.95 0-1.721-.816-1.72-1.821 0-1.006.77-1.821 1.72-1.821.952 0 1.722.815 1.722 1.82v.002zm7.746-3.642c-.95 0-1.72-.814-1.722-1.819 0-1.005.77-1.82 1.721-1.821.95 0 1.722.814 1.722 1.82 0 1.005-.77 1.821-1.72 1.822l-.001-.002z"/>
+            <text fill="#031B4C" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(794 849)">
+                <tspan x="77.958" y="28"> 节点N</tspan>
+            </text>
+        </g>
+        <text fill="#4285F4" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400">
+            <tspan x="756" y="876">…</tspan>
+        </text>
+        <text fill="#031B4C" fill-opacity=".8" font-family="PingFangSC-Regular, PingFang SC" font-size="16">
+            <tspan x="32" y="41">业务层</tspan>
+        </text>
+        <g>
+            <g transform="translate(32 66)">
+                <use fill="#000" filter="url(#ab)" xlink:href="#ac"/>
+                <use fill="#FFF" xlink:href="#ac"/>
+            </g>
+            <text fill="#031B4C" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(32 66)">
+                <tspan x="77" y="30">个人信息自主管理</tspan>
+            </text>
+        </g>
+        <g fill="#4285F4" fill-rule="nonzero">
+            <path d="M57.762 84.734v17.37h27.304v-17.37H57.762zm-.975-1.93H86.04a.97.97 0 0 1 .975.965v19.3a.97.97 0 0 1-.975.965H56.787a.98.98 0 0 1-.69-.282.96.96 0 0 1-.285-.683v-19.3a.97.97 0 0 1 .975-.965z"/>
+            <path d="M74.34 90.524h5.85c.348 0 .67-.183.845-.482a.956.956 0 0 0 0-.965.977.977 0 0 0-.845-.483h-5.85a.977.977 0 0 0-.845.483.956.956 0 0 0 0 .965.977.977 0 0 0 .844.482zm0 3.86h5.85c.348 0 .67-.183.845-.482a.956.956 0 0 0 0-.965.977.977 0 0 0-.845-.483h-5.85a.977.977 0 0 0-.845.483.956.956 0 0 0 0 .965.977.977 0 0 0 .844.482zm0 3.86h5.85a.97.97 0 0 0 .975-.965.97.97 0 0 0-.975-.965h-5.85a.97.97 0 0 0-.976.965.97.97 0 0 0 .975.965zm-2.926 4.825c0-3.73-3.056-6.755-6.826-6.755-3.77 0-6.826 3.025-6.826 6.755 0 .345.186.664.488.836a.984.984 0 0 0 .975 0 .963.963 0 0 0 .487-.836c0-2.664 2.183-4.825 4.876-4.825 2.693 0 4.876 2.16 4.876 4.825 0 .345.185.664.487.836a.984.984 0 0 0 .975 0 .963.963 0 0 0 .488-.836z"/>
+            <path d="M64.588 96.314a4.885 4.885 0 0 1-4.223-2.412 4.782 4.782 0 0 1 0-4.825 4.885 4.885 0 0 1 4.223-2.413c2.692 0 4.875 2.16 4.875 4.825s-2.183 4.825-4.875 4.825zm0-1.93a2.931 2.931 0 0 0 2.534-1.447c.522-.896.522-2 0-2.895a2.931 2.931 0 0 0-2.534-1.448c-1.616 0-2.925 1.297-2.925 2.895 0 1.6 1.31 2.895 2.925 2.895zM63.06 79.783a.966.966 0 0 1 0-1.931h28.41c.532 0 .965.432.965.965V96.71a.966.966 0 0 1-1.931 0V79.783H63.06z"/>
+        </g>
+        <g>
+            <g transform="translate(268 66)">
+                <use fill="#000" filter="url(#ad)" xlink:href="#ae"/>
+                <use fill="#FFF" xlink:href="#ae"/>
+            </g>
+            <text fill="#031B4C" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(268 66)">
+                <tspan x="90" y="30">多方可信协作</tspan>
+            </text>
+            <g fill="#4285F4" fill-rule="nonzero">
+                <path d="M310.476 102.598a4.474 4.474 0 0 1-3.825-2.17 4.426 4.426 0 0 1-.496-3.372 4.419 4.419 0 0 1 2.035-2.733 4.45 4.45 0 0 1 2.279-.63c1.56 0 3.025.83 3.824 2.169a4.457 4.457 0 0 1-3.817 6.736zm-.007-7.177a2.719 2.719 0 0 0-2.639 2.058 2.704 2.704 0 0 0 .303 2.062 2.703 2.703 0 0 0 2.343 1.328 2.723 2.723 0 0 0 2.335-4.122 2.707 2.707 0 0 0-2.342-1.326zM329.531 102.598a4.476 4.476 0 0 1-3.824-2.17 4.43 4.43 0 0 1-.496-3.372 4.419 4.419 0 0 1 2.035-2.733 4.446 4.446 0 0 1 2.28-.63c1.559 0 3.026.83 3.825 2.169a4.457 4.457 0 0 1-3.82 6.736zm-.007-7.177c-.488 0-.97.132-1.392.384a2.703 2.703 0 0 0-1.245 1.674 2.703 2.703 0 0 0 .302 2.062 2.704 2.704 0 0 0 2.342 1.328 2.729 2.729 0 0 0 2.337-4.122 2.707 2.707 0 0 0-2.344-1.326zM320.002 85.927a4.476 4.476 0 0 1-3.824-2.17 4.43 4.43 0 0 1-.496-3.371 4.419 4.419 0 0 1 2.035-2.733 4.45 4.45 0 0 1 2.28-.631c1.559 0 3.025.831 3.824 2.17a4.43 4.43 0 0 1 .495 3.371 4.419 4.419 0 0 1-2.035 2.733 4.433 4.433 0 0 1-2.279.631zm-.004-7.177c-.49 0-.971.134-1.394.386a2.703 2.703 0 0 0-1.245 1.673 2.703 2.703 0 0 0 .302 2.063 2.704 2.704 0 0 0 2.342 1.328c.49 0 .971-.134 1.394-.386a2.703 2.703 0 0 0 1.245-1.673 2.703 2.703 0 0 0-.302-2.063 2.706 2.706 0 0 0-2.342-1.328zM331.17 93.287a.863.863 0 0 1-.864-.857 10.315 10.315 0 0 0-1.448-5.206 10.34 10.34 0 0 0-3.525-3.538.865.865 0 0 1-.293-1.186.867.867 0 0 1 1.186-.294 12.09 12.09 0 0 1 4.113 4.133 12.052 12.052 0 0 1 1.694 6.077.864.864 0 0 1-.857.87h-.006zM320 104.548c-1.964 0-3.927-.483-5.72-1.45a.864.864 0 1 1 .82-1.52 10.286 10.286 0 0 0 9.795-.002.868.868 0 0 1 1.17.35c.227.42.071.944-.35 1.172a12.008 12.008 0 0 1-5.715 1.45zM308.832 93.295h-.007a.863.863 0 0 1-.857-.871c.036-4.235 2.214-8.057 5.826-10.23a.86.86 0 0 1 1.185.296.863.863 0 0 1-.295 1.185c-3.094 1.859-4.958 5.135-4.988 8.762a.865.865 0 0 1-.864.858z"/>
+            </g>
+        </g>
+        <g>
+            <g transform="translate(504 66)">
+                <use fill="#000" filter="url(#af)" xlink:href="#ag"/>
+                <use fill="#FFF" xlink:href="#ag"/>
+            </g>
+            <path fill="#4285F4" fill-rule="nonzero" d="M538.608 84.657v2.305a.866.866 0 1 1-1.732 0v-2.814a.87.87 0 0 1 .444-.757l11.257-6.279a.87.87 0 0 1 .844 0l11.258 6.279a.866.866 0 0 1 .445.757v4.34a.866.866 0 1 1-1.732 0v-3.831L549 78.86l-10.392 5.797zm-1.732 8.135a1.732 1.732 0 1 1 1.732 0v3.691L549 102.278l10.392-5.795v-2.305a.866.866 0 1 1 1.732 0v2.814a.87.87 0 0 1-.444.757l-11.257 6.278a.87.87 0 0 1-.844 0l-11.258-6.278a.866.866 0 0 1-.445-.757v-4.2zm23.382-1.5a1.732 1.732 0 1 1 0-3.464 1.732 1.732 0 0 1 0 3.464zm-12.124-.036v3.999l-3.464 2-3.464-2v-4l3.464-2 3.464 2zm-5.196 1v2.001l1.732 1 1.732-1v-2l-1.732-1-1.732 1zm9.526-8.392v3.999l-3.464 2-3.464-1.998v-4.001l3.464-2 3.464 2zm-5.196 1v2.001l1.732 1 1.732-1v-2L549 83.864l-1.732 1zm9.526 6.392v3.999l-3.464 2-3.464-2v-4l3.464-2 3.464 2zm-5.196 1v2.001l1.732 1 1.732-1v-2l-1.732-1-1.732 1z"/>
+            <text fill="#031B4C" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(504 66)">
+                <tspan x="82" y="30">分布式信任网络</tspan>
+            </text>
+        </g>
+        <g>
+            <g transform="translate(739 66)">
+                <use fill="#000" filter="url(#ah)" xlink:href="#ai"/>
+                <use fill="#FFF" xlink:href="#ai"/>
+            </g>
+            <g fill="#4285F4" fill-rule="nonzero" stroke="#4285F4" stroke-width=".3">
+                <path d="M773.912 101.514l-5.773-4.155.642-.92 5.773 4.155-.642.92zm-8.478-7.92l-1.812-5.773 1.06-.335 1.784 5.8c.028 0-1.032.336-1.032.308zm-.167-9.79l6.358-3.541.53.976-6.33 3.542-.558-.976zm10.57-3.29l8.98 6.47-.67.92-8.952-6.47s.642-.892.642-.92zm9.621 10.263l-7.697 10.096-.892-.67 7.697-10.095.892.669zm-19.9-3.735l.475-1.01 4.744 2.233-.475 1.01-4.744-2.233zm7.63-5.19h1.115v5.076h-1.116v-5.075zm3.43 6.917h7.641v1.115h-7.641V88.77zm-8.62 5.108l3.014-2.483.71.862-3.014 2.482-.71-.86zm5.719-.887l1.095-.213 1.423 7.31-1.095.213-1.423-7.31z"/>
+                <path d="M773.745 77a2.69 2.69 0 0 1 2.705 2.705 2.69 2.69 0 0 1-2.705 2.705 2.69 2.69 0 0 1-2.705-2.705c0-.725.279-1.394.78-1.924a2.77 2.77 0 0 1 1.925-.781zm1.116 1.59a1.59 1.59 0 0 0-2.26 0 1.59 1.59 0 0 0 0 2.259 1.566 1.566 0 0 0 2.26 0c.306-.307.474-.725.474-1.144 0-.418-.168-.836-.474-1.115zm11.434 7.474A2.69 2.69 0 0 1 789 88.769a2.69 2.69 0 0 1-2.705 2.705 2.69 2.69 0 0 1-2.705-2.705c0-.725.279-1.394.78-1.924a2.77 2.77 0 0 1 1.925-.781zm1.115 1.59a1.59 1.59 0 0 0-2.259 0 1.566 1.566 0 0 0 0 2.258 1.59 1.59 0 0 0 2.26 0c.306-.306.473-.725.473-1.143 0-.418-.167-.837-.474-1.116zm-23.705-4.937a2.69 2.69 0 0 1 2.705 2.705 2.69 2.69 0 0 1-2.705 2.705A2.69 2.69 0 0 1 761 85.422c0-.725.279-1.394.78-1.924a2.77 2.77 0 0 1 1.925-.78zm1.116 1.59a1.59 1.59 0 0 0-2.26 0 1.566 1.566 0 0 0 0 2.259 1.566 1.566 0 0 0 2.26 0c.306-.307.474-.725.474-1.144 0-.418-.168-.836-.474-1.115zm1.812 8.59a2.69 2.69 0 0 1 2.706 2.705 2.69 2.69 0 0 1-2.706 2.705 2.69 2.69 0 0 1-2.705-2.705c0-.726.28-1.395.781-1.925a2.77 2.77 0 0 1 1.924-.78zm1.116 1.59a1.59 1.59 0 0 0-2.259 0 1.566 1.566 0 0 0 0 2.258 1.566 1.566 0 0 0 2.259 0c.307-.307.474-.725.474-1.143 0-.419-.167-.837-.474-1.116zm8.227 5.103a2.69 2.69 0 0 1 2.705 2.705 2.69 2.69 0 0 1-2.705 2.705 2.69 2.69 0 0 1-2.705-2.705c0-.725.279-1.395.78-1.924a2.77 2.77 0 0 1 1.925-.781zm1.116 1.59a1.59 1.59 0 0 0-2.26 0 1.59 1.59 0 0 0 0 2.258 1.566 1.566 0 0 0 2.26 0c.306-.307.474-.725.474-1.143 0-.419-.168-.837-.474-1.116zm-3.403-14.81a3.547 3.547 0 0 1 3.542 3.542 3.547 3.547 0 0 1-3.542 3.542 3.547 3.547 0 0 1-3.542-3.542c0-.948.363-1.84 1.032-2.51.642-.669 1.562-1.031 2.51-1.031zm1.701 1.841a2.424 2.424 0 0 0-3.43 0 2.424 2.424 0 0 0 0 3.43 2.424 2.424 0 0 0 3.43 0 2.498 2.498 0 0 0 .726-1.729 2.32 2.32 0 0 0-.726-1.7z"/>
+            </g>
+            <text fill="#031B4C" font-family="PingFangSC-Regular, PingFang SC" font-size="14" transform="translate(739 66)">
+                <tspan x="66" y="30">多维度客体身份描述</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

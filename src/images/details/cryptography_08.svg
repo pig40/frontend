@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <linearGradient id="a" x1="-13.158%" x2="115.519%" y1="49.838%" y2="49.838%">
+            <stop offset="0%" stop-color="#4285F4"/>
+            <stop offset="100%" stop-color="#0069FF" stop-opacity=".2"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h64v64H0z"/>
+        <g transform="translate(-1 2)">
+            <ellipse cx="32.602" cy="32.474" fill="url(#a)" rx="22.602" ry="22.474"/>
+            <ellipse cx="32.741" cy="9.632" fill="url(#a)" rx="9.686" ry="9.632"/>
+            <ellipse cx="50.904" cy="46.858" fill="url(#a)" rx="9.686" ry="9.632" transform="rotate(135 50.904 46.858)"/>
+            <ellipse cx="14.638" cy="46.858" fill="url(#a)" rx="9.686" ry="9.632" transform="scale(1 -1) rotate(-45 -98.487 0)"/>
+            <path fill="#1A1A54" fill-rule="nonzero" d="M33.64 39.603V42h-2.448v-2.209c-1.652-.072-3.259-.52-4.192-.996l.734-2.729c1.025.534 2.494 1.025 4.1 1.025 1.439 0 2.387-.534 2.387-1.444 0-.88-.795-1.443-2.631-2.035-2.647-.823-4.452-1.993-4.452-4.26 0-2.078 1.53-3.681 4.161-4.157V23h2.417v2.05a9.652 9.652 0 0 1 3.61.765l-.734 2.628c-.627-.274-1.774-.823-3.564-.823-1.607 0-2.127.679-2.127 1.328 0 .751.857 1.27 2.999 1.978 2.937.982 4.1 2.267 4.1 4.39.015 2.064-1.515 3.854-4.36 4.287z"/>
+        </g>
+    </g>
+</svg>

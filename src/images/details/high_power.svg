@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="59px" viewBox="0 0 63 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>高性能</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#4285F4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="49.8382002%" x2="100%" y2="49.8382002%" id="linearGradient-2">
+            <stop stop-color="#4285F4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="产品" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="纸贵BaaS_zig" transform="translate(-770.000000, -965.000000)">
+            <g id="Group-13" transform="translate(359.000000, 825.000000)">
+                <g id="Group-25" transform="translate(409.000000, 140.000000)">
+                    <g id="高性能" transform="translate(2.000000, 0.000000)">
+                        <g>
+                            <path d="M53.1503158,3.26947368 L5.47873684,3.26947368 C2.67452632,3.26947368 0.336842105,5.45052632 0.336842105,8.25473684 L0.336842105,52.8105263 C0.336842105,55.6147368 2.67284211,57.9507368 5.47873684,57.9507368 L53.1503158,57.9507368 C55.9545263,57.9507368 58.2905263,55.6147368 58.2905263,52.8105263 L58.2905263,8.25473684 C58.2905263,5.45052632 55.9545263,3.26947368 53.1503158,3.26947368 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+                            <path d="M58.6021053,54.084446 L58.6021053,3.42442105 L43.3347368,25.5482105 C41.9334737,27.4176842 39.2842105,28.0408421 37.4147368,26.6378947 L31.3381053,22.4307368 C29.4686316,21.1844211 26.976,21.496 25.5747368,23.2105263 L1.58315789,52.4989474 C-0.131368421,54.5250526 1.27157895,57.7957895 4.07578947,57.7957895 L54.5792485,58.0843807 C56.7883514,58.0970041 58.5894165,56.3164057 58.60204,54.1073027 C58.6020835,54.0996839 58.6021053,54.0920649 58.6021053,54.084446 Z" id="Shape" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+                            <path d="M58.2905263,38.4778947 L0.336842105,38.4778947 M58.2905263,20.0947368 L0.336842105,20.0947368" id="Shape" stroke="#0069FF" stroke-width="2" opacity="0.3"></path>
+                            <path d="M15.9157895,34.4273684 L24.7966316,24.3018947 C26.6661053,21.9642105 29.9368421,21.4976842 32.2745263,23.2105263 L36.3233684,26.0147368 C38.816,27.7292632 42.2433684,27.1061053 44.1128421,24.6134737 L55.3296842,8.25473684" id="Shape" stroke="#1A1A54" stroke-width="2"></path>
+                            <circle id="Oval" stroke="#120078" stroke-width="2" fill="#1A1A54" fill-rule="nonzero" transform="translate(57.364211, 5.145684) rotate(-10.404000) translate(-57.364211, -5.145684) " cx="57.3642105" cy="5.14568421" r="3.73894737"></circle>
+                            <circle id="Oval" stroke="#120078" stroke-width="2" fill="#1A1A54" fill-rule="nonzero" transform="translate(13.108211, 37.698105) rotate(-10.404000) translate(-13.108211, -37.698105) " cx="13.1082105" cy="37.6981053" r="3.73894737"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

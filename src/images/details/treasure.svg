@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="63px" viewBox="0 0 64 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>流转</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-13.1579%" y1="49.8382%" x2="115.518784%" y2="49.8382%" id="linearGradient-1">
+            <stop stop-color="#4285F4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="产品" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="纸贵BaaS_zig" transform="translate(-1176.000000, -1236.000000)">
+            <g id="Group-13" transform="translate(359.000000, 825.000000)">
+                <g id="Group-30" transform="translate(817.000000, 411.000000)">
+                    <g id="流转">
+                        <g id="Group-25">
+                            <path d="M15.6170653,39 L41.7438966,39 C45.0576051,39 47.7438966,41.6862915 47.7438966,45 C47.7438966,46.2747131 47.3379223,47.5163009 46.5848288,48.5447674 L37.7978415,60.5447674 C36.6677974,62.0880186 34.8696622,63 32.9569093,63 L6.83007798,63 C3.51636948,63 0.830077981,60.3137085 0.830077981,57 C0.830077981,55.7252869 1.23605229,54.4836991 1.98914585,53.4552326 L10.7761332,41.4552326 C11.9061772,39.9119814 13.7043124,39 15.6170653,39 Z" id="Rectangle-11" fill="url(#linearGradient-1)" transform="translate(24.286987, 51.000000) scale(-1, 1) translate(-24.286987, -51.000000) "></path>
+                            <path d="M30.8784586,30 L57.5830632,30 C60.8967717,30 63.5830632,32.6862915 63.5830632,36 C63.5830632,37.2153498 63.2139823,38.402046 62.5246743,39.4030103 L48.0631525,60.4030103 C46.9434868,62.0289098 45.0956742,63 43.1215414,63 L16.4169368,63 C13.1032283,63 10.4169368,60.3137085 10.4169368,57 C10.4169368,55.7846502 10.7860177,54.597954 11.4753257,53.5969897 L25.9368475,32.5969897 C27.0565132,30.9710902 28.9043258,30 30.8784586,30 Z" id="Rectangle-11" fill="url(#linearGradient-1)"></path>
+                            <circle id="Oval-2" fill="url(#linearGradient-1)" cx="45" cy="29" r="7"></circle>
+                            <circle id="Oval-2" fill="#1A1A54" cx="26" cy="8" r="8"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
