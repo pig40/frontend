@@ -1,0 +1,285 @@
+.addData-page {
+  border-radius: 2px;
+  border: solid 1px #eff0f9;
+  background-color: #ffffff;
+  padding: 60px 0px 36px 0px;
+  width: 100%;
+  margin-bottom: 24px;
+}
+.addData-page .ant-select-arrow {
+  margin-top: -1px;
+}
+.addData-page .triangle {
+  height: 0px;
+  width: 0px;
+  border-top: 5px solid #a8b3c5;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  transition: all .3s;
+}
+.addData-page .ant-select-open .triangle {
+  transform: rotate(-180deg);
+}
+.addData-page .addData-form {
+  width: 826px;
+  margin: 0 auto;
+}
+.addData-page .addData-form .ant-form-item {
+  display: flex;
+  align-items: flex-start;
+}
+.addData-page .addData-form .description {
+  width: 718px !important;
+  padding: 14px;
+  box-sizing: border-box;
+}
+.addData-page .addData-form .input {
+  height: 36px;
+  width: 312px;
+  padding: 0px 13px;
+  border-radius: 4px;
+  border: solid 1px rgba(61, 112, 177, 0.1);
+  background-color: #ffffff;
+}
+.addData-page .addData-form .select {
+  width: 312px;
+}
+.addData-page .addData-form .file {
+  width: 242px;
+}
+.addData-page .addData-form .dataPriceInput .ant-input {
+  border: none;
+}
+.addData-page .addData-form .dataPriceInput .ant-input-suffix {
+  font-size: 14px;
+  font-weight: 500;
+  color: #112e54;
+}
+.addData-page .addData-form .ant-form-explain {
+  width: 312px;
+  height: 36px;
+  border-radius: 4px;
+  border: solid 1px #ffe58f;
+  background-color: #fffbe6;
+  color: rgba(17, 46, 84, 0.6);
+  line-height: 36px;
+  margin-top: 4px;
+  padding-left: 43.9px;
+  position: relative;
+  font-family: PingFangSC;
+  font-size: 14px;
+  font-weight: normal;
+}
+.addData-page .addData-form .ant-form-explain:before {
+  position: absolute;
+  content: url("../../../../../../images/dashboard/geshi.svg");
+  width: 14px;
+  height: 14px;
+  left: 17.9px;
+  top: 3px;
+}
+.addData-page .addData-form .ant-form-item-control {
+  line-height: normal;
+}
+.addData-page .addData-form .ant-input-number {
+  height: 36px;
+  border: solid 1px rgba(61, 112, 177, 0.1);
+}
+.addData-page .addData-form .ant-select-selection__placeholder {
+  opacity: 0.3;
+  font-family: PingFang-SC;
+  font-size: 14px;
+  font-weight: 500;
+  color: #112e54;
+  margin-left: 0 !important;
+}
+.addData-page .addData-form .ant-select-selection--single {
+  position: relative;
+  height: 36px;
+  cursor: pointer;
+}
+.addData-page .addData-form .ant-select-selection {
+  border: 1px solid #e2e8f3;
+}
+.addData-page .addData-form .ant-select-dropdown-menu {
+  padding: 12px 0;
+}
+.addData-page .addData-form .ant-select-dropdown-menu-item {
+  padding: 9px 24px;
+  border-radius: 0px;
+  font-family: PingFang-SC;
+  font-size: 14px;
+  font-weight: 500;
+  color: #112e54 !important;
+}
+.addData-page .addData-form .ant-select-dropdown-menu-item .ant-select-selected-icon {
+  right: 24px;
+}
+.addData-page .addData-form .ant-select-dropdown-menu-item:hover {
+  background: rgba(24, 144, 255, 0.1);
+}
+.addData-page .addData-form .ant-select-dropdown-menu-item:hover .ant-select-selected-icon {
+  color: rgba(17, 46, 84, 0.6);
+  font-weight: bold;
+}
+.addData-page .addData-form .ant-select-dropdown-menu-item-active {
+  color: #112e54 !important;
+}
+.addData-page .addData-form .ant-select-dropdown-menu-item-active:hover {
+  background: rgba(24, 144, 255, 0.1);
+}
+.addData-page .addData-form .ant-select-dropdown-menu-item-active:hover .ant-select-selected-icon {
+  color: rgba(17, 46, 84, 0.6);
+  font-weight: bold;
+}
+.addData-page .addData-form .ant-select-selection__rendered {
+  margin-left: 13px;
+  width: calc(9%);
+  line-height: 36px;
+}
+.addData-page .addData-form .ant-select-selection__rendered ul li {
+  margin-top: 6px;
+  line-height: 24px;
+}
+.addData-page .addData-form .ant-form-item-label {
+  margin-right: 38px;
+  width: 70px;
+  height: 36px;
+  line-height: 36px;
+  text-align: right;
+}
+.addData-page .addData-form .ant-form-item-label label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #112e54;
+}
+.addData-page .addData-form input::-webkit-input-placeholder,
+.addData-page .addData-form .select::-webkit-input-placeholder,
+.addData-page .addData-form textarea::-webkit-input-placeholder {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(17, 46, 84, 0.3);
+}
+.addData-page .addData-form input::-moz-placeholder,
+.addData-page .addData-form .select::-moz-placeholder,
+.addData-page .addData-form textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(17, 46, 84, 0.3);
+}
+.addData-page .addData-form input:-moz-placeholder,
+.addData-page .addData-form .select:-moz-placeholder,
+.addData-page .addData-form textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(17, 46, 84, 0.3);
+}
+.addData-page .addData-form input:-ms-input-placeholder,
+.addData-page .addData-form .select:-ms-input-placeholder,
+.addData-page .addData-form textarea:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(17, 46, 84, 0.3);
+}
+.addData-page .addData-form .submit {
+  height: 36px;
+  border-radius: 4px;
+  background-color: #1890ff;
+  line-height: 36px;
+  width: 120px;
+  font-family: PingFang-SC;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  margin-left: 108px;
+}
+.addData-page .addData-form .submit:hover {
+  background-color: rgba(24, 144, 255, 0.8);
+}
+.addData-page .addData-form .submit:active {
+  background-color: #0f6abe;
+}
+.addData-page .addData-form .cancel {
+  border: none;
+  width: 120px;
+  height: 36px;
+  border-radius: 4px;
+  line-height: 36px;
+  font-family: PingFang-SC;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  margin-left: 16px;
+  color: rgba(17, 46, 84, 0.6);
+  background-color: rgba(61, 112, 177, 0.05);
+}
+.addData-page .addData-form .cancel:hover {
+  background-color: rgba(24, 144, 255, 0.12);
+}
+.addData-page .addData-form .cancel:active {
+  background-color: #1890ff;
+  color: #ffffff;
+}
+.addData-page .ant-modal-header {
+  border-bottom: none;
+  background: #f7f8fa;
+}
+.addData-page .ant-modal-header .ant-modal-title {
+  text-align: center;
+  font-size: 18px;
+  color: #38445a;
+}
+.addData-page .ant-modal-body {
+  padding: 39px;
+}
+.addData-page .ant-modal-body .upload-form-item .ant-form-item-control .ant-input {
+  width: 199px;
+}
+.addData-page .ant-modal-body .ant-form-item .ant-form-item-label {
+  text-align: left;
+}
+.addData-page .ant-modal-body .ant-form-item .ant-form-item-label label {
+  color: #38445a;
+  font-weight: 600;
+}
+.addData-page .ant-modal-body .ant-form-item .ant-form-item-control .ant-input {
+  height: 38px;
+  border-radius: 0;
+}
+.addData-page .ant-modal-body .ant-form-item .ant-form-item-control .ant-input-number-input {
+  padding: 0;
+}
+.addData-page .ant-modal-body .ant-form-item .ant-select-selection {
+  border-radius: 0;
+  height: 38px;
+}
+.addData-page .ant-modal-body .ant-form-item .ant-select-selection .ant-select-selection__rendered {
+  line-height: 36px;
+}
+.addData-page .ant-modal-footer {
+  height: 98px;
+  line-height: 98px;
+  padding: 0;
+  border-top: none;
+  text-align: center;
+}
+.ant-select-dropdown-menu-item-active {
+  background-color: rgba(24, 144, 255, 0.1);
+}
+.ant-select-dropdown-menu-item:hover {
+  background-color: rgba(24, 144, 255, 0.1);
+}
+@media screen and (max-width: 1200px) {
+  .addData-page .addData-form {
+    width: 694px;
+    margin: 0 auto;
+  }
+  .addData-page .addData-form .description {
+    width: 586px !important;
+  }
+}

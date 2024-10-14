@@ -1,0 +1,302 @@
+.deposit-detail-page {
+  color: #333;
+  background: #f5f6fc;
+}
+.deposit-detail-page .triangle {
+  height: 0px;
+  width: 0px;
+  display: inline-block;
+  border-top: 5px solid #a8b3c5;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  transition: all .3s;
+}
+.deposit-detail-page .ant-select {
+  font-family: PingFang-SC;
+  font-size: 14px;
+  font-weight: 500;
+  color: #112e54;
+}
+.deposit-detail-page .ant-select-open .triangle {
+  transform: rotate(-180deg);
+}
+.deposit-detail-page .ant-select-selection--single {
+  height: 36px;
+}
+.deposit-detail-page .ant-select-selection__rendered {
+  line-height: 36px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.deposit-detail-page .select-version {
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 12px;
+  color: #6C7E96;
+  vertical-align: middle;
+}
+.deposit-detail-page .deposit-select {
+  display: flex;
+  justify-content: space-between;
+}
+.deposit-detail-page .deposit-select .deposit-select-btn {
+  display: flex;
+}
+.deposit-detail-page .deposit-select .deposit-select-btn .downloadBtn {
+  box-shadow: none;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 24px;
+  height: 36px;
+  line-height: 36px;
+  width: 80px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  text-align: center;
+  font-family: PingFang-SC;
+  font-size: 14px;
+}
+.deposit-detail-page .deposit-select .deposit-select-btn .downloadBtn img {
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+}
+.deposit-detail-page .deposit-select .deposit-select-btn .pending {
+  color: #fff;
+  background: rgba(17, 46, 84, 0.3);
+  cursor: not-allowed;
+}
+.deposit-detail-page .deposit-select .deposit-select-btn .ant-btn.ant-btn-loading:not(.ant-btn-circle):not(.ant-btn-circle-outline):not(.ant-btn-icon-only) {
+  padding-left: 0px;
+}
+.deposit-detail-page .deposit-select .deposit-select-btn .ant-btn.ant-btn-loading:not(.ant-btn-circle):not(.ant-btn-circle-outline):not(.ant-btn-icon-only) .anticon:not(:last-child) {
+  margin-left: 0px;
+  margin-right: 8px;
+  font-size: 12px;
+}
+.deposit-detail-page .deposit-select .triangle {
+  height: 0px;
+  width: 0px;
+  display: inline-block;
+  border-top: 5px solid #a8b3c5;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  transition: all .3s;
+}
+.deposit-detail-page .ant-select-open .triangle {
+  transform: rotate(-180deg);
+}
+.deposit-detail-page .info-box {
+  background: #ffffff;
+  padding: 41px 24px 36px 24px;
+}
+.deposit-detail-page .info-box .ant-divider {
+  background: #f5f6fc;
+}
+.deposit-detail-page .info-box .title-box {
+  padding-bottom: 15.5px;
+  border-bottom: 1px solid #eff0f9;
+  margin-bottom: 9.5px;
+}
+.deposit-detail-page .info-box .title-box .blue-rectangle {
+  float: left;
+  width: 4px;
+  height: 16px;
+  background: #3d70b1;
+  margin-right: 14px;
+}
+.deposit-detail-page .info-box .title-box .title {
+  font-family: PingFangSC;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  color: #112e54;
+}
+.deposit-detail-page .info-box .data-info-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.deposit-detail-page .info-box .data-info-content .content1 {
+  width: 33.3%;
+  margin-top: 16px;
+  text-align: left;
+}
+.deposit-detail-page .info-box .data-info-content .content1 .key {
+  font-family: PingFang-SC;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  color: #6C7E96;
+}
+.deposit-detail-page .info-box .data-info-content .content1 .value {
+  word-break: break-all;
+  font-family: PingFang-SC;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 2px;
+  color: #112e54;
+}
+.deposit-detail-page .info-box .data-info-content .hash {
+  width: 66%;
+}
+.deposit-detail-page .info-box .info-item {
+  display: flex;
+  height: 34px;
+  line-height: 34px;
+}
+.deposit-detail-page .info-box .info-item .item-title {
+  width: 84px;
+  color: #666;
+}
+.deposit-detail-page .info-box .info-item .item-desc {
+  flex: 1;
+}
+.deposit-detail-page .info-box .info-item .item-desc .download-tag {
+  font-size: 14px;
+  color: #3d70b1;
+  cursor: pointer;
+}
+.deposit-detail-page .info-box .info-item .item-desc .update {
+  color: #3d70b1;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.deposit-detail-page .info-box .deposit-dataInfo span {
+  display: block;
+}
+.deposit-detail-page .info-box .deposit-dataInfo span:nth-of-type(1) {
+  opacity: 0.3;
+  font-size: 12px;
+  font-weight: 500;
+  color: #112e54;
+}
+.deposit-detail-page .info-box .deposit-dataInfo span:nth-of-type(2),
+.deposit-detail-page .info-box .deposit-dataInfo p {
+  margin-top: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #112e54;
+  margin-bottom: 16px;
+}
+.deposit-detail-page .info-box .deposit-dataInfo p {
+  line-height: 20px;
+}
+.deposit-detail-page .data-info-box {
+  margin-top: 24px;
+}
+.modal .ant-modal-content {
+  box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.1);
+}
+.modal .ant-modal-content .close {
+  position: absolute;
+  top: 16px;
+  right: 38px;
+  cursor: pointer;
+}
+.modal .ant-modal-content .ant-modal-header {
+  background-color: #f5f6fc;
+  padding: 16px 38px;
+  border-bottom: none;
+}
+.modal .ant-modal-content .ant-modal-header .ant-modal-title {
+  font-family: PingFang-SC;
+  font-size: 18px;
+  font-weight: 500;
+  color: #112e54;
+}
+.modal .ant-modal-content .ant-modal-body {
+  padding: 24px 38px 36px 38px;
+}
+.modal .ant-modal-content .ant-modal-body .row {
+  display: flex;
+  margin-top: 12px;
+  align-items: flex-start;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+}
+.modal .ant-modal-content .ant-modal-body .row .title {
+  width: 42px;
+  color: rgba(17, 46, 84, 0.6);
+}
+.modal .ant-modal-content .ant-modal-body .row .value {
+  max-width: calc(58%);
+  color: #112e54;
+  max-height: 40px;
+  overflow: hidden;
+}
+.modal .ant-modal-content .ant-modal-body .seeDetail {
+  margin-top: 12px;
+  font-size: 12px;
+  margin-left: 42px;
+}
+.modal .ant-modal-content .ant-modal-body .seeDetail img {
+  margin-top: -2px;
+}
+.modal .ant-modal-content .ant-modal-body .seeDetail .detail {
+  font-weight: 500;
+  line-height: normal;
+  color: #1890ff;
+}
+.modal .ant-modal-content .ant-modal-footer {
+  border-top: 1px solid #eff0f9;
+  padding: 24px;
+  text-align: center;
+}
+.modal .ant-modal-content .ant-modal-footer .tip {
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  color: #f5222a;
+}
+.modal .ant-modal-content .ant-modal-footer .confirm-btn {
+  border: none;
+  width: 120px;
+  text-align: center;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 4px;
+  font-family: PingFang-SC;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-left: 0px;
+  background-color: #1890ff;
+}
+.modal .ant-modal-content .ant-modal-footer .confirm-btn:hover {
+  background-color: rgba(24, 144, 255, 0.8);
+}
+.modal .ant-modal-content .ant-modal-footer .confirm-btn:active {
+  background-color: #0f6abe;
+}
+.modal .ant-modal-content .ant-modal-footer .cancel-btn {
+  width: 120px;
+  border: none;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 4px;
+  text-align: center;
+  font-family: PingFang-SC;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 24px;
+  color: rgba(17, 46, 84, 0.6);
+  background-color: rgba(61, 112, 177, 0.05);
+}
+.modal .ant-modal-content .ant-modal-footer .cancel-btn:hover {
+  background-color: rgba(24, 144, 255, 0.12);
+}
+.modal .ant-modal-content .ant-modal-footer .cancel-btn:active {
+  background-color: #1890ff;
+  color: #ffffff;
+}
+.modal .ant-modal-content .ant-modal-footer .cancel-btn-disabled {
+  background: #f5f5f5;
+  border: none;
+  cursor: not-allowed;
+  color: rgba(0, 0, 0, 0.25);
+}
