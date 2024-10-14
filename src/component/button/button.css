@@ -1,0 +1,88 @@
+.tag-button {
+  display: inline-block;
+}
+.tag-button .ant-btn {
+  border-radius: 0px;
+  font-family: PingFang-SC;
+  color: #a8b3c5;
+  background: #fff;
+  border: 1px solid #eaeef5;
+  box-sizing: border-box;
+}
+.tag-button .ant-btn:hover {
+  border-color: #037eeb;
+  color: #037eeb;
+  background: #fff;
+}
+.tag-button-active .ant-btn {
+  color: #fff;
+  background: #037eeb;
+  border-color: #037eeb;
+}
+.custome-button-third {
+  display: inline-block;
+}
+.custome-button-third .ant-btn {
+  border-radius: 0px;
+  font-family: PingFang-SC;
+  color: #a8b3c5;
+  background: #fff;
+  border: 1px solid #eaeef5;
+  box-sizing: border-box;
+}
+.custome-button-third .ant-btn:hover {
+  color: #037eeb;
+}
+.custome-button-third-active .ant-btn {
+  color: #037eeb        ;
+  border-color: #037eeb;
+}
+.custome-button-second {
+  display: inline-block;
+}
+.custome-button-second .ant-btn {
+  border-radius: 0px;
+  font-family: PingFang-SC;
+  color: #037eeb;
+  background: #fff;
+  border: 1px solid #037eeb;
+  box-sizing: border-box;
+}
+.custome-button-second .ant-btn:hover {
+  background-color: #f2f9ff;
+}
+.custome-button-second-active .ant-btn {
+  color: #fff;
+  background-color: #037eeb;
+}
+.custome-button-second-active .ant-btn:hover {
+  background: #037eeb;
+  color: #fff;
+}
+.custome-button-first {
+  display: inline-block;
+}
+.custome-button-first .ant-btn {
+  border-radius: 0px;
+  font-family: PingFang-SC;
+  color: #fff;
+  background: #1890ff;
+  border: 1px solid #1890ff;
+  box-sizing: border-box;
+}
+.custome-button-first .ant-btn:hover {
+  background-color: #59aefa;
+  border-color: #59aefa;
+}
+.custome-button-first .ant-btn:active {
+  background: #1890ff;
+}
+.custome-button-first ::selection {
+  background: #1890ff;
+}
+.custome-button-first ::-moz-selection {
+  background: #1890ff;
+}
+.custome-button-first-active .ant-btn {
+  background-color: #1890ff;
+}
