@@ -1,0 +1,12 @@
+version: "2"
+services:
+    web:
+        build: .
+        image: data-governance-frontend
+        container_name: data-governance-frontend
+        restart: always
+        volumes:
+            - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+        ports:
+            - "80:80"
+        command: /bin/bash -c "nginx -g 'daemon off;'"

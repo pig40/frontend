@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  nginx:
+    image: nginx
+    restart: always
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/certs:/var/wwwroot/certs
+      - /etc/letsencrypt:/etc/nginx/cert
+    ports:
+      - "80:80"
+      - "443:443"
