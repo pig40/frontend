@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="670" height="640" viewBox="0 0 670 640">
+    <defs>
+        <path id="a" d="M0 0h671v640H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <g fill="#FFF" mask="url(#b)" opacity=".22">
+            <path d="M474-38.465v-.147L334.483-119 195-38.612v.147L334.483 42z" opacity=".6"/>
+            <path d="M530 381.247v160.65l.052.103L670 461.71V301.086l-.122-.086z" opacity=".033"/>
+            <path d="M-1 301.086V461.71L138.852 542l.148-.104v-160.58L-.852 301z" opacity=".104"/>
+            <path d="M-1 75v160.934l195.671 112.911-.035 225.761L334 655V268.348z" opacity=".219"/>
+            <path d="M669 75L334 268.348V655l139.403-80.454v-225.77L669 235.848z" opacity=".051"/>
+            <path d="M529.58-6L334 107.034v-.044L138.369-5.914-1 74.531 334 268 669 74.53z" opacity=".447"/>
+            <path d="M473 348.519v.104L528.893 381h.095v-.07L668 300.42 612.09 268z" opacity=".335"/>
+            <path d="M54.925 268L-1 300.42 138.023 381 194 348.623z" opacity=".302"/>
+            <path d="M334 42.438V107l140-80.369V-38L334 42.369z" opacity=".089"/>
+            <path d="M195 26.628v.069L335 107V42.363L195-38z" opacity=".26"/>
+            <path d="M473 348v161.503L530 542V380.462h-.097z" opacity=".193"/>
+        </g>
+    </g>
+</svg>

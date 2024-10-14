@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>check</title>
+    <desc>Created with Sketch.</desc>
+    <g id="1.4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="文件验证_验证失败" transform="translate(-439.000000, -431.000000)" fill-rule="nonzero">
+            <g id="Group-12" transform="translate(298.000000, 151.000000)">
+                <g id="check" transform="translate(143.000000, 282.000000)">
+                    <path d="M8,17 C3.03661904,17 -1,12.9632667 -1,8 C-1,3.03673333 3.03661904,-1 8,-1 C12.963381,-1 17,3.03673333 17,8 C17,12.9633685 12.9635916,17 8,17 Z" id="Shape" stroke="#FFFFFF" stroke-width="2" fill="#52C41A"></path>
+                    <path d="M5.83423438,10.9657656 L4.23423438,9.36576563 C3.93097195,9.05187518 3.93526858,8.55284108 4.24389076,8.24421889 C4.55251295,7.9355967 5.05154706,7.93130007 5.3654375,8.2345625 L6.4,9.26879688 L10.6345625,5.03423438 C10.9484529,4.73097195 11.447487,4.73526858 11.7561092,5.04389076 C12.0647314,5.35251295 12.0690281,5.85154706 11.7657656,6.1654375 L6.96576563,10.9654375 C6.81577146,11.1155571 6.61227723,11.1999299 6.40006473,11.1999885 C6.18785223,11.2000472 5.98431144,11.1157867 5.83423438,10.96575 L5.83423438,10.9657656 Z" id="Shape" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="63px" viewBox="0 0 64 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>地址</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-13.1579%" y1="49.8382%" x2="115.518784%" y2="49.8382%" id="linearGradient-1">
+            <stop stop-color="#4285F4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="115.518784%" y1="49.8382%" x2="-13.1579%" y2="49.8382%" id="linearGradient-2">
+            <stop stop-color="#4285F4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="产品" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="纸贵BaaS_zig" transform="translate(-768.000000, -1237.000000)">
+            <g id="Group-13" transform="translate(359.000000, 825.000000)">
+                <g id="Group-27" transform="translate(408.000000, 403.000000)">
+                    <g id="地址" transform="translate(1.000000, 0.000000)">
+                        <rect id="Rectangle-11" fill="url(#linearGradient-1)" x="0" y="28" width="44" height="44" rx="4"></rect>
+                        <path d="M43.5,9 L64,9 L64,31.3636364 C64,41.6562158 55.6562158,50 45.3636364,50 L43.5,50 C32.1781626,50 23,40.8218374 23,29.5 L23,29.5 C23,18.1781626 32.1781626,9 43.5,9 Z" id="Rectangle-11" fill="url(#linearGradient-2)" transform="translate(43.500000, 29.500000) rotate(-225.000000) translate(-43.500000, -29.500000) "></path>
+                        <circle id="Oval-2" fill="#120078" cx="43" cy="29" r="5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

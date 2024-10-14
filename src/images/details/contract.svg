@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>milestone_billing</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-13.1579%" y1="49.8382%" x2="115.518784%" y2="49.8382%" id="linearGradient-1">
+            <stop stop-color="#4285F4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="产品" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="纸贵BaaS_eth" transform="translate(-768.000000, -960.000000)">
+            <g id="Group-13" transform="translate(359.000000, 825.000000)">
+                <g id="Group-20" transform="translate(409.000000, 135.000000)">
+                    <g id="milestone_billing">
+                        <rect id="Rectangle-path" fill="url(#linearGradient-1)" fill-rule="nonzero" x="8.53333333" y="8.53333333" width="55.4666667" height="55.4666667" rx="3"></rect>
+                        <rect id="Rectangle-path" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="0" width="55.4666667" height="55.4666667" rx="3"></rect>
+                        <path d="M55.4666667,19.2 L55.4666667,3.84893555 C55.4666667,1.71629744 53.769549,0 51.6760483,0 L3.79061835,0 C1.69029294,0 0,1.72322715 0,3.84893555 L0,19.2 L55.4666667,19.2 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                        <path d="M23.1364807,36.0481563 C23.1364807,35.6856864 22.861173,35.3232166 22.5858653,35.0815701 L11.5735556,27.8321736 C11.298248,27.7113504 11.0229402,27.5905271 10.7476324,27.5905271 C9.92170921,27.5905271 9.37109375,28.0738202 9.37109375,28.7987598 C9.37109375,29.1612296 9.64640151,29.5236995 9.92170921,29.765346 L19.4198262,36.0481563 L9.92170921,42.3309665 C9.64640151,42.5726131 9.37109375,42.9350829 9.37109375,43.2975527 C9.37109375,44.0224923 9.92170921,44.5057854 10.7476324,44.5057854 C11.0229402,44.5057854 11.2982479,44.3849622 11.5735556,44.2641389 L22.5858653,37.0147424 C22.861173,36.7730959 23.1364807,36.4106261 23.1364807,36.0481563 Z" id="Path" fill="#000000"></path>
+                        <path d="M32.7855702,44.3740617 L24.526338,44.3740617 C23.7004148,44.3740617 23.1497993,44.8573547 23.1497993,45.5822944 C23.1497993,46.307234 23.7004148,46.7905271 24.526338,46.7905271 L32.7855702,46.7905271 C33.6114934,46.7905271 34.1621089,46.307234 34.1621089,45.5822944 C34.1621089,44.8573548 33.6114934,44.3740617 32.7855702,44.3740617 Z" id="Path" fill="#000000"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

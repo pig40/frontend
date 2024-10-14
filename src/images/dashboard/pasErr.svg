@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="15px" viewBox="0 0 14 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>密码错误</title>
+    <desc>Created with Sketch.</desc>
+    <g id="登录" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="登录_用户名密码错误" transform="translate(-940.000000, -464.000000)">
+            <g id="分组-16" transform="translate(922.000000, 202.000000)">
+                <g id="分组-2">
+                    <g id="提示" transform="translate(0.100000, 251.000000)">
+                        <g id="密码错误" transform="translate(17.900000, 11.300000)">
+                            <circle id="椭圆形" fill="#F5222A" cx="7" cy="7" r="7"></circle>
+                            <path d="M6.82842712,3.7 L6.82842712,10.7" id="路径-7" stroke="#FFFFFF" transform="translate(6.828427, 7.200000) rotate(-315.000000) translate(-6.828427, -7.200000) "></path>
+                            <path d="M6.82842712,3.7 L6.82842712,10.7" id="路径-7-copy" stroke="#FFFFFF" transform="translate(6.828427, 7.200000) rotate(-45.000000) translate(-6.828427, -7.200000) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

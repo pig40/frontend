@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="14px" viewBox="0 0 13 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>申请</title>
+    <desc>Created with Sketch.</desc>
+    <g id="数据治理平台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="数据交易_全部数据_详情" transform="translate(-1265.000000, -95.000000)" fill="#FFFFFF">
+            <g id="分组-19" transform="translate(280.000000, 84.000000)">
+                <g id="分组-2-copy-3" transform="translate(24.000000, 0.000000)">
+                    <g id="分组-14-copy-7复制" transform="translate(946.000000, 0.000000)">
+                        <g id="申请" transform="translate(16.000000, 12.000000)">
+                            <path d="M5.6418506,11.3 L1.83333333,11.3 C1.22166401,11.3 0.7,10.730912 0.7,10 L0.7,2 C0.7,1.26908801 1.22166401,0.7 1.83333333,0.7 L9.16666667,0.7 C9.77833599,0.7 10.3,1.26908801 10.3,2 L10.3,4 C10.3,4.38659932 10.6134007,4.7 11,4.7 C11.3865993,4.7 11.7,4.38659932 11.7,4 L11.7,2 C11.7,0.521772995 10.5800414,-0.7 9.16666667,-0.7 L1.83333333,-0.7 C0.419958579,-0.7 -0.7,0.521772995 -0.7,2 L-0.7,10 C-0.7,11.478227 0.419958579,12.7 1.83333333,12.7 L5.6418506,12.7 C6.02844992,12.7 6.3418506,12.3865993 6.3418506,12 C6.3418506,11.6134007 6.02844992,11.3 5.6418506,11.3 Z" id="路径" fill-rule="nonzero"></path>
+                            <rect id="矩形" x="3" y="4" width="5" height="1.4" rx="0.7"></rect>
+                            <rect id="矩形复制-2" x="5" y="8" width="6" height="1.4" rx="0.7"></rect>
+                            <rect id="矩形复制-3" transform="translate(9.909188, 7.909188) rotate(-315.000000) translate(-9.909188, -7.909188) " x="7.90918831" y="7.20918831" width="4" height="1.4" rx="0.7"></rect>
+                            <rect id="矩形复制-4" transform="translate(9.909188, 9.909188) rotate(-45.000000) translate(-9.909188, -9.909188) " x="7.90918831" y="9.20918831" width="4" height="1.4" rx="0.7"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
