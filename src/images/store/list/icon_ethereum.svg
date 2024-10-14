@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="63px" viewBox="0 0 40 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_ethereum</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="合约中心_已部署" transform="translate(-377.000000, -1732.000000)" stroke="#1274FF">
+            <g id="icon_ethereum" transform="translate(377.000000, 1732.000000)">
+                <path d="M19.3403255,0.969656983 L0.765771686,32.3442436 L19.677449,43.2635744 L38.5337935,32.348399 L19.3403255,0.969656983 Z" id="Fill-1" opacity="0.5"></path>
+                <path d="M19.4207651,1.77610584 L19.6338385,43 L19.4207651,1.77610584 Z" id="Fill-3" opacity="0.7"></path>
+                <path d="M1.75741501,37.0446705 L19.5930166,62.107264 L37.55937,37.0399899 L19.5906726,47.475445 L1.75741501,37.0446705 Z" id="Fill-5"></path>
+                <path d="" id="Fill-8" opacity="0.7"></path>
+                <path d="M19.5922981,24.1731931 L1.09418122,32.5180067 L19.5924566,43.2098908 L38.2227231,32.5180868 L19.5922981,24.1731931 Z" id="Fill-10" opacity="0.8"></path>
+            </g>
+        </g>
+    </g>
+</svg>

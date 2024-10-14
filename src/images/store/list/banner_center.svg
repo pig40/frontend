@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="960px" height="490px" viewBox="0 0 960 490" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>banner_center</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1920" height="640"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#84A7ED" offset="0%"></stop>
+            <stop stop-color="#2D61FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="合约中心" transform="translate(-590.000000, -150.000000)">
+            <g id="banner_center">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="Group-9" mask="url(#mask-2)" stroke="url(#linearGradient-3)" stroke-width="2.5">
+                    <g transform="translate(592.000000, 151.236307)">
+                        <polygon id="Stroke-1" points="0 363.067798 0 507.958612 135.406106 520.813772 321 518.476899 321 342.035946 136.570961 324.507042"></polygon>
+                        <polygon id="Stroke-3" points="676 328.513302 676 510.798122 865 509.62733 865 343.705277"></polygon>
+                        <polygon id="Stroke-4" points="393.18067 104.010097 577.378818 140.189517 577.378818 78.3360527 791.891989 123.851489 791.891989 91.1707172 393.18067 0.144560291 274.261562 69.0000366 274.261562 158.866264"></polygon>
+                        <path d="M247.448594,518.621629 L247.448594,686.372863 L304.626043,706.214255 L304.626043,598.845355 L365.199565,611.68002 L365.199565,559.167287 L415.330514,563.835295 L415.330514,373.654045 L515.592412,359.593439 L578.544599,368.934171 L578.544599,463.468406 L619.349298,463.468406 L619.349298,566.164583 L765.08373,560.331931 L765.08373,625.688759 L847.856554,619.851391 C847.856554,619.851391 849.604048,719.6336 847.856554,721.387639 L956.276565,703.880251 L956.276565,255.727903 L854.851241,241.723879 L854.851241,188.041786 L716.116207,160.029023 L716.116207,260.395911 L515.592412,234.721867 L304.626043,289.573319 L304.626043,205.549174 L247.448594,226.55521 L247.448594,333.278133" id="Stroke-6"></path>
+                        <polyline id="Stroke-8" points="274.261091 158.865321 440.828859 185.152336 577.383057 140.188574"></polyline>
+                        <polyline id="Stroke-10" points="791.893873 123.851489 649.173986 165.976725 555.7796 147.997821"></polyline>
+                        <polyline id="Stroke-12" points="304.62463 205.546816 471.960164 228.306892 716.114794 160.03138"></polyline>
+                        <path d="M515.590999,234.721867 L515.590999,359.593439" id="Stroke-14"></path>
+                        <polyline id="Stroke-16" points="415.32863 373.653574 482.741403 378.137691 578.542715 368.933699"></polyline>
+                        <polyline id="Stroke-18" points="482.739048 378.138634 482.739048 466.557307 578.54507 463.468878"></polyline>
+                        <path d="M393.18067,0.143145743 L393.18067,104.715956" id="Stroke-24"></path>
+                        <path d="M136.693723,324.586208 L135.530297,520.651977" id="Stroke-34"></path>
+                        <path d="M521.985132,558.221426 L521.985132,467.08682" id="Stroke-36"></path>
+                        <path d="M471.961577,228.307835 L471.961577,245.57475" id="Stroke-38"></path>
+                        <path d="M865.343744,343.25824 L676.294062,366.183347" id="Stroke-46"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

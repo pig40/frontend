@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="170" height="40" viewBox="0 0 170 40">
+    <defs>
+        <radialGradient id="a" cx="155.972%" cy="-8.767%" r="201.295%" fx="155.972%" fy="-8.767%" gradientTransform="matrix(1 0 0 .7891 0 -.018)">
+            <stop offset="0%" stop-color="#F7BFA4"/>
+            <stop offset="5%" stop-color="#F5A691"/>
+            <stop offset="43%" stop-color="#E60012"/>
+            <stop offset="69%" stop-color="#E40011"/>
+            <stop offset="79%" stop-color="#DD0010"/>
+            <stop offset="87%" stop-color="#D1000D"/>
+            <stop offset="93%" stop-color="#BF0008"/>
+            <stop offset="98%" stop-color="#A90002"/>
+            <stop offset="100%" stop-color="#A00000"/>
+        </radialGradient>
+        <radialGradient id="b" cx="168.896%" cy="-535.488%" r="699.531%" fx="168.896%" fy="-535.488%" gradientTransform="matrix(.33601 0 0 1 1.121 0)">
+            <stop offset="0%" stop-color="#F7BFA4"/>
+            <stop offset="5%" stop-color="#F5A691"/>
+            <stop offset="43%" stop-color="#E60012"/>
+            <stop offset="69%" stop-color="#E40011"/>
+            <stop offset="79%" stop-color="#DD0010"/>
+            <stop offset="87%" stop-color="#D1000D"/>
+            <stop offset="93%" stop-color="#BF0008"/>
+            <stop offset="98%" stop-color="#A90002"/>
+            <stop offset="100%" stop-color="#A00000"/>
+        </radialGradient>
+        <radialGradient id="c" cx="151.489%" cy="-125.949%" r="307.306%" fx="151.489%" fy="-125.949%" gradientTransform="matrix(.58503 0 0 1 .629 0)">
+            <stop offset="0%" stop-color="#F7BFA4"/>
+            <stop offset="5%" stop-color="#F5A691"/>
+            <stop offset="43%" stop-color="#E60012"/>
+            <stop offset="69%" stop-color="#E40011"/>
+            <stop offset="79%" stop-color="#DD0010"/>
+            <stop offset="87%" stop-color="#D1000D"/>
+            <stop offset="93%" stop-color="#BF0008"/>
+            <stop offset="98%" stop-color="#A90002"/>
+            <stop offset="100%" stop-color="#A00000"/>
+        </radialGradient>
+        <radialGradient id="d" cx="160.87%" cy="15.697%" r="340.164%" fx="160.87%" fy="15.697%" gradientTransform="matrix(1 0 0 .38202 0 .097)">
+            <stop offset="0%" stop-color="#F7BFA4"/>
+            <stop offset="5%" stop-color="#F5A691"/>
+            <stop offset="43%" stop-color="#E60012"/>
+            <stop offset="69%" stop-color="#E40011"/>
+            <stop offset="79%" stop-color="#DD0010"/>
+            <stop offset="87%" stop-color="#D1000D"/>
+            <stop offset="93%" stop-color="#BF0008"/>
+            <stop offset="98%" stop-color="#A90002"/>
+            <stop offset="100%" stop-color="#A00000"/>
+        </radialGradient>
+        <radialGradient id="e" cx="47.709%" cy="15.689%" r="340.391%" fx="47.709%" fy="15.689%" gradientTransform="matrix(1 0 0 .38201 0 .097)">
+            <stop offset="0%" stop-color="#F7BFA4"/>
+            <stop offset="5%" stop-color="#F5A691"/>
+            <stop offset="43%" stop-color="#E60012"/>
+            <stop offset="69%" stop-color="#E40011"/>
+            <stop offset="79%" stop-color="#DD0010"/>
+            <stop offset="87%" stop-color="#D1000D"/>
+            <stop offset="93%" stop-color="#BF0008"/>
+            <stop offset="98%" stop-color="#A90002"/>
+            <stop offset="100%" stop-color="#A00000"/>
+        </radialGradient>
+        <radialGradient id="f" cx="6.001%" cy="-533.799%" r="698.166%" fx="6.001%" fy="-533.799%" gradientTransform="matrix(.33702 0 0 1 .04 0)">
+            <stop offset="0%" stop-color="#F7BFA4"/>
+            <stop offset="5%" stop-color="#F5A691"/>
+            <stop offset="43%" stop-color="#E60012"/>
+            <stop offset="69%" stop-color="#E40011"/>
+            <stop offset="79%" stop-color="#DD0010"/>
+            <stop offset="87%" stop-color="#D1000D"/>
+            <stop offset="93%" stop-color="#BF0008"/>
+            <stop offset="98%" stop-color="#A90002"/>
+            <stop offset="100%" stop-color="#A00000"/>
+        </radialGradient>
+        <radialGradient id="g" cx="5.846%" cy="-125.735%" r="307.808%" fx="5.846%" fy="-125.735%" gradientTransform="matrix(.58473 0 0 1 .024 0)">
+            <stop offset="0%" stop-color="#F7BFA4"/>
+            <stop offset="5%" stop-color="#F5A691"/>
+            <stop offset="43%" stop-color="#E60012"/>
+            <stop offset="69%" stop-color="#E40011"/>
+            <stop offset="79%" stop-color="#DD0010"/>
+            <stop offset="87%" stop-color="#D1000D"/>
+            <stop offset="93%" stop-color="#BF0008"/>
+            <stop offset="98%" stop-color="#A90002"/>
+            <stop offset="100%" stop-color="#A00000"/>
+        </radialGradient>
+        <radialGradient id="h" cx="13.367%" cy="-9.677%" r="203.705%" fx="13.367%" fy="-9.677%" gradientTransform="matrix(1 0 0 .7887 0 -.02)">
+            <stop offset="0%" stop-color="#F7BFA4"/>
+            <stop offset="5%" stop-color="#F5A691"/>
+            <stop offset="43%" stop-color="#E60012"/>
+            <stop offset="69%" stop-color="#E40011"/>
+            <stop offset="79%" stop-color="#DD0010"/>
+            <stop offset="87%" stop-color="#D1000D"/>
+            <stop offset="93%" stop-color="#BF0008"/>
+            <stop offset="98%" stop-color="#A90002"/>
+            <stop offset="100%" stop-color="#A00000"/>
+        </radialGradient>
+    </defs>
+    <g fill="none" fill-rule="nonzero">
+        <path fill="#231815" d="M67.708 23.112h8.663v-6.921h3.887V33.27h-3.887v-7.135h-8.663v7.135h-3.899V16.19h3.888zM87.315 26.416c0 3.022.955 4.28 4.168 4.28 3.214 0 4.146-1.258 4.146-4.28V16.19h3.888v10.326c0 2.19-.259 3.685-1.079 4.584-1.517 1.663-3.741 2.36-6.955 2.36-3.213 0-5.46-.686-6.977-2.36-.854-.921-1.057-2.427-1.057-4.584V16.19h3.866v10.225zM112.225 16.191L120.1 33.27h-4.326l-1.696-4.068h-8.034l-1.652 4.068h-4.112l7.831-17.079h4.113zm-4.922 9.966h5.517l-2.809-6.561-2.708 6.561zM121.876 16.191l4.27 13.135 3.607-13.135h4.584l4.146 13.135 3.989-13.135h3.989l-5.72 17.079h-4.763l-3.944-12.753-3.45 12.753h-4.741l-6.158-17.079zM151.708 23.135h10.764v2.977h-10.787c.023 3.068 1.337 4.191 4.405 4.191h6.382v2.978h-6.562c-2.236 0-3.966-.169-5.764-1.494-1.798-1.326-2.831-3.64-2.831-6.73 0-6.035 2.752-8.844 8.707-8.844h6.45v2.978h-6.382c-2.82-.022-4.225 1.258-4.382 3.944zM165.899 33.27V16.19h4.067V33.27z"/>
+        <path fill="url(#a)" d="M22.955 31.191a.169.169 0 0 0 .045-.202C16.764 17.37 8.236 7.045 8.236 7.045s-4.64 4.404-4.303 8.82c.18 3.337 2.685 5.315 2.685 5.315 4.045 3.944 13.843 8.921 16.124 10.056a.191.191 0 0 0 .213-.045z"/>
+        <path fill="url(#b)" d="M21.438 34.562a.225.225 0 0 0-.213-.146l-16.304.562c1.764 3.157 4.753 5.606 7.854 4.853 2.146-.539 6.989-3.92 8.596-5.067.112-.112.067-.202.067-.202z"/>
+        <path fill="url(#c)" d="M21.685 33.101c.079-.123-.056-.247-.056-.247C14.461 28.022.573 20.607.573 20.607c-1.258 3.91.438 7.056.438 7.056 1.764 3.741 5.146 4.876 5.146 4.876a9.989 9.989 0 0 0 3.124.686c.247.045 9.697 0 12.236-.012a.225.225 0 0 0 .168-.112z"/>
+        <path fill="url(#d)" d="M22.775 0c-.708.067-2.629.494-2.629.494-4.315 1.113-5.337 5.034-5.337 5.034-.787 2.472.022 5.169.022 5.169 1.439 6.393 8.54 16.91 10.057 19.112.112.112.19.067.19.067a.202.202 0 0 0 .158-.202C27.584 6.224 22.776 0 22.776 0z"/>
+        <path fill="url(#e)" d="M28.169 29.888a.191.191 0 0 0 .235-.09c1.574-2.27 8.63-12.72 10.057-19.09 0 0 .775-3.09.022-5.169 0 0-1.067-3.977-5.393-5.033 0 0-1.247-.315-2.573-.506 0 0-4.832 6.225-2.483 29.708a.202.202 0 0 0 .135.18z"/>
+        <path fill="url(#f)" d="M32.034 34.427a.236.236 0 0 0-.18.124.236.236 0 0 0 .067.224c1.562 1.124 6.292 4.427 8.573 5.068 0 0 4.214 1.438 7.877-4.854l-16.337-.573v.011z"/>
+        <path fill="url(#g)" d="M52.708 20.573s-13.865 7.438-21.034 12.27a.213.213 0 0 0-.09.236s.068.123.169.123c2.562 0 12.28.011 12.528-.033a9.764 9.764 0 0 0 2.809-.64s3.46-1.102 5.247-5.023c.011 0 1.607-3.203.37-6.933z"/>
+        <path fill="url(#h)" d="M30.36 31.191a.202.202 0 0 0 .224.011c2.337-1.157 12.068-6.112 16.09-10.033 0 0 2.55-2.045 2.686-5.338.292-4.573-4.304-8.797-4.304-8.797S36.551 17.326 30.315 30.92c-.048.09-.03.2.045.27z"/>
+    </g>
+</svg>
