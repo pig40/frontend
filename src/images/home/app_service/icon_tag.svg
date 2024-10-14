@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_tag</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.035%" y1="49.957%" x2="99.965%" y2="49.957%" id="linearGradient-1">
+            <stop stop-color="#00D7D2" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#00D7D2" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="纸贵BaaS_数字资产交易" transform="translate(-376.000000, -2880.000000)">
+            <g id="ic_tag" transform="translate(376.000000, 2880.000000)">
+                <circle id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="16" cy="16" r="10"></circle>
+                <path d="M14,31.752425 C6.10737685,30.7682288 0,24.0354478 0,15.8762125 C0,7.71697719 6.10737685,0.984196176 14,1.95773953e-13 L14,2.01799021 C7.21541172,2.98844953 2,8.82326867 2,15.8762125 C2,22.9291563 7.21541172,28.7639755 14,29.7344348 L14,31.752425 Z M18,1.95995997e-13 C25.8926232,0.984196176 32,7.71697719 32,15.8762125 C32,24.0354478 25.8926232,30.7682288 18,31.752425 L18,29.7344348 C24.7845883,28.7639755 30,22.9291563 30,15.8762125 C30,8.82326867 24.7845883,2.98844953 18,2.01799021 L18,1.95926608e-13 Z" id="Combined-Shape" fill="#65BFFF"></path>
+                <path d="M14,25.7999638 C9.43551936,24.8734231 6,20.8379158 6,16 C6,11.1620842 9.43551936,7.1265769 14,6.20003623 L14,8.25203497 C10.5495456,9.14012056 8,12.2723211 8,16 C8,19.7276789 10.5495456,22.8598794 14,23.747965 L14,25.7999638 Z" id="Combined-Shape" fill="#237EFF"></path>
+                <circle id="Oval-6" fill="#237EFF" cx="18" cy="7" r="1"></circle>
+                <circle id="Oval-6" fill="#237EFF" cx="23" cy="10" r="1"></circle>
+                <circle id="Oval-6" fill="#237EFF" cx="25" cy="16" r="1"></circle>
+                <circle id="Oval-6" fill="#237EFF" cx="23" cy="22" r="1"></circle>
+                <circle id="Oval-6" fill="#237EFF" cx="18" cy="25" r="1"></circle>
+                <circle id="Oval-7" fill="#65BFFF" cx="16" cy="16" r="2"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

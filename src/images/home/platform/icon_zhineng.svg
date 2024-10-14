@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>智能</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="10.5489746%" id="linearGradient-1">
+            <stop stop-color="#0069FF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="纸贵BaaS_版权存证" transform="translate(-1191.000000, -2035.000000)">
+            <g id="Group-17" transform="translate(-427.000000, 1571.000000)">
+                <g id="智能" transform="translate(1616.000000, 464.000000)">
+                    <g id="一站式管理" transform="translate(4.000000, 1.000000)">
+                        <path d="M32.2401789,32.9999912 L1.76250337,32.9999912 C1.56029478,33.0009877 1.36606648,32.9176829 1.22291391,32.7685605 C1.07976133,32.6194381 0.999522969,32.4168302 1.00000213,32.2056916 L1.00000213,1.79616845 C1.00000213,1.35416414 1.33918989,1 1.76250337,1 L32.2392839,1 C32.6625974,1 32.9999952,1.35416414 32.9999952,1.79616845 L32.9999952,32.2038227 C33.0007106,32.4147979 32.9208229,32.6173612 32.7780324,32.7666319 C32.6352419,32.9159025 32.4413384,32.9995556 32.2392839,32.9990567 L32.2401789,32.9999912 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                        <circle id="Oval-4" stroke="#2A39DD" stroke-width="2" opacity="0.3" cx="17" cy="17" r="10"></circle>
+                        <circle id="Oval-4" stroke="#110262" stroke-width="2" cx="3" cy="32" r="3"></circle>
+                        <circle id="Oval-4" stroke="#110262" stroke-width="2" cx="30" cy="3" r="3"></circle>
+                        <circle id="Oval-4" stroke="#110262" stroke-width="2" cx="17" cy="17" r="4"></circle>
+                        <path d="M7.64461206,1.2 L1.87414968,1.2 C1.19490228,1.2 0.600897289,1.80856076 0.600897289,2.50445274 L0.600897289,8.33082448 M25.6388358,33.2 L31.3258503,33.2 C32.0903401,33.2 32.6,32.5923585 32.6,31.8964665 L32.6,26.0700948" id="Shape" stroke="#2A39DD" stroke-width="2"></path>
+                        <path d="M5,30 L14,20" id="Path-3" stroke="#110262" stroke-width="2"></path>
+                        <path d="M20,14 L28,5" id="Path-3" stroke="#110262" stroke-width="2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

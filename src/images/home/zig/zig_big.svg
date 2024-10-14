@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="74px" viewBox="0 0 63 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 16</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="-2.48949813e-15%" id="linearGradient-1">
+            <stop stop-color="#0178FF" offset="0%"></stop>
+            <stop stop-color="#0092FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="85.1056026%" x2="35.748444%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#0178FF" offset="0%"></stop>
+            <stop stop-color="#0092FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="73.2718264%" y1="89.8141112%" x2="31.028904%" y2="5.22952992%" id="linearGradient-3">
+            <stop stop-color="#0092FF" offset="0%"></stop>
+            <stop stop-color="#00E7FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="88.019422%" x2="73.2789967%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#003CA2" offset="0%"></stop>
+            <stop stop-color="#0178FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品服务导航" transform="translate(-472.000000, -109.000000)">
+            <g id="zig" transform="translate(445.000000, 109.000000)">
+                <g id="img_ethereum" transform="translate(9.000000, 0.000000)">
+                    <g id="Group-16" transform="translate(18.656489, 0.000000)">
+                        <polygon id="Rectangle-11" fill="#00A1FF" fill-rule="nonzero" points="0.34351145 9 61.3435115 9 40.2536677 37 9.18921458 37"></polygon>
+                        <polygon id="Path-5" fill="url(#linearGradient-1)" points="31.0872637 0 0 9.18903117 18.6849416 20.9337748 43.0502838 20.9337748 61.7099237 9.18903117"></polygon>
+                        <polygon id="Triangle-3" fill="url(#linearGradient-2)" transform="translate(30.854962, 27.069536) scale(1, -1) translate(-30.854962, -27.069536) " points="30.8549618 20.9337748 43.0534351 33.205298 18.6564885 33.205298"></polygon>
+                        <polygon id="Path-6" fill="url(#linearGradient-3)" points="0 9.38410596 18.6747638 21.2668807 30.8549618 33.4820987 30.8549618 63.5231788 12.5147478 51.2163557 1.81021932 26.5123684"></polygon>
+                        <polygon id="Path-6" fill="url(#linearGradient-4)" transform="translate(46.282443, 36.453642) scale(-1, 1) translate(-46.282443, -36.453642) " points="30.8549618 9.38410596 49.6064491 21.2358824 61.7099237 33.4820987 61.7099237 63.5231788 43.3697097 51.2163557 32.6651812 26.5123684"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

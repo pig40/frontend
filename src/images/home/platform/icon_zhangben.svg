@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_zhangben</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="44.8143515%" y1="22.157%" x2="58.9384558%" y2="91.256%" id="linearGradient-1">
+            <stop stop-color="#0069FF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="纸贵BaaS_版权存证" transform="translate(-1191.000000, -1874.000000)">
+            <g id="Group-17" transform="translate(-427.000000, 1571.000000)">
+                <g id="账本" transform="translate(1616.000000, 303.000000)">
+                    <g id="账本信息可视化" transform="translate(4.000000, 5.000000)">
+                        <path d="M32,28 L33,2 L24.2339434,14.7715944 C23.4019434,15.8815944 21.8289434,16.2515944 20.7189434,15.4185944 L17.1109434,12.9205944 C16.0009434,12.1805944 13.832,11.982 13,13 L2,26 C1,27 0.335,28 2,28 L32,28 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                        <path d="M1.60897644,0 L30.3910083,0 C31.2849153,0 31.999986,0.704390264 31.999986,1.58494564 L31.999986,26.4151303 C32.0017697,26.8360119 31.8328228,27.2401615 31.5306908,27.5377639 C31.2285587,27.8353663 30.8182715,28.0017668 30.3910083,27.9999858 L1.60897644,27.9999858 C1.18171318,28.0017668 0.771425976,27.8353663 0.469293937,27.5377639 C0.167161899,27.2401615 -0.00178500902,26.8360119 -1.31061305e-06,26.4151303 L-1.31061305e-06,1.58494564 C-1.31061305e-06,0.704300201 0.715069436,0 1.60897644,0 Z M6.75015633e-14,5.64983579 L32,5.64983579 L6.75015633e-14,5.64983579 Z" id="Shape" stroke="#2A39DD" stroke-width="2"></path>
+                        <path d="M31,20.44 L1,20.44 M31,12.525 L1,12.525" id="Shape" stroke="#0069FF" stroke-width="2" opacity="0.3"></path>
+                        <path d="M4,2.8678 L5.9882,2.8678 M7.9329,2.8678 L9.9413,2.8678" id="Shape" stroke="#0069FF" stroke-width="2"></path>
+                        <path d="M8,20.1755944 L13.273,14.1635944 C14.383,12.7755944 16.325,12.4985944 17.713,13.5155944 L21,16 C22.48,17.018 23.632,15.8285944 24.742,14.3485944 L31,6" id="Shape" stroke="#03234D" stroke-width="2"></path>
+                        <circle id="Oval" stroke="#120078" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(32.364406, 5.000000) rotate(-10.404000) translate(-32.364406, -5.000000) " cx="32.3644056" cy="5" r="2"></circle>
+                        <circle id="Oval" stroke="#120078" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(6.364406, 22.000000) rotate(-10.404000) translate(-6.364406, -22.000000) " cx="6.36440562" cy="22" r="2"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

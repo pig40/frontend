@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="101px" viewBox="0 0 69 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>eos_logo_tm.e03b85cd</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4B93EF" offset="0%"></stop>
+            <stop stop-color="#3556E3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="-2.48949813e-15%" id="linearGradient-2">
+            <stop stop-color="#0178FF" offset="0%"></stop>
+            <stop stop-color="#0092FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="88.019422%" x2="73.2789967%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#003CA2" offset="0%"></stop>
+            <stop stop-color="#0178FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="73.2718264%" y1="89.8141112%" x2="31.028904%" y2="5.22952992%" id="linearGradient-4">
+            <stop stop-color="#0092FF" offset="0%"></stop>
+            <stop stop-color="#00E7FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="纸贵BaaS_登录后" transform="translate(-1386.000000, -1136.000000)">
+            <g id="Group-32" transform="translate(1354.000000, 1136.000000)">
+                <g id="eos_logo_tm.e03b85cd" transform="translate(31.467890, 0.000000)">
+                    <polygon id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero" points="34.9816514 0.0809270884 11.1847688 32.5425187 1.0763585 80.2924728 34.9816514 100.607146 68.8869442 80.2924728 58.778534 32.3330891"></polygon>
+                    <polygon id="Path" fill="url(#linearGradient-2)" points="11.0334173 32.6141781 34.9816514 0.0695404705 59.0166996 32.6141781 34.9816514 100.404083"></polygon>
+                    <polygon id="Path" fill="url(#linearGradient-3)" points="58.9647953 32.8271913 68.923474 80.1518243 34.8153978 100.646647"></polygon>
+                    <polygon id="Path" fill="url(#linearGradient-4)" points="0.921886518 80.3377491 11.1862694 32.5891419 35.0029889 100.621611"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

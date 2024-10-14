@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="74px" viewBox="0 0 64 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>ipfs</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="397.79%" x2="50%" y2="13.432%" id="linearGradient-1">
+            <stop stop-color="#0178FF" offset="0%"></stop>
+            <stop stop-color="#0092FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="73.272%" y1="89.814%" x2="31.029%" y2="5.23%" id="linearGradient-2">
+            <stop stop-color="#0092FF" offset="0%"></stop>
+            <stop stop-color="#00E7FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="293.462%" y1="123.112%" x2="0%" y2="33.898%" id="linearGradient-3">
+            <stop stop-color="#003CA2" offset="0%"></stop>
+            <stop stop-color="#0178FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#0092FF" offset="0%"></stop>
+            <stop stop-color="#00E7FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品服务导航" transform="translate(-1392.000000, -109.000000)" fill-rule="nonzero">
+            <g id="ipfs" transform="translate(1363.000000, 109.000000)">
+                <g id="img-ipfs" transform="translate(12.000000, 0.000000)">
+                    <g id="Group" transform="translate(20.000000, 1.000000)">
+                        <path d="M27.929,0.40966443 L0,16.0939597 L28.3154667,32.1879195 L56.6309333,16.0939597 L29.3817333,0.416979866 C28.9329829,0.158947345 28.3810736,0.156166727 27.9297333,0.40966443 L27.929,0.40966443 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+                        <path d="M28.3697333,63.7189128 L28.3697333,31.920906 L0,16.0376309 L0,46.9797315 C1.74848646e-06,47.5087613 0.286289008,47.9965835 0.748733333,48.2555436 L28.3697333,63.7189128 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+                        <path d="M56.6309333,46.9475436 L56.6309333,16.0376309 L28.2612,31.920906 L28.2612,63.7189128 L55.8836667,48.2226242 C56.3455994,47.9636029 56.6315488,47.4761584 56.6316667,46.9475436 L56.6309333,46.9475436 Z" id="Shape" fill="url(#linearGradient-3)"></path>
+                        <path d="M28.8112,39.2590201 L28.2296667,39.2590201 C26.2094204,39.2642834 24.2703979,38.4660317 22.8418632,37.0409833 C21.4133285,35.615935 20.6131239,33.6816447 20.6184,31.6663289 L20.6184,31.0862148 C20.6131239,29.0708989 21.4133285,27.1366087 22.8418632,25.7115603 C24.2703979,24.286512 26.2094204,23.4882603 28.2296667,23.4935235 L28.8112,23.4935235 C30.8317006,23.4880644 32.7710238,24.2863302 34.1997387,25.7115584 C35.6284537,27.1367865 36.4286725,29.0713768 36.4232,31.0869463 L36.4232,31.6663289 C36.4286725,33.6818984 35.6284537,35.6164887 34.1997387,37.0417168 C32.7710238,38.4669449 30.8317006,39.2652108 28.8112,39.2597517 L28.8112,39.2590201 Z" id="Shape" fill="url(#linearGradient-4)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

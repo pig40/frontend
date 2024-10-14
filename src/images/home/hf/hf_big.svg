@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="74px" viewBox="0 0 64 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>hy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="88.019422%" x2="73.2789967%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#003CA2" offset="0%"></stop>
+            <stop stop-color="#0178FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="73.2718264%" y1="89.8141112%" x2="31.028904%" y2="5.22952992%" id="linearGradient-2">
+            <stop stop-color="#0092FF" offset="0%"></stop>
+            <stop stop-color="#00E7FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="30.9214937%" y1="50%" x2="77.0061365%" y2="33.0637499%" id="linearGradient-3">
+            <stop stop-color="#0178FF" offset="0%"></stop>
+            <stop stop-color="#0092FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="65.9590271%" y1="9.50565082%" x2="31.1968131%" y2="77.2963076%" id="linearGradient-4">
+            <stop stop-color="#0178FF" offset="0%"></stop>
+            <stop stop-color="#0092FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="20.1314302%" y1="50%" x2="77.0131061%" y2="11.9472494%" id="linearGradient-5">
+            <stop stop-color="#0178FF" offset="0%"></stop>
+            <stop stop-color="#0092FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品服务导航" transform="translate(-1081.000000, -109.000000)">
+            <g id="hyf" transform="translate(1034.000000, 88.000000)">
+                <g id="Group-15" transform="translate(79.754802, 53.067496) rotate(35.000000) translate(-79.754802, -53.067496) translate(43.754802, 15.067496)">
+                    <g id="Group-9" transform="translate(0.356540, 0.550674)">
+                        <polygon id="Polygon" fill="url(#linearGradient-1)" transform="translate(35.356810, 37.430305) rotate(25.000000) translate(-35.356810, -37.430305) " points="35.3568101 7.94869105 60.5933719 22.6894981 60.5933719 52.1711122 35.3568101 66.9119192 10.1202483 52.1711122 10.1202483 22.6894981"></polygon>
+                        <polygon id="Polygon" fill="url(#linearGradient-1)" transform="translate(35.356810, 37.430305) rotate(25.000000) translate(-35.356810, -37.430305) " points="35.3568101 7.94869105 60.5933719 22.6894981 60.5933719 52.1711122 35.3568101 66.9119192 10.1202483 52.1711122 10.1202483 22.6894981"></polygon>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-2)" transform="translate(34.509588, 32.085576) rotate(17.000000) translate(-34.509588, -32.085576) " points="39.3006982 20.4619666 47.0408758 43.7091847 21.9782999 42.6464942"></polygon>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-3)" transform="translate(50.834708, 37.060440) rotate(17.000000) translate(-50.834708, -37.060440) " points="63.0867865 30.9145194 38.5826301 25.4236048 46.317419 48.697276"></polygon>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-4)" transform="translate(27.530265, 28.442355) rotate(17.000000) translate(-27.530265, -28.442355) " points="40.3606619 18.27203 14.6998676 16.3148416 22.9497874 40.5698676"></polygon>
+                        <polygon id="Triangle-2" fill="url(#linearGradient-5)" transform="translate(25.910165, 48.120011) rotate(135.000000) translate(-25.910165, -48.120011) " points="38.9853248 38.4594584 12.835005 36.9105493 23.5734076 59.3294727"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

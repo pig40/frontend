@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_yingyong</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="10.5489746%" id="linearGradient-1">
+            <stop stop-color="#0069FF" stop-opacity="0.4" offset="0%"></stop>
+            <stop stop-color="#0069FF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="纸贵BaaS_版权存证" transform="translate(-1191.000000, -2113.000000)">
+            <g id="Group-17" transform="translate(-427.000000, 1571.000000)">
+                <g id="应用" transform="translate(1616.000000, 542.000000)">
+                    <g id="快速对接" transform="translate(5.000000, 3.000000)">
+                        <path d="M31.2401789,31.9999912 L0.762503368,31.9999912 C0.560294781,32.0009877 0.366066484,31.9176829 0.222913907,31.7685605 C0.0797613306,31.6194381 -0.000477030815,31.4168302 2.13381982e-06,31.2056916 L2.13381982e-06,0.796168452 C2.13381982e-06,0.354164135 0.339189889,0 0.762503368,0 L31.2392839,0 C31.6625974,0 31.9999952,0.354164135 31.9999952,0.796168452 L31.9999952,31.2038227 C32.0007106,31.4147979 31.9208229,31.6173612 31.7780324,31.7666319 C31.6352419,31.9159025 31.4413384,31.9995556 31.2392839,31.9990567 L31.2401789,31.9999912 Z" id="Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                        <path d="M31.9991027,7.41723643 L31.9991027,1.50537202 C31.9991027,0.723068084 31.4050977,0.200919276 30.7258503,0.200919276 L25.0388358,0.200919276 M7.04461206,0.2 L1.27414968,0.2 C0.59490228,0.2 0.000897288506,0.808560758 0.000897288506,1.50445274 L0.000897288506,7.33082448 M0,24.9836828 L0,30.8091353 C0,31.5923585 0.594004991,32.1145073 1.27325239,32.1145073 L6.96026694,32.1145073 M25.0388358,32.2 L30.7258503,32.2 C31.4903401,32.2 32,31.5923585 32,30.8964665 L32,25.0700948" id="Shape" stroke="#2A39DD" stroke-width="2"></path>
+                        <polygon id="Path-5" stroke="#8AA4F4" stroke-width="2" transform="translate(16.000000, 13.500000) scale(1, -1) translate(-16.000000, -13.500000) " points="6 21 16 6 26 21"></polygon>
+                        <polygon id="Path-5" stroke="#110262" stroke-width="2" points="6 26 16 12 26 26"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
