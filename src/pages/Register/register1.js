@@ -9,7 +9,6 @@ const { api: { UnicomUser } } = config;
 const FormItem = Form.Item;
 
 class Register extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -67,7 +66,7 @@ class Register extends Component {
               <FormItem style={{ marginBottom: "24px" }} className="loginFormItem">
                 {getFieldDecorator('userName', {
                   rules: [
-                    { required: true, message: intlData.Register_userName_input },
+                    { required: true, message: '用户名不能为空' },
                     { whitespace: true, message: '用户名不能为空' }, // 新增提示
                   ],
                 })(<Input placeholder="请输入用户名" size="large" />)}
@@ -75,8 +74,8 @@ class Register extends Component {
               <FormItem style={{ marginBottom: "24px" }} className="loginFormItem">
                 {getFieldDecorator('email', {
                   rules: [
-                    { required: true, message: intlData.Register_email_input },
-                    { type: 'email', message: intlData.Register_email_invalid },
+                    { required: true, message: '邮箱不能为空' }, // 直接设置提示信息
+                    { type: 'email', message: '请输入有效的邮箱地址' }, // 邮箱格式检测提示
                     { whitespace: true, message: '邮箱不能为空' }, // 新增提示
                   ],
                 })(<Input placeholder="请输入邮箱" size="large" />)}
@@ -84,7 +83,7 @@ class Register extends Component {
               <FormItem className="loginFormItem loginFormItemPass" style={{ marginBottom: "27px" }}>
                 {getFieldDecorator('password', {
                   rules: [
-                    { required: true, message: intlData.Register_password_input },
+                    { required: true, message: '密码不能为空' }, // 直接设置提示信息
                     { whitespace: true, message: '密码不能为空' }, // 新增提示
                   ],
                 })(<Input placeholder="请输入密码" type="password" size="large" />)}
@@ -92,7 +91,7 @@ class Register extends Component {
               <FormItem className="loginFormItem loginFormItemPass" style={{ marginBottom: "27px" }}>
                 {getFieldDecorator('confirmPassword', {
                   rules: [
-                    { required: true, message: intlData.Register_confirmPassword_input },
+                    { required: true, message: '确认密码不能为空' }, // 直接设置提示信息
                     {
                       validator: (rule, value, callback) => {
                         const { getFieldValue } = this.props.form;
