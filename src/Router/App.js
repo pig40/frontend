@@ -29,9 +29,10 @@ const Dashboard = Loadable({
 });
 
 const Register = Loadable({ // 添加注册页面的加载
-    loader: () => import('../pages/Register/register'), // 注册组件路径
+    loader: () => import('../pages/Register/register1'), // 注册组件路径
     loading: MyLoadingComponent
 });
+
 
 
 
@@ -44,7 +45,7 @@ class App extends Component {
                         <Route path="/login" component={Login} />
                         <Route path="/register" component={Register} />
                         <PrivateRoute path="/dashboard" component={Dashboard} />
-
+                        //个人中心修改页面跳
                         <Route path="/*" render={(props) => <Redirect to='/dashboard' />} />
                     </Switch>
                 </div>
