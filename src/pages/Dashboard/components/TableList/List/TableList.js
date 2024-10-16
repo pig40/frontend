@@ -714,35 +714,35 @@ export default class TableList extends Component {
                             </React.Fragment>
                         </div>
                         {
-                            //     <div className='action960'>
-                            //     <div id={`popover${record.id}${index}`}>
-                            //         <Popover
-                            //             placement="bottom"
-                            //             content={
-                            //                 <ul className="hover-content">
-                            //                     <li onClick={() => this.detail(record)}>详情</li>
-                            //                     <li onClick={() => this.add(record.id)}>更新</li>
-                            //                     <li onClick={() => {
-                            //                         if (record.isLoading) return
-                            //                         this.record = record
-                            //                         this.flag = 'download'
-                            //                         this.downloadFile(index)
-                            //                     }}>
-                            //                         下载
-                            //             </li>
-
-                            //                 </ul>}
-                            //             trigger="hover"
-                            //             className='popver'
-                            //             getPopupContainer={() => document.getElementById(`popover${record.id}${index}`)}
-                            //             mouseLeaveDelay={0.3}
-                            //         >
-                            //             <span>操作</span> <img
-                            //                 src={require('../../../../../images/dataDeposit/down.svg')}
-                            //                 style={{ marginLeft: 4, marginTop: -2, transition: 'all 0.5s' }} />
-                            //         </Popover>
-                            //     </div>
-                            // </div>
+//                                 <div className='action960'>
+//                                 <div id={`popover${record.id}${index}`}>
+//                                     <Popover
+//                                         placement="bottom"
+//                                         content={
+//                                             <ul className="hover-content">
+//                                                 <li onClick={() => this.detail(record)}>详情</li>
+//                                                 <li onClick={() => this.add(record.id)}>更新</li>
+//                                                 <li onClick={() => {
+//                                                     if (record.isLoading) return
+//                                                     this.record = record
+//                                                     this.flag = 'download'
+//                                                     this.downloadFile(index)
+//                                                 }}>
+//                                                     下载
+//                                         </li>
+//
+//                                             </ul>}
+//                                         trigger="hover"
+//                                         className='popver'
+//                                         getPopupContainer={() => document.getElementById(`popover${record.id}${index}`)}
+//                                         mouseLeaveDelay={0.3}
+//                                     >
+//                                         <span>操作</span> <img
+//                                             src={require('../../../../../images/dataDeposit/down.svg')}
+//                                             style={{ marginLeft: 4, marginTop: -2, transition: 'all 0.5s' }} />
+//                                     </Popover>
+//                                 </div>
+//                             </div>
                         }
                     </div>
             },

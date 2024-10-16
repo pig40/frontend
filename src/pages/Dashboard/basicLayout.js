@@ -171,7 +171,7 @@ class Dashboard extends React.Component {
                 { key: 'roleManagement', name: '角色管理' },
                 { key: 'organizationManagement', name: '组织管理' },
                 { key: 'dataManagement', name: '数据管理' },
-                { key: 'overview', name: '概览' },
+                { key: 'overview', name: '首页' },
                 { key: 'dataDeposit', name: '数据存证' },
                 { key: 'dataTransaction', name: '数据交易' },
                 { key: 'tort', name: '侵权存证' },
@@ -234,7 +234,7 @@ class Dashboard extends React.Component {
     getMenu = (props) => {
         let menu = [
             {
-                name: "概览",
+                name: "首页",
                 path: '/dashboard/overview',
                 key: 'overview',
                 src: props.location.pathname.includes('/dashboard/overview') ? require('../../images/slider/overview.svg') : require('../../images/slider/unoverview.svg'),
@@ -252,7 +252,7 @@ class Dashboard extends React.Component {
                 name: '征信数据交易', children: [
                     { name: '全部数据', path: '/dashboard/dataTransaction/allData' },
                     { name: '已购数据', path: '/dashboard/dataTransaction/purchasedData' },
-                    // { name: '交易历史', path: '/dashboard/dataTransaction/transactionHistory' },
+                    { name: '交易历史', path: '/dashboard/dataTransaction/transactionHistory' },
                     // { name: '数据审批', path: '/dashboard/dataTransaction/dataApproval' },
                 ]
             },
@@ -268,6 +268,7 @@ class Dashboard extends React.Component {
                 path: '/dashboard/personalCenter',
                 src: props.location.pathname.includes('/dashboard/personalCenter') ? require('../../images/slider/person.svg') : require('../../images/slider/unperson.svg'),
             },
+            
         ]
         return menu.filter(element => { return this.props.DataApprovalModel.getAuth().includes(element.key) })
     }
@@ -686,7 +687,7 @@ class Dashboard extends React.Component {
             '/dashboard/tort_deposit/add_tort': '新增侵权存证',
             '/dashboard/oracle_verification': '预言机证书验证',
             '/dashboard/price': '账户积分',
-            '/dashboard/overview': '概览',
+            '/dashboard/overview': '首页',
             '/dashboard/dataTransaction/allData': "全部数据",
             '/dashboard/dataTransaction/purchasedData': '已购数据',
             '/dashboard/dataTransaction/transactionHistory': '交易历史',
@@ -711,8 +712,9 @@ class Dashboard extends React.Component {
                         className="slider"
                     >
                         <NavLink className="logo" to={{ pathname: this.routerList(true).length ? this.routerList(true)[0].pathname : '/dashboard' }}>
-                            <img src={require('../../images/logo.svg')} alt="" />
+                            <img src={require('../../images/logo.svg')} alt="" />          
                         </NavLink>
+                        <h3 className="dashboard_title">征信数据共享交易平台</h3>
                         <Menu
                             className="List"
                             theme="dark"

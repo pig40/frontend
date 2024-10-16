@@ -110,8 +110,8 @@ class Login extends Component {
                 </div>
                 <div className="login-form">
                     <div className="login-form-part">
-                        <h1>登录</h1>
-                        <p className="login-welcome">欢迎登陆征信数据共享智能交易平台</p>
+                        <h1>征信数据共享智能交易平台</h1>
+                        <p className="login-welcome">登录</p>
                         <Form onSubmit={this.handleSubmit}>
                             <FormItem
                                 style={{ marginBottom: "24px" }}
@@ -156,9 +156,9 @@ class Login extends Component {
                                 </Button>
                             </FormItem>
                         </Form>
-                        <span className="registerjump">
+                        <p className="registerjump">
                             如果您还没有账户，请 <a href="/register">注册</a>
-                        </span>
+                        </p>
                         <p className="login-forget"><span onClick={() => { this.handleClickFn(true) }}>忘记密码?</span></p>
                         {/*<p className="login-tip">*/}
                         {/*<span>温馨提示：</span>*/}

@@ -83,11 +83,13 @@
     }
 
     .login-forget {
+      margin-top: 20px;
       text-align: center;
       font-size: 14px;
       color: rgba(17, 46, 84, 0.3);
       cursor: pointer;
     }
+    
 
     input::-webkit-input-placeholder {
       font-size: 14px;
@@ -140,7 +142,6 @@
 
   }
 
-  .login-forget {}
 
   .loginPage_image {
     width: 50%;
@@ -148,39 +149,37 @@
     display: flex;
     align-items: center;
     overflow: hidden;
-    background: linear-gradient(197deg, #3ebfff, #a9d2ff);
-    animation: float 3s ease-in-out infinite;
-    /* Apply the animation here */
-  }
+    background: linear-gradient(197deg, #526fff, #65afff);
 
-  @keyframes float {
-    0% {
-      transform: translateY(0);
+    img {
+      width: 100%;
     }
+  }
+  .floating_image {
+    animation: float 3s ease-in-out infinite; /* 无限循环动画 */
+}
 
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0); /* 起始和结束位置 */
+    }
     50% {
-      transform: translateY(-10px);
-      /* Move up */
+        transform: translateY(-5px); /* 中间位置向上浮动 */
     }
+}
 
-    100% {
-      transform: translateY(0);
-      /* Move back down */
-    }
-  }
 
-  img {
-    width: 100%;
-  }
-
+/* 添加类名以在页面加载时启动动画 */
+.floating {
+    animation: float 3s ease-in-out infinite; /* 无限循环动画 */
+}
 
   .registerjump {
     text-align: center;
-    padding-right: 16.66666667%;
     margin-top: 21px;
     font-size: 14px;
 
-    span {
+    p {
       color: #031b4c;
     }
 

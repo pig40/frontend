@@ -26,7 +26,18 @@ export default class Overview extends Component {
             cardLoading: true,
             dataInfoLoading: true
         })
-        request().get(evidence.overview).then((res) => {
+        let userName = '';
+        if (Cookies.get('userInfo')) {
+            try {
+                let userInfo = JSON.parse(Cookies.get("userInfo"))
+                userName = userInfo.name;
+            } catch (e) {
+            }
+        }
+        // 构建请求 URL，添加 userName 参数
+	const requestUrl = `${evidence.overview}?userName=${encodeURIComponent(userName)}`;
+
+        request().get(requestUrl).then((res) => {
             if (res) {
                 switch (res.status) {
                     case 200:
@@ -144,11 +155,11 @@ export default class Overview extends Component {
                 tit: '已购数据',
                 link: "/dashboard/dataTransaction/purchasedData"
             },
-            // {
-            //     id: 'traded',
-            //     tit: '交易历史',
-            //     link: "/dashboard/dataTransaction/transactionHistory"
-            // },
+            {
+                id: 'traded',
+                tit: '交易历史',
+                link: "/dashboard/dataTransaction/transactionHistory"
+            },
             // {
             //     id: 'review',
             //     tit: '数据审批',
@@ -183,7 +194,7 @@ export default class Overview extends Component {
                             <div>
                                 <h3><img src={require('../../../../images/dashboard/overviewRole.svg')}
                                     alt="" /><span>角色</span></h3>
-                                <h2>     {_.get(userInfo, 'role', '')}</h2>
+							 <h2>     客户</h2>
                             </div>
                         </div>
                         <div className='info'>
@@ -193,10 +204,10 @@ export default class Overview extends Component {
                         </div>
                         <div className='permission'>
                             <div className='upload'>
-                                {/* <h3 ><span>上传权限</span><code>{this.getUploadPermissions("uploadPermissions")}</code></h3> */}
+                                { <h3 ><span>上传权限</span><code>{this.getUploadPermissions("uploadPermissions")}</code></h3> }
                             </div>
                             <div className='upload' style={{ marginTop: 12 }}>
-                                {/* <h3><span>访问权限</span><code>{this.getUploadPermissions("accessPermissions")}</code></h3> */}
+                                { <h3><span>访问权限</span><code>{this.getUploadPermissions("accessPermissions")}</code></h3> }
                             </div>
                         </div>
                     </div>
