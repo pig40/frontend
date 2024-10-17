@@ -258,7 +258,6 @@ export default class TableList extends Component {
             }
         })
     }
-
     getUsers = (res) => {
         if (!['dataApproval', 'transactionHistory'].includes(this.state.name)) {
             return []
@@ -422,77 +421,94 @@ export default class TableList extends Component {
     }
     // 筛选，排序功能
     handleTableChange = (pagination, filters, sorter) => {
-
-        const { settingInfo } = this.state
+        const { settingInfo } = this.state;
         const { order, columnKey } = sorter;
-        columnKey && (settingInfo.sort.item = columnKey);
-        order && (settingInfo.sort.type = order === 'ascend' ? 'asc' : 'desc')
-        if (JSON.stringify(filters) !== '{}' && !eq(this.sorter, filters)) {
-            settingInfo.pageNo = 1 //判断不是sorter则将pageNo设为1
+
+        // 如果有排序列和排序顺序，则更新settingInfo中的排序信息
+        if (columnKey) {
+            settingInfo.sort.item = columnKey;
+            settingInfo.sort.type = order === 'ascend' ? 'asc' : 'desc';
         }
-        this.getFilterList('levelList')
-        this.getFilterList('typeList')
-        this.getFilterList('statusList')
-        this.state.name === 'transactionHistory' && this.getFilterList('buyerList')
-        this.state.name === 'dataApproval' && this.getFilterList('ownerList')
-        this.setState({
-            settingInfo
-        }, () => {
-            //如何上次一样 则不进行获取数据操作
-            if (this.settingInfo && eq(this.settingInfo, settingInfo)) {
-                return
+
+        // 如果filters发生变化（意味着进行了筛选操作），将pageNo重置为1
+        if (!_.isEmpty(filters) && !_.isEqual(this.sorter, filters)) {
+            settingInfo.pageNo = 1;
+        }
+
+        // 根据表格的名称，获取对应的筛选列表
+        this.getFilterList('levelList');
+        this.getFilterList('typeList');
+        this.getFilterList('statusList');
+        if (this.state.name === 'transactionHistory') {
+            this.getFilterList('buyerList');
+        } else if (this.state.name === 'dataApproval') {
+            this.getFilterList('ownerList');
+        }
+
+        // 更新状态，并在状态更新后进行数据获取
+        this.setState({ settingInfo }, () => {
+            // 如果新状态的排序信息和之前保存的排序信息相同，则不进行数据获取
+            if (this.settingInfo && _.isEqual(this.settingInfo, settingInfo)) {
+                return;
             }
+
+            // 获取数据，并在成功后更新排序器和设置信息
             this.getList(() => {
-                this.sorter = filters
-                this.settingInfo = _.cloneDeep(settingInfo)
-            })
+                this.sorter = filters;
+                this.settingInfo = _.cloneDeep(settingInfo);
+            });
         });
-    }
+    };
+
+    // 改变每页数据数量
     // 改变每页数据数量
     onShowSizeChange = (pageSize) => {
-        const { settingInfo } = this.state
-        settingInfo.pageNo = 1
-        settingInfo.pageSize = pageSize
-        this.props.DataApprovalModel.changePage(settingInfo.pageNo, settingInfo.pageSize, this.state.name)
+        const { settingInfo } = this.state;
+        // 重置到第一页
+        settingInfo.pageNo = 1;
+        settingInfo.pageSize = pageSize;
+
+        // 更新分页数据
+        this.props.DataApprovalModel.changePage(settingInfo.pageNo, settingInfo.pageSize, this.state.name);
+
+        // 存储设置到 sessionStorage
         sessionStorage.setItem('settingInfo', JSON.stringify({
             name: this.state.name,
             pageNo: settingInfo.pageNo,
             pageSize: settingInfo.pageSize
-        }))
-        this.setState({
-            settingInfo
-        }, () => {
-            this.getList()
-        })
+        }));
+
+        this.setState({ settingInfo }, () => {
+            this.getList(); // 获取新列表
+        });
     }
+
     // 翻页
     changePaginationFn = (pageNumber) => {
-        const { settingInfo } = this.state
-        settingInfo.pageNo = pageNumber
-        this.props.DataApprovalModel.changePage(pageNumber, settingInfo.pageSize, this.state.name)
+        const { settingInfo } = this.state;
+
+        // 仅在有效的页码范围内进行分页
+        if (pageNumber < 1 || pageNumber > this.state.totalPage) {
+            return;
+        }
+
+        settingInfo.pageNo = pageNumber;
+
+        // 更新分页数据
+        this.props.DataApprovalModel.changePage(pageNumber, settingInfo.pageSize, this.state.name);
+
+        // 存储设置到 sessionStorage
         sessionStorage.setItem('settingInfo', JSON.stringify({
             name: this.state.name,
             pageNo: pageNumber,
             pageSize: settingInfo.pageSize
-        }))
-        this.setState({
-            settingInfo
-        }, () => {
-            this.getList()
-        })
+        }));
+
+        this.setState({ settingInfo }, () => {
+            this.getList(); // 获取新列表
+        });
     }
-    download = (record, index) => {
-        this.record = record
-        this.index = index
-        this.flag = 'download'
-        //如果数据已经下载过或者为免费
-        if (record.status === 'downloaded' || record.free) {
-            return this.downloadFile(index)
-        }
-        this.setState({
-            visible: true
-        })
-    }
+
     //下载文件
     downloadFile = (index) => {
         console.log('直接下载通过')
@@ -618,6 +634,7 @@ export default class TableList extends Component {
             pathname: id ? `/dashboard/dataDeposit/add/${id}/` : '/dashboard/dataDeposit/add'
         })
     }
+
     //筛选下拉列表
     dropDown = (setSelectedKeys, clearFilters, confirm, flag) => {
         return (
@@ -691,6 +708,35 @@ export default class TableList extends Component {
             },
         });
     }
+    // 确认删除记录
+    confirmDelete = (id) => {
+        Modal.confirm({
+            title: '确认删除',
+            content: '您确定要删除这条记录吗?',
+            okText: '确定',
+            cancelText: '取消',
+            onOk: () => this.deleteRecord(id),
+        });
+    };
+
+    // 删除文件
+    deleteRecord = (id) => {
+        // 发送删除请求的逻辑，例如：
+        request().delete(`/api/your-delete-endpoint/${id}`)
+            .then(res => {
+                if (res.status === 200) {
+                    message.success('删除成功');
+                    // 刷新数据或更新状态
+                    this.fetchData(); // 假设你有一个 fetchData 方法来重新获取数据
+                } else {
+                    message.error('删除失败');
+                }
+            })
+            .catch(err => {
+                message.error('请求出错');
+            });
+    };
+
     render() {
         let action = {
             //数据存证
@@ -711,38 +757,41 @@ export default class TableList extends Component {
                                         this.flag = 'download'
                                         this.downloadFile(index)
                                     }}>下载</span>
+                                <span
+                                    style={{ color: 'red', marginLeft: 8, cursor: 'pointer' }}
+                                    onClick={() => this.confirmDelete(record.id)}>删除</span>
                             </React.Fragment>
                         </div>
                         {
-//                                 <div className='action960'>
-//                                 <div id={`popover${record.id}${index}`}>
-//                                     <Popover
-//                                         placement="bottom"
-//                                         content={
-//                                             <ul className="hover-content">
-//                                                 <li onClick={() => this.detail(record)}>详情</li>
-//                                                 <li onClick={() => this.add(record.id)}>更新</li>
-//                                                 <li onClick={() => {
-//                                                     if (record.isLoading) return
-//                                                     this.record = record
-//                                                     this.flag = 'download'
-//                                                     this.downloadFile(index)
-//                                                 }}>
-//                                                     下载
-//                                         </li>
-//
-//                                             </ul>}
-//                                         trigger="hover"
-//                                         className='popver'
-//                                         getPopupContainer={() => document.getElementById(`popover${record.id}${index}`)}
-//                                         mouseLeaveDelay={0.3}
-//                                     >
-//                                         <span>操作</span> <img
-//                                             src={require('../../../../../images/dataDeposit/down.svg')}
-//                                             style={{ marginLeft: 4, marginTop: -2, transition: 'all 0.5s' }} />
-//                                     </Popover>
-//                                 </div>
-//                             </div>
+                            //                                 <div className='action960'>
+                            //                                 <div id={`popover${record.id}${index}`}>
+                            //                                     <Popover
+                            //                                         placement="bottom"
+                            //                                         content={
+                            //                                             <ul className="hover-content">
+                            //                                                 <li onClick={() => this.detail(record)}>详情</li>
+                            //                                                 <li onClick={() => this.add(record.id)}>更新</li>
+                            //                                                 <li onClick={() => {
+                            //                                                     if (record.isLoading) return
+                            //                                                     this.record = record
+                            //                                                     this.flag = 'download'
+                            //                                                     this.downloadFile(index)
+                            //                                                 }}>
+                            //                                                     下载
+                            //                                         </li>
+                            //
+                            //                                             </ul>}
+                            //                                         trigger="hover"
+                            //                                         className='popver'
+                            //                                         getPopupContainer={() => document.getElementById(`popover${record.id}${index}`)}
+                            //                                         mouseLeaveDelay={0.3}
+                            //                                     >
+                            //                                         <span>操作</span> <img
+                            //                                             src={require('../../../../../images/dataDeposit/down.svg')}
+                            //                                             style={{ marginLeft: 4, marginTop: -2, transition: 'all 0.5s' }} />
+                            //                                     </Popover>
+                            //                                 </div>
+                            //                             </div>
                         }
                     </div>
             },
@@ -754,6 +803,7 @@ export default class TableList extends Component {
                         <div className='action'>
                             <React.Fragment>
                                 <span onClick={() => this.detail(record)}>详情</span>
+
                                 {
                                     record.status === 'authorized' ?
                                         <span style={{ position: 'relative' }}>
@@ -803,13 +853,9 @@ export default class TableList extends Component {
                             <div className='action'>
                                 <React.Fragment>
                                     <span onClick={() => this.detail(record)}>详情</span>
-                                    {
-                                        record.status === 'declined' ?
-                                            <span onClick={() => this.apply(record)} style={{ color: '#1890ff' }}>购买</span>
-                                            :
-                                            <span className={record.status === 'applied' || record.isLoading ? 'loading' : ''} onClick={() => record.status !== 'applied' && !record.isLoading && this.download(record, index)}>下载</span>
+                                    <span className={record.status === 'applied' || record.isLoading ? 'loading' : ''} onClick={() => record.status !== 'applied' && !record.isLoading && this.download(record, index)}>下载</span>
 
-                                    }
+
                                 </React.Fragment>
                             </div>
                         </div>
@@ -823,6 +869,7 @@ export default class TableList extends Component {
                     <div className='action action960'>
                         <React.Fragment>
                             <span onClick={() => this.detail(record)}>详情</span>
+
                         </React.Fragment>
                     </div>
             },
@@ -1004,13 +1051,21 @@ export default class TableList extends Component {
                         <Link className='detail' to={{ pathname: '/dashboard/dataTransaction/allData/detail', state: this.record }}>查看详情 <img src={require('../../../../../images/dataTran/all/seeDetail.svg')} style={{ marginLeft: 4 }} /></Link>
                     </div>
                 </Modal>
+                <Modal
+                    visible={this.state.confirmDeleteVisible}
+                    title="确认删除"
+                    onOk={this.handleDelete}
+                    onCancel={() => this.setState({ confirmDeleteVisible: false })}
+                >
+                    <p>您确定要删除此记录吗？</p>
+                </Modal>
                 <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
                     {
                         this.state.name === 'dataDeposit' ?
                             <Button className="create-plus" onClick={() => this.add()}>
                                 <img src={require('../../../../../images/dataDeposit/plus.svg')} alt='' style={{ marginRight: 11 }} />
                                 新增数据
-                    </Button>
+                            </Button>
                             :
                             null
                     }
