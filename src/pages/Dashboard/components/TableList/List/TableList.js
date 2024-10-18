@@ -2,6 +2,8 @@
 import React, { Component } from 'react';
 import { Button, Table, Pagination, Checkbox, message, Modal, Spin } from 'antd'
 import { inject, observer } from "mobx-react/index";
+import { Popover } from 'antd'; // 如果你使用的是 Ant Design
+import { Progress } from 'antd'; // 根据实际使用的 UI 库调整导入路径
 import { Link } from 'react-router-dom';
 import Cookies from 'js-cookie'
 import _ from 'lodash'
@@ -62,7 +64,7 @@ export default class TableList extends Component {
     }
     detail = (record) => {
         this.props.history.push({
-            pathname: this.state.name === 'dataDeposit' ? '/dashboard/dataDeposit/detail' : `/dashboard/dataTransaction/${this.state.name}/detail`,
+            pathname: this.state.name === 'dataDeposit' ? '/dashboard/dataDeposit/detail' : this.state.name === 'transactionHistory' ? '/dashboard/dataTransaction/	transactionHistory/detail' : `/dashboard/dataTransaction/${this.state.name}/detail`,
             state: Object.assign(
                 { ...record },
                 {
@@ -156,6 +158,21 @@ export default class TableList extends Component {
         //         this.getList()
         //     })
         // }
+
+        this.setState({
+            searchValue: '',
+        })
+        if (this.state.settingInfo.filter.search !== '') {
+            const { settingInfo } = this.state
+            settingInfo.filter.search = ''
+            this.setState({
+                settingInfo
+            }, () => {
+                this.getList()
+            })
+        }
+
+
         this.setState({
             levelList: this.state.levelList,//密级
             buyerList: [{ text: '全部', value: 'all', checked: true }], //全部购买者
@@ -215,49 +232,63 @@ export default class TableList extends Component {
     }
     //获取数据
     getList = (callback) => {
-        const { settingInfo } = this.state
+        const { settingInfo } = this.state;
+        const { sort } = settingInfo;  // 获取排序参数
+
+        // 显示加载状态
         this.setState({
             loading: true
-        })
+        });
+
+        // 发送请求，包含排序信息
         request().post(this.state.url, settingInfo, {
             cancelToken: new CancelToken(function executor(c) {
                 cancel = c;
             })
         }).then(res => {
             if (_.get(res, 'status') === 200) {
-                callback && callback()
-                let data = res.data.transactions || res.data.datas
-                data.map(element => {
-                    element.isLoading = false
-                    element.progress = 0
-                })
-                this.state.name === 'dataApproval' && request().get(dataTransaction.reviewCountPending).then(res => {
-                    if (res && res.status === 200) {
-                        this.props.DataApprovalModel.getDataApprovalCount(res.data.review.pending)
-                    }
-                })
+                callback && callback();  // 如果有回调，执行回调
+
+                let data = res.data.transactions || res.data.datas;
+                data.forEach(element => {
+                    element.isLoading = false;
+                    element.progress = 0;
+                });
+
+                // 如果是 dataApproval 状态，则获取审核数量
+                if (this.state.name === 'dataApproval') {
+                    request().get(dataTransaction.reviewCountPending).then(res => {
+                        if (res && res.status === 200) {
+                            this.props.DataApprovalModel.getDataApprovalCount(res.data.review.pending);
+                        }
+                    });
+                }
+
+                // 更新表格数据、总页数和总记录数
                 this.setState({
                     list: data,
                     loading: false,
                     totalPage: res.data.totalPage,
-                    totalSize: res.data.totalSize,
-
-                })
-
+                    totalSize: res.data.totalSize
+                });
             } else if (_.get(res, 'status') === 401) {
-                this.props.history.push('/login')
+                this.props.history.push('/login');
             } else {
-                this.state.name === 'dataApproval' && this.props.DataApprovalModel.getDataApprovalCount(0)
-                res && message.error("列表查询失败")
+                // 列表查询失败的情况
+                this.state.name === 'dataApproval' && this.props.DataApprovalModel.getDataApprovalCount(0);
+                res && message.error("列表查询失败");
+
+                // 清空列表并更新状态
                 this.setState({
                     loading: false,
                     list: [],
                     totalPage: 0,
                     totalSize: 0
-                })
+                });
             }
-        })
-    }
+        });
+    };
+
     getUsers = (res) => {
         if (!['dataApproval', 'transactionHistory'].includes(this.state.name)) {
             return []
@@ -462,27 +493,6 @@ export default class TableList extends Component {
 
     // 改变每页数据数量
     // 改变每页数据数量
-    onShowSizeChange = (pageSize) => {
-        const { settingInfo } = this.state;
-        // 重置到第一页
-        settingInfo.pageNo = 1;
-        settingInfo.pageSize = pageSize;
-
-        // 更新分页数据
-        this.props.DataApprovalModel.changePage(settingInfo.pageNo, settingInfo.pageSize, this.state.name);
-
-        // 存储设置到 sessionStorage
-        sessionStorage.setItem('settingInfo', JSON.stringify({
-            name: this.state.name,
-            pageNo: settingInfo.pageNo,
-            pageSize: settingInfo.pageSize
-        }));
-
-        this.setState({ settingInfo }, () => {
-            this.getList(); // 获取新列表
-        });
-    }
-
     // 翻页
     changePaginationFn = (pageNumber) => {
         const { settingInfo } = this.state;
@@ -507,7 +517,8 @@ export default class TableList extends Component {
         this.setState({ settingInfo }, () => {
             this.getList(); // 获取新列表
         });
-    }
+    };
+
 
     //下载文件
     downloadFile = (index) => {
@@ -531,6 +542,15 @@ export default class TableList extends Component {
                     // this.setState({
                     //     list: data
                     // })
+
+                    console.log('p:%o', p.loaded, _.get(p.srcElement, 'response.size', 0), p)
+                    data[index] && (data[index].progress = p.loaded / 568367 * 100)
+                    this.setState({
+                        list: data
+                    })
+
+
+
                 },
                 cancelToken: new CancelToken(function executor(c) {
                     cancel = c;
@@ -610,6 +630,29 @@ export default class TableList extends Component {
                             //         message.error("下载失败")
                             //     }
                             // }
+
+                            if ('download' in document.createElement('a')) { // 非IE下载
+                                const elink = document.createElement('a')
+                                elink.download = fileName
+                                elink.style.display = 'none'
+                                elink.href = URL.createObjectURL(blob)
+                                if (typeof elink.download === 'undefined') {
+                                    elink.setAttribute('target', '_blank');
+                                }
+                                document.body.appendChild(elink)
+                                elink.click()
+                                URL.revokeObjectURL(elink.href) // 释放URL 对象
+                                document.body.removeChild(elink)
+                                message.success("下载成功")
+                            } else { // IE10+下载
+                                try {
+                                    navigator.msSaveBlob(blob, fileName)
+                                    message.success("下载成功")
+                                } catch (error) {
+                                    message.error("下载失败")
+                                }
+                            }
+
 
                             break;
                         default:
@@ -748,7 +791,7 @@ export default class TableList extends Component {
                         <div className='action'>
                             <React.Fragment>
                                 <span onClick={() => this.detail(record)}>详情</span>
-                                {/* <span onClick={() => this.add(record.id)}>更新</span> */}
+                                {<span onClick={() => this.add(record.id)}>更新</span>}
                                 <span
                                     className={record.isLoading ? 'loading' : ''}
                                     onClick={() => {
@@ -762,37 +805,68 @@ export default class TableList extends Component {
                                     onClick={() => this.confirmDelete(record.id)}>删除</span>
                             </React.Fragment>
                         </div>
-                        {
-                            //                                 <div className='action960'>
-                            //                                 <div id={`popover${record.id}${index}`}>
-                            //                                     <Popover
-                            //                                         placement="bottom"
-                            //                                         content={
-                            //                                             <ul className="hover-content">
-                            //                                                 <li onClick={() => this.detail(record)}>详情</li>
-                            //                                                 <li onClick={() => this.add(record.id)}>更新</li>
-                            //                                                 <li onClick={() => {
-                            //                                                     if (record.isLoading) return
-                            //                                                     this.record = record
-                            //                                                     this.flag = 'download'
-                            //                                                     this.downloadFile(index)
-                            //                                                 }}>
-                            //                                                     下载
-                            //                                         </li>
-                            //
-                            //                                             </ul>}
-                            //                                         trigger="hover"
-                            //                                         className='popver'
-                            //                                         getPopupContainer={() => document.getElementById(`popover${record.id}${index}`)}
-                            //                                         mouseLeaveDelay={0.3}
-                            //                                     >
-                            //                                         <span>操作</span> <img
-                            //                                             src={require('../../../../../images/dataDeposit/down.svg')}
-                            //                                             style={{ marginLeft: 4, marginTop: -2, transition: 'all 0.5s' }} />
-                            //                                     </Popover>
-                            //                                 </div>
-                            //                             </div>
-                        }
+                        {/*
+	                            //                                 <div className='action960'>
+	                            //                                 <div id={`popover${record.id}${index}`}>
+	                            //                                     <Popover
+	                            //                                         placement="bottom"
+	                            //                                         content={
+	                            //                                             <ul className="hover-content">
+	                            //                                                 <li onClick={() => this.detail(record)}>详情</li>
+	                            //                                                 <li onClick={() => this.add(record.id)}>更新</li>
+	                            //                                                 <li onClick={() => {
+	                            //                                                     if (record.isLoading) return
+	                            //                                                     this.record = record
+	                            //                                                     this.flag = 'download'
+	                            //                                                     this.downloadFile(index)
+	                            //                                                 }}>
+	                            //                                                     下载
+	                            //                                         </li>
+	                            //
+	                            //                                             </ul>}
+	                            //                                         trigger="hover"
+	                            //                                         className='popver'
+	                            //                                         getPopupContainer={() => document.getElementById(`popover${record.id}${index}`)}
+	                            //                                         mouseLeaveDelay={0.3}
+	                            //                                     >
+	                            //                                         <span>操作</span> <img
+	                            //                                             src={require('../../../../../images/dataDeposit/down.svg')}
+	                            //                                             style={{ marginLeft: 4, marginTop: -2, transition: 'all 0.5s' }} />
+	                            //                                     </Popover>
+	                            //                                 </div>
+	                            //                             </div>
+	                            
+
+	                               	                      <div className='action960'>
+	                                                            <div id={`popover${record.id}${index}`}>
+	                                                                <Popover
+	                                                                    placement="bottom"
+	                                                                    content={
+	                                                                        <ul className="hover-content">
+	                                                                            <li onClick={() => this.detail(record)}>详情</li>
+	                                                                            <li onClick={() => this.add(record.id)}>更新</li>
+	                                                                            <li onClick={() => {
+	                                                                                if (record.isLoading) return
+	                                                                                this.record = record
+	                                                                                this.flag = 'download'
+	                                                                                this.downloadFile(index)
+	                                                                            }}>
+	                                                                                下载
+	                                                                    </li>
+	                            
+	                                                                        </ul>}
+	                                                                    trigger="hover"
+	                                                                    className='popver'
+	                                                                    getPopupContainer={() => document.getElementById(`popover${record.id}${index}`)}
+	                                                                    mouseLeaveDelay={0.3}
+	                                                                >
+	                                                                    <span>操作</span> <img
+	                                                                        src={require('../../../../../images/dataDeposit/down.svg')}
+	                                                                        style={{ marginLeft: 4, marginTop: -2, transition: 'all 0.5s' }} />
+	                                                                </Popover>
+	                                                            </div>
+	                                                        </div>
+                        */}
                     </div>
             },
             'allData': {
@@ -812,6 +886,10 @@ export default class TableList extends Component {
                                                 // record.isLoading && <div className='progressBg'>
                                                 //     <Progress percent={record.progress} showInfo={false} />
                                                 // </div>
+
+                                                record.isLoading && <div className='progressBg'>
+                                                    <Progress percent={record.progress} showInfo={false} />
+                                                </div>
                                             }
                                         </span>
                                         :
@@ -841,6 +919,8 @@ export default class TableList extends Component {
                             //          </Popover>
                             //      </div>
                             //  </div>
+
+
                         }
                     </div>
             },
@@ -928,6 +1008,35 @@ export default class TableList extends Component {
             //     },
             //     render: (text) => <span>{text}</span>
             // },
+
+            {
+                title: '类型',
+                dataIndex: 'type',
+                key: 'type',
+                filterIcon: filtered => <span />,
+                filterDropdown: ({
+                    setSelectedKeys, selectedKeys, confirm, clearFilters,
+                }) => {
+                    this.hahahha = selectedKeys
+                    return (
+                        this.dropDown(setSelectedKeys, clearFilters, confirm, 'typeList')
+                    )
+                }
+            },
+            {
+                title: '密级',
+                dataIndex: 'confidentialLevel',
+                key: 'confidentialLevel',
+                filterIcon: filtered => <span />,
+                filterDropdown: ({
+                    setSelectedKeys, selectedKeys, confirm, clearFilters,
+                }) => {
+                    return (this.dropDown(setSelectedKeys, clearFilters, confirm, 'levelList'))
+                },
+                render: (text) => <span>{text}</span>
+            },
+
+
             this.state.name === 'purchasedData' || this.state.name === 'allData' ? {
                 title: "存证用户",
                 dataIndex: 'owner',
@@ -944,6 +1053,15 @@ export default class TableList extends Component {
                 //     this.selectedKeys = setSelectedKeys
                 //     return (this.dropDown(setSelectedKeys, clearFilters, confirm, 'buyerList'))
                 // },
+
+                filterIcon: filtered => <span />,
+                filterDropdown: ({
+                    setSelectedKeys, selectedKeys, confirm, clearFilters,
+                }) => {
+                    this.selectedKeys = setSelectedKeys
+                    return (this.dropDown(setSelectedKeys, clearFilters, confirm, 'buyerList'))
+                },
+
             } : this.state.name === 'dataApproval' ? {
                 title: "申请用户",
                 dataIndex: 'applicant',
@@ -1104,56 +1222,55 @@ export default class TableList extends Component {
                         />
 
                         <div className="pagination-box">
-                            {/*总数*/}
+                            {/* 总数 */}
                             {
-                                this.state.totalSize && this.state.totalSize > 0 ? <div className='ant-pagination-total-text'>共{this.state.totalSize}条数据</div> : null
+                                this.state.totalSize && this.state.totalSize > 0 ? (
+                                    <div className='ant-pagination-total-text'>共 {this.state.totalSize} 条数据</div>
+                                ) : null
                             }
-                            {   //左翻页
-                                this.state.totalPage && this.state.totalPage > 10 && this.state.settingInfo.pageNo - 10 > 0 ?
-                                    < div id='firstPage' title='向前 10 页'>
-                                        <span className="firstPage" onClick={() => {
-                                            this.changePaginationFn(this.state.settingInfo.pageNo - 10)
-                                        }}>
-                                            <div className='firstPageBg' />
-                                        </span>
-                                    </div>
-                                    : null
-                            }
+
+                            {/* 上一页按钮 */}
                             {
-                                this.state.totalSize && this.state.totalSize > 20 ?
+                                this.state.settingInfo.pageNo > 1 && (
+                                    <button
+                                        className="prevPage"
+                                        onClick={() => this.changePaginationFn(this.state.settingInfo.pageNo - 1)}
+                                        style={{ marginRight: 10 }}
+                                    >
+                                        上一页
+                                    </button>
+                                )
+                            }
+
+                            {/* 分页组件 */}
+                            {
+                                this.state.totalSize && this.state.totalSize > 20 ? (
                                     <Pagination
                                         current={this.state.settingInfo.pageNo}
                                         pageSize={this.state.settingInfo.pageSize}
                                         total={this.state.totalSize}
-                                        onChange={this.changePaginationFn} />
-                                    : null
+                                        onChange={this.changePaginationFn}
+                                        showQuickJumper
+                                        showSizeChanger={false}
+                                    />
+                                ) : null
+                            }
 
-                            }
-                            { //后翻页
-                                this.state.totalPage && this.state.settingInfo.pageNo + 10 <= this.state.totalPage ?
-                                    <span className="lastPage" title='向后 10 页' style={{ marginLeft: 9.5 }} id='lastPage' onClick={() => {
-                                        this.changePaginationFn(this.state.settingInfo.pageNo + 10)
-                                    }}>
-                                        <div className='lastPageBg' />
-                                    </span>
-                                    : null
-                            }
+                            {/* 下一页按钮 */}
                             {
-                                // this.state.totalSize && this.state.totalSize > 0 ?
-                                //     <Select defaultValue={this.state.settingInfo.pageSize} style={{ marginLeft: 18.6 }} dropdownClassName='pageOptions' onChange={(value) => this.onShowSizeChange(value)}>
-                                //         {
-                                //             [1, 5, 10, 20, 50].map(element => {
-                                //                 return (
-                                //                     <Option value={element} key={element}>{element} 条/页</Option>
-                                //                 )
-                                //             })
-                                //         }
-                                //     </Select>
-                                //     :
-                                //     null
+                                this.state.settingInfo.pageNo < this.state.totalPage && (
+                                    <button
+                                        className="nextPage"
+                                        onClick={() => this.changePaginationFn(this.state.settingInfo.pageNo + 1)}
+                                        style={{ marginLeft: 10 }}
+                                    >
+                                        下一页
+                                    </button>
+                                )
                             }
-
                         </div>
+
+
 
                     </Spin>
                 </div>

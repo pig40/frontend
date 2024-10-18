@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from "axios";
-import { Form, Input, Select,Upload, message, Spin, Button } from 'antd'
+import { Form, Input, Select, Upload, message, Spin, Button } from 'antd'
 import _ from 'lodash'
 
 import FirstButton from '../../../../../../component/button/CustomeButtonSecond'

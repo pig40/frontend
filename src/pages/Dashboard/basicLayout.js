@@ -76,6 +76,10 @@ const AllData = Loadable({
     loader: () => import('./components/DataTransaction/AllData/AllData'),
     loading: MyLoadingComponent
 })
+const Recharge = Loadable({//积分充值
+    loader: () => import('./components/Recharge/Recharge'),
+    loading: MyLoadingComponent
+})
 
 const PersonalCenter = Loadable({
     loader: () => import('./components/PersonalCenter/PersonalCenter'),
@@ -175,6 +179,7 @@ class Dashboard extends React.Component {
                 { key: 'dataDeposit', name: '数据存证' },
                 { key: 'dataTransaction', name: '数据交易' },
                 { key: 'tort', name: '侵权存证' },
+                { key: 'recharge', name: '积分充值' },
                 { key: 'personalCenter', name: '个人中心' },
             ]
             if (res && res.status === 200) {
@@ -197,6 +202,7 @@ class Dashboard extends React.Component {
             }
         })
     }
+
     routerList = (isFilter) => {
         let routerList = [
             { pathname: "/dashboard/overview", component: Overview, key: 'overview' },
@@ -219,6 +225,7 @@ class Dashboard extends React.Component {
 
             { pathname: "/dashboard/infringementDeposit/infringementDetail", component: InfringementDetail, key: 'tort' },
 
+            { pathname: "/dashboard/recharge", component: Recharge, key: 'recharge' },
             { pathname: "/dashboard/personalCenter", component: PersonalCenter, key: 'personalCenter' },
 
         ]
@@ -256,19 +263,21 @@ class Dashboard extends React.Component {
                     // { name: '数据审批', path: '/dashboard/dataTransaction/dataApproval' },
                 ]
             },
+
             {
-                name: "侵权存证",
-                key: 'tort',
-                path: '/dashboard/infringementDeposit',
-                src: props.location.pathname.includes('/dashboard/infringementDeposit') ? require('../../images/slider/infringementDeposit.svg') : require('../../images/slider/unInfringementDeposit.svg'),
+                name: "积分充值",
+                path: '/dashboard/recharge',
+                key: 'recharge',
+                src: props.location.pathname.includes('/dashboard/recharge') ? require('../../images/slider/infringementDeposit.svg') : require('../../images/slider/unInfringementDeposit.svg'),
             },
             {
+
                 name: "个人中心",
                 key: 'personalCenter',
                 path: '/dashboard/personalCenter',
                 src: props.location.pathname.includes('/dashboard/personalCenter') ? require('../../images/slider/person.svg') : require('../../images/slider/unperson.svg'),
             },
-            
+
         ]
         return menu.filter(element => { return this.props.DataApprovalModel.getAuth().includes(element.key) })
     }
@@ -353,6 +362,7 @@ class Dashboard extends React.Component {
             '/dashboard/dataTransaction/dataApproval',
             '/dashboard/dataDeposit',
             '/dashboard/infringementDeposit',
+            '/dashboard/recharge',
             '/dashboard/personalCenter'
 
         ]
@@ -697,6 +707,7 @@ class Dashboard extends React.Component {
             '/dashboard/infringementDeposit/addInfringement': '新增存证',
             '/dashboard/infringementDeposit/infringementDetail': '存证详情',
             '/dashboard/infringementDeposit': "侵权存证",
+            '/dashboard/recharge': '积分充值',
             '/dashboard/personalCenter': '个人中心',
             '/dashboard/dataTransaction/allData/detail': '数据详情',
             "/dashboard/dataTransaction/purchasedData/detail": '数据详情',
@@ -712,7 +723,7 @@ class Dashboard extends React.Component {
                         className="slider"
                     >
                         <NavLink className="logo" to={{ pathname: this.routerList(true).length ? this.routerList(true)[0].pathname : '/dashboard' }}>
-                            <img src={require('../../images/logo.svg')} alt="" />          
+                            <img src={require('../../images/logo.svg')} alt="" />
                         </NavLink>
                         <h3 className="dashboard_title">征信数据共享交易平台</h3>
                         <Menu
@@ -751,6 +762,7 @@ class Dashboard extends React.Component {
                                                 }
                                             </SubMenu>
                                             :
+
                                             <Menu.Item key={element.path}>
 
                                                 <p className="fill-in"
@@ -805,11 +817,13 @@ class Dashboard extends React.Component {
                                                     path={element.pathname}
                                                     exact
                                                     key={element.pathname}
-                                                    render={(props) => (
-                                                        this.props.DataApprovalModel.getAuth().includes(element.key) ? (
+                                                    render={(props) => {
+                                                        const hasAuth = this.props.DataApprovalModel.getAuth().includes(element.key);
+                                                        console.log(`Element: ${element.key}, Has Auth: ${hasAuth}`);
+                                                        return hasAuth ? (
                                                             React.createElement(element.component, Object.assign(props, { openKeys: this.state.openKeys }))
-                                                        ) : (<Redirect to={`/dashboard/${element.key}/forbidden`} />)
-                                                    )}
+                                                        ) : (<Redirect to={`/dashboard/${element.key}/forbidden`} />);
+                                                    }}
                                                 />
                                             )
                                         })}

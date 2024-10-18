@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './PersonalCenter.less';
-import { Divider, Spin, Button, Input, message, Radio } from 'antd'; 
+import { Divider, Spin, Button, Input, message, Radio } from 'antd';
 import request from '../../../../Utils/fecth';
 import apiConfig from "../../../../Utils/apiConfig";
 import Cookies from "js-cookie";
@@ -47,7 +47,7 @@ export default class PersonalCenter extends Component {
             try {
                 let userInfo = JSON.parse(Cookies.get("userInfo"))
                 userName = userInfo.name;
-            } catch (e) {}
+            } catch (e) { }
         }
         const requestUrl = `${evidence.overview}?userName=${encodeURIComponent(userName)}`;
         request().get(requestUrl).then((res) => {
@@ -213,7 +213,7 @@ export default class PersonalCenter extends Component {
                                     <code>{dataInfo[item.dataId] || '暂无'}</code>
                                 )}
                             </li>
-                        ))} 
+                        ))}
                     </ul>
                 </div>
                 <div className="personalChildren">
@@ -233,7 +233,7 @@ export default class PersonalCenter extends Component {
                                     <code>{dataInfo[item.dataId] || '暂无'}</code>
                                 )}
                             </li>
-                        ))} 
+                        ))}
                     </ul>
                 </div>
                 <div className="personalChildren">
@@ -253,7 +253,7 @@ export default class PersonalCenter extends Component {
                                     <code>{dataInfo[item.dataId] || '暂无'}</code>
                                 )}
                             </li>
-                        ))} 
+                        ))}
                     </ul>
                 </div>
                 <Button className="button" type="primary" onClick={isEditing ? this.handleSave : this.handleEdit}>

@@ -35,7 +35,7 @@ export default class Overview extends Component {
             }
         }
         // 构建请求 URL，添加 userName 参数
-	const requestUrl = `${evidence.overview}?userName=${encodeURIComponent(userName)}`;
+        const requestUrl = `${evidence.overview}?userName=${encodeURIComponent(userName)}`;
 
         request().get(requestUrl).then((res) => {
             if (res) {
@@ -160,17 +160,17 @@ export default class Overview extends Component {
                 tit: '交易历史',
                 link: "/dashboard/dataTransaction/transactionHistory"
             },
-            // {
-            //     id: 'review',
-            //     tit: '数据审批',
-            //     pending: _.get(dataInfo, 'review.pending'),
-            //     link: "/dashboard/dataTransaction/dataApproval"
-            // },
-            // {
-            //     id: 'own',
-            //     tit: '数据存证',
-            //     link: "/dashboard/dataDeposit"
-            // },
+            //{
+            //   id: 'review',
+            //    tit: '积分重置',
+            //    pending: _.get(dataInfo, 'review.pending'),
+            //    link: "/dashboard/dataTransaction/dataApproval"
+            //},
+            {
+                id: 'own',
+                tit: '数据存证',
+                link: "/dashboard/dataDeposit"
+            },
             // {
             //     id: 'tort',
             //     tit: '侵权存证',
@@ -194,7 +194,7 @@ export default class Overview extends Component {
                             <div>
                                 <h3><img src={require('../../../../images/dashboard/overviewRole.svg')}
                                     alt="" /><span>角色</span></h3>
-							 <h2>     客户</h2>
+                                <h2>     客户</h2>
                             </div>
                         </div>
                         <div className='info'>
@@ -204,10 +204,10 @@ export default class Overview extends Component {
                         </div>
                         <div className='permission'>
                             <div className='upload'>
-                                { <h3 ><span>上传权限</span><code>{this.getUploadPermissions("uploadPermissions")}</code></h3> }
+                                {<h3 ><span>上传权限</span><code>{this.getUploadPermissions("uploadPermissions")}</code></h3>}
                             </div>
                             <div className='upload' style={{ marginTop: 12 }}>
-                                { <h3><span>访问权限</span><code>{this.getUploadPermissions("accessPermissions")}</code></h3> }
+                                {<h3><span>访问权限</span><code>{this.getUploadPermissions("accessPermissions")}</code></h3>}
                             </div>
                         </div>
                     </div>
