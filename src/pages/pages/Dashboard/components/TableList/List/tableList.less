@@ -1,0 +1,845 @@
+.ant-table-filter-dropdown {
+    min-width: 168px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+
+    .ant-dropdown-menu {
+        padding: 10px 16px 0px 16px;
+        border-radius: 0px;
+        max-height: 213px;
+        overflow: auto;
+        background-clip: border-box;
+
+        .ant-dropdown-menu-item,
+        .ant-dropdown-menu-submenu-title {
+            padding: 0px;
+            margin-top: 23px;
+            color: #112e54;
+            line-height: normal;
+        }
+
+        .ant-dropdown-menu-item {
+            &:last-child {
+                margin-bottom: 26px;
+            }
+        }
+
+    }
+
+    .ant-dropdown-menu-item-selected,
+    .ant-dropdown-menu-submenu-title-selected,
+    .ant-dropdown-menu-item-selected>a,
+    .ant-dropdown-menu-submenu-title-selected>a {
+        background-color: transparent;
+    }
+
+    .ant-dropdown-menu-item:hover,
+    .ant-dropdown-menu-submenu-title:hover {
+        background-color: transparent;
+    }
+
+    .ant-checkbox-wrapper+span,
+    .ant-checkbox+span {
+        padding-left: 10px;
+    }
+
+    .ant-table-filter-dropdown-btns {
+        padding: 16px 0px;
+        margin: 0 16px;
+        overflow: hidden;
+        border-top: 1px solid #ebf0f7;
+    }
+
+    .confirm {
+        display: inline-block;
+        width: 64px;
+        height: 32px;
+        border-radius: 4px;
+        background-color: #1890ff;
+        line-height: 32px;
+        text-align: center;
+        font-size: 14px;
+        border: none;
+        color: #ffffff;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba(24, 144, 255, 0.8);
+        }
+
+        &:active {
+            background-color: #0f6abe;
+        }
+    }
+
+    .clear {
+        display: inline-block;
+        width: 64px;
+        border: none;
+        margin-right: 8px;
+        height: 32px;
+        border-radius: 4px;
+        background-color: rgba(61, 112, 177, 0.05);
+        line-height: 32px;
+        text-align: center;
+        font-size: 14px;
+        color: rgba(17, 46, 84, 0.6);
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgba(24, 144, 255, 0.12);
+            color: #1890ff;
+        }
+
+        &:active {
+            background-color: rgba(24, 144, 255, 1);
+            color: #ffffff;
+        }
+    }
+}
+
+.tableList {
+    .ant-pagination-total-text {
+        font-family: PingFang-SC;
+        font-size: 12px;
+        font-weight: 500;
+        margin-right: 9.5px;
+        height: 28px;
+        line-height: 28px;
+        color: #112e54;
+    }
+
+    .create-plus {
+        width: 120px;
+        text-align: center;
+        padding: 0;
+        height: 38px;
+        margin-bottom: 24px;
+        line-height: 38px;
+        border: none;
+        font-family: PingFang-SC;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: normal;
+        color: #ffffff;
+        border-radius: 4px;
+        background-color: #1890ff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* 添加阴影 */
+
+        &:hover {
+            background-color: rgba(24, 144, 255, 0.8);
+            color: #fff;
+        }
+
+    }
+
+    .search-box {
+        width: 328px;
+        height: 36px;
+        margin-bottom: 24px;
+        border-radius: 8px; // 增加圆角
+        display: flex;
+        align-items: center;
+        border: solid 1px rgba(61, 112, 177, 0.2); // 更浅的边框颜色
+        background-color: #ffffff; // 纯白背景
+
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); // 添加阴影
+
+        .search-input {
+            width: 288px;
+            height: 36px; // 与搜索框的高度一致
+            border: none; // 移除边框
+            padding-left: 16px; // 增加内边距
+            color: #000;
+            font-size: 14px;
+            font-weight: 500;
+
+            &:focus {
+                outline: none; // 去掉输入框聚焦时的默认样式
+                box-shadow: 0 0 4px rgba(24, 144, 255, 0.5); // 聚焦时添加阴影
+            }
+        }
+
+        input::-webkit-input-placeholder {
+            color: rgba(17, 46, 84, 0.3);
+            font-size: 14px;
+        }
+
+        input::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: rgba(17, 46, 84, 0.3);
+            font-size: 14px;
+        }
+
+        input:-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: rgba(17, 46, 84, 0.3);
+            font-size: 14px;
+        }
+
+        input:-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: rgba(17, 46, 84, 0.3);
+            font-size: 14px;
+        }
+
+        .search-btn {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            width: 40px; // 设置按钮宽度
+            height: 36px; // 与搜索框的高度一致
+            background-color: #1890ff; // 按钮背景色
+            border: none; // 去掉按钮边框
+            border-radius: 0 8px 8px 0; // 右边圆角
+
+            color: #ffffff; // 按钮字体颜色
+            font-weight: 500;
+
+            &:hover {
+                background-color: rgba(24, 144, 255, 0.8); // 悬停时效果
+            }
+        }
+    }
+
+    .firstPage,
+    .lastPage {
+        cursor: pointer;
+        color: rgba(0, 0, 0, 0.65);
+        list-style: none;
+        min-width: 33px;
+        height: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
+        border: 1px solid rgba(17, 46, 84, 0.05);
+        padding: 0 8px;
+
+        img {
+            height: 10px;
+        }
+    }
+
+    .ant-pagination {
+        display: inline-block;
+    }
+
+    .firstPage {
+        margin-right: 8px;
+
+        .firstPageBg {
+            background: url('../../../../../images/dashboard/pageLeftNor.svg');
+            width: 13.75px;
+            height: 10px;
+            background-size: cover;
+        }
+
+        &:hover {
+            border: 1px solid #1890ff;
+
+            .firstPageBg {
+                background: url('../../../../../images/dashboard/pageLeftHover.svg');
+                background-size: cover;
+            }
+        }
+    }
+
+    .lastPage {
+        .lastPageBg {
+            background: url('../../../../../images/dashboard/pageRightNor.svg');
+            width: 13.75px;
+            height: 10px;
+            background-size: cover;
+        }
+
+        &:hover {
+            border: 1px solid #1890ff;
+
+            .lastPageBg {
+                background: url('../../../../../images/dashboard/pageRightHover.svg');
+                background-size: cover;
+            }
+        }
+    }
+
+    .progressBg {
+        position: absolute;
+        top: 12px;
+        right: 0px;
+        width: 24px;
+
+        .ant-progress-bg {
+            height: 2px !important;
+        }
+    }
+
+    .list-wrap {
+        position: relative;
+
+        .ant-spin-nested-loading>div>.ant-spin {
+            max-height: 100%;
+        }
+
+        .ant-select-focused .ant-select-selection,
+        .ant-select-selection:focus,
+        .ant-select-selection:active {
+            border: 1px solid #1890ff !important;
+            outline: 0;
+            box-shadow: none;
+        }
+
+        .ant-select-selection:hover {
+            border: 1px solid #1890ff !important;
+
+        }
+
+        .pagination-box {
+            margin-top: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+
+        .data-deposit-empty {
+            padding: 125px 0px 121px 0px;
+            display: flex;
+            flex-direction: column;
+
+            span {
+                font-size: 16px;
+                line-height: normal;
+                color: #1890ff;
+                font-family: PingFang-SC;
+                display: inline-block;
+                margin-top: 20px;
+            }
+
+            img {
+                width: 329px;
+                height: 290px;
+                margin: 0 auto;
+            }
+        }
+
+        .ant-pagination-prev,
+        .ant-pagination-next,
+        .ant-pagination-jump-prev,
+        .ant-pagination-jump-next {
+            font-family: PingFang-SC;
+            border-radius: 0;
+            min-width: 33px;
+            height: 28px;
+            line-height: 28px;
+        }
+
+        .ant-pagination-prev .ant-pagination-item-link,
+        .ant-pagination-next .ant-pagination-item-link {
+            border: 1px solid rgba(17, 46, 84, 0.05);
+            border-radius: 0px;
+            font-size: 12px;
+            color: rgba(0, 0, 0, 0.65);
+
+            &:hover {
+                border: 1px solid #1890ff;
+                color: #1890ff;
+            }
+        }
+
+        //不可点击
+        .ant-pagination-disabled a,
+        .ant-pagination-disabled:hover a,
+        .ant-pagination-disabled:focus a,
+        .ant-pagination-disabled .ant-pagination-item-link,
+        .ant-pagination-disabled:hover .ant-pagination-item-link,
+        .ant-pagination-disabled:focus .ant-pagination-item-link {
+            border-color: rgba(17, 46, 84, 0.05);
+            color: rgba(0, 0, 0, 0.25);
+        }
+
+        .ant-pagination-prev,
+        .ant-pagination-jump-prev,
+        .ant-pagination-jump-next {
+            margin-right: 9.5px;
+        }
+
+        .ant-pagination-item:focus,
+        .ant-pagination-item:hover {
+            border: 1px solid #1890ff !important;
+            box-sizing: border-box
+        }
+
+        .ant-pagination-item {
+            border-radius: 0;
+            min-width: 33px;
+            height: 28px;
+            line-height: 26px;
+            border: 1px solid rgba(17, 46, 84, 0.05);
+            background-color: #fff;
+            margin-right: 9.5px;
+            font-family: PingFang-SC;
+        }
+
+        .ant-pagination-item-active {
+            border: 1px solid #1890ff;
+            font-weight: 500;
+            background-color: #1890ff;
+
+        }
+
+        .ant-pagination-item-active a {
+            color: #fff;
+        }
+
+        .ant-pagination-item-active:focus a,
+        .ant-pagination-item-active:hover a {
+            color: #fff;
+        }
+
+        .ant-pagination-jump-prev .ant-pagination-item-container,
+        .ant-pagination-jump-next .ant-pagination-item-container {
+            position: relative;
+        }
+
+        .ant-pagination-options {
+            margin-left: 18.6px;
+        }
+
+        .ant-select {
+            font-family: PingFang-SC;
+            font-size: 12px;
+            font-weight: 500;
+            color: #112e54;
+        }
+
+        .ant-pagination-options-size-changer.ant-select {
+            margin-right: 0px;
+        }
+
+        .ant-select-selection--single {
+            height: 28px;
+        }
+
+        .ant-select-arrow {
+            color: rgba(17, 46, 84, 0.6);
+        }
+
+        .ant-select-selection {
+            border-radius: 0px;
+            border: 1px solid rgba(17, 46, 84, 0.05);
+
+            .ant-select-selection__rendered {
+                margin-left: 12px;
+                margin-right: 12px;
+                line-height: 26px;
+
+                .ant-select-selection-selected-value {
+                    padding-right: 25px;
+                }
+            }
+        }
+
+        margin-bottom: 24px;
+        background: #fff;
+        border-radius: 12px;
+        border: solid 1px #eff0f9;
+        padding: 24px 16px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* 添加阴影 */
+        transition: box-shadow 0.3s ease,
+        transform 0.4s ease;
+
+        /* 添加过渡效果 */
+        &:hover {
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+            /* 鼠标悬停时的阴影效果 */
+            transform: translateY(-4px);
+            /* 鼠标悬停时的轻微抬升效果 */
+        }
+
+        .ant-table-wrapper {
+            .ant-table-content {
+                .ant-table-thead {
+
+                    th {
+                        height: 48px;
+                        padding: 0 10px;
+                        background: #f5f6fc;
+                        border-bottom: none;
+                        font-family: PingFang-SC;
+                        font-size: 14px;
+                        font-weight: 500;
+                        white-space: nowrap;
+                        color: rgba(17, 46, 85, 0.6);
+
+                        .ant-table-column-sorter {
+                            position: relative;
+                            color: #112e54;
+                            display: inline-block;
+                            margin-top: -5px;
+                            margin-left: -3px;
+                            vertical-align: middle;
+                            text-align: center;
+                            -webkit-transition: all 0.3s;
+                            -o-transition: all 0.3s;
+                            transition: all 0.3s;
+
+                            i {
+                                color: #6c7e96;
+                            }
+                        }
+
+                        .ant-table-column-sorter-down {
+                            margin-top: 1px;
+                        }
+                    }
+                }
+
+                .ant-table-tbody {
+                    font-weight: 500;
+                    font-size: 12px;
+                    color: #112e54;
+
+                    tr {
+                        td {
+                            height: 48px;
+                            padding: 0 10px;
+                            border-bottom: 1px solid #eff0f9;
+                        }
+
+                        &:hover {
+                            td {
+                                background: rgba(245, 246, 252, 0.6);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .ant-table-placeholder {
+                border-bottom: none;
+                padding: 0px;
+            }
+        }
+
+        .title {
+            max-width: 182px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        .organization {
+            max-width: 108px;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+    }
+
+    .ant-table-thead>tr>th .ant-table-column-sorter .ant-table-column-sorter-inner .ant-table-column-sorter-up.on,
+    .ant-table-thead>tr>th .ant-table-column-sorter .ant-table-column-sorter-inner .ant-table-column-sorter-down.on {
+        color: #1890ff !important;
+    }
+
+    .ant-table-thead>tr>th .ant-table-column-sorter .ant-table-column-sorter-inner .ant-table-column-sorter-up.on,
+    .ant-table-thead>tr>th .ant-table-column-sorter .ant-table-column-sorter-inner .ant-table-column-sorter-down.on {
+        color: #1890ff !important;
+    }
+
+    .ant-table-thead>tr>th .anticon-filter,
+    .ant-table-thead>tr>th .ant-table-filter-icon {
+        background: url('../../../../../images/dataDeposit/filter.svg') !important;
+        width: 9px !important;
+        height: 12px !important;
+        background-size: cover !important;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 8px;
+        position: static;
+
+        &:hover {
+            background: url('../../../../../images/dataDeposit/filters.svg') !important;
+        }
+
+        .buyer .anticon-filter {
+            display: none; // 隐藏与购买用户相关的图标
+        }
+    }
+
+    .ant-table-thead>tr>th .anticon-filter,
+    .ant-table-thead>tr>th .ant-table-filter-open {
+        background: url('../../../../../images/dataDeposit/filters.svg') !important;
+        width: 9px !important;
+        height: 12px !important;
+        background-size: cover !important
+    }
+
+    .ant-table-thead>tr>th.ant-table-column-has-actions.ant-table-column-has-filters {
+        padding-right: 10px !important;
+    }
+
+    .action {
+        display: block;
+
+        span {
+            color: #1890ff;
+            font-weight: 500;
+            font-size: 12px;
+            padding-right: 20px;
+            cursor: pointer;
+
+            &:last-child {
+                padding-right: 0px;
+            }
+        }
+
+        .loading {
+            color: rgba(17, 46, 84, 0.3);
+            cursor: not-allowed;
+        }
+
+
+    }
+}
+
+//更新
+.modal {
+
+    .ant-modal-content {
+        box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.1);
+        border-radius: 12px; // 你可以在这里添加圆角
+
+        .close {
+            position: absolute;
+            top: 16px;
+            right: 38px;
+            cursor: pointer;
+        }
+
+        .ant-modal-header {
+            background-color: #f5f6fc;
+            padding: 16px 38px;
+            border-bottom: none;
+
+            .ant-modal-title {
+                font-family: PingFang-SC;
+                font-size: 18px;
+                font-weight: 500;
+                color: #112e54;
+            }
+        }
+
+        .ant-modal-body {
+            padding: 24px 38px 36px 38px;
+
+            .row {
+                display: flex;
+                margin-top: 12px;
+                align-items: flex-start;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: normal;
+
+                .title {
+                    width: 42px;
+                    color: rgba(17, 46, 84, 0.6);
+                }
+
+                .value {
+                    max-width: calc(100% - 42px);
+                    color: #112e54;
+                    ;
+                    max-height: 40px;
+                    overflow: hidden;
+                }
+            }
+
+            .seeDetail {
+                margin-top: 12px;
+                font-size: 12px;
+                margin-left: 42px;
+
+                img {
+                    margin-top: -2px;
+                }
+
+                .detail {
+                    font-weight: 500;
+                    line-height: normal;
+                    color: #1890ff;
+                }
+            }
+        }
+
+        .ant-modal-footer {
+            border-top: 1px solid #eff0f9;
+            padding: 24px;
+            text-align: center;
+
+            .tip {
+                margin-bottom: 16px;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: normal;
+                color: #f5222a;
+            }
+
+            .confirm-btn {
+                border: none;
+                width: 120px;
+                text-align: center;
+                height: 36px;
+                line-height: 36px;
+                border-radius: 4px;
+                font-family: PingFang-SC;
+                font-size: 14px;
+                font-weight: 500;
+                color: #ffffff;
+                margin-left: 0px;
+                background-color: #1890ff;
+
+                &:hover {
+                    background-color: rgba(24, 144, 255, 0.8);
+                }
+
+                &:active {
+                    background-color: #0f6abe;
+                }
+
+            }
+
+            .cancel-btn {
+                width: 120px;
+                border: none;
+                height: 36px;
+                line-height: 36px;
+                border-radius: 4px;
+                text-align: center;
+                font-family: PingFang-SC;
+                font-size: 14px;
+                font-weight: 500;
+                margin-right: 24px;
+                color: rgba(17, 46, 84, 0.6);
+                background-color: rgba(61, 112, 177, 0.05);
+
+                &:hover {
+                    background-color: rgba(24, 144, 255, 0.12);
+                }
+
+                &:active {
+                    background-color: #1890ff;
+                    ;
+                    color: #ffffff;
+                }
+
+            }
+
+            .cancel-btn-disabled {
+                background: #f5f5f5;
+                border: none;
+                cursor: not-allowed;
+                color: rgba(0, 0, 0, 0.25);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .tableList {
+        .list-wrap {
+            .ant-table-wrapper {
+                .ant-table-content {
+                    .ant-table-thead {
+                        th {
+                            font-size: 10px;
+                        }
+                    }
+
+                    .ant-table-tbody {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hover-content {
+    li {
+        height: 40px;
+        line-height: 40px;
+        background: #fff;
+        text-align: center;
+        cursor: pointer;
+
+        &:hover {
+            background: rgba(178, 218, 255, 0.1)
+        }
+    }
+}
+
+.ant-popover-inner-content {
+    width: 120px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 16px 0 !important;
+    font-family: PingFang-SC;
+    font-size: 14px;
+    font-weight: 500;
+    color: #112e54;
+}
+
+.ant-popover-open {
+    img {
+        transform: rotate(180deg);
+    }
+}
+
+.pageOptions {
+    .ant-select-arrow .ant-select-arrow-icon {
+        display: block;
+        color: #112e54;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .ant-select-dropdown-menu-item {
+        padding: 9px;
+        border-radius: 0px;
+        font-family: PingFang-SC;
+        font-size: 14px;
+        font-weight: 500;
+
+        .ant-select-selected-icon {
+            right: 24px;
+        }
+
+        &:hover {
+            background: rgba(24, 144, 255, 0.1);
+
+            .ant-select-selected-icon {
+                color: rgba(17, 46, 84, 0.6);
+                font-weight: bold;
+            }
+        }
+    }
+
+    .ant-select-dropdown-menu-item-active {
+        color: #112e54 !important;
+
+        &:hover {
+            background: rgba(24, 144, 255, 0.1);
+
+            .ant-select-selected-icon {
+                color: rgba(17, 46, 84, 0.6);
+                font-weight: bold;
+            }
+        }
+    }
+}
